@@ -1,0 +1,13 @@
+name: tests-utility
+
+on:
+  pull_request:
+    paths:
+      - 'utility/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd utility && npm install && npm run test:ci

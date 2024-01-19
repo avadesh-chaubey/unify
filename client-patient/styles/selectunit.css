@@ -1,0 +1,101 @@
+.cardStyle2 {
+  padding: 30px;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px !important;
+  margin-top: 30px;
+}
+.cardStyle2 img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -20px;
+}
+.cardStyle2 div {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555555;
+}
+.cardStyle2:hover {
+  transform: scale(1.02);
+}
+
+.cardStyle2Active {
+  padding: 30px;
+  border: 2px solid #773a95;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px !important;
+  margin-top: 30px;
+}
+.cardStyle2Active img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -20px;
+}
+.cardStyle2Active div {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555555;
+}
+.cardStyle2Active:hover {
+  transform: scale(1.02);
+}
+.main {
+  background: url(/bg4.png) no-repeat center center fixed;
+  background-size: cover;
+  /* height: 100%; */
+  height: calc(100vh - 140px);
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.selectWrapper {
+  border-radius: 5px;
+  display: inline-flex;
+  overflow: hidden;
+  background: #ffff;
+  border: 1px solid #cccccc;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  min-width: 830px;
+  min-height: 45px;
+}
+.selectWrapper.MuiInput-underline:before {
+  display: none;
+}
+.selectWrapper.MuiInput-underline:after {
+  display: none;
+}
+.selectWrapper.MuiFormLabel-root,
+.selectWrapper.MuiInputLabel-root,
+.selectWrapper.MuiInputLabel-formControl,
+.selectWrapper.MuiInputLabel-animated,
+.selectWrapper.MuiInputLabel-shrink,
+.selectWrapper.MuiFormLabel-filled {
+  display: none;
+}
+.MuiListSubheader-sticky{
+  position: relative !important;
+}
+.selectUnit .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+  padding: 6px 4px !important;
+}
+/* .selectWrapper.MuiSelect-root,
+.selectWrapper.MuiSelect-select,
+.selectWrapper.MuiSelect-selectMenu .selectWrapper.MuiInputBase-input,
+.selectWrapper.MuiInput-input {
+  padding-right: 24px;
+  font-weight: bold;
+} */
+/* .wrapperIcon.MuiSvgIcon-root.MuiSelect-icon {
+  top: calc(50% - 12px);
+  color: #555555;
+  right: 20px;
+  position: absolute;
+  pointer-events: none;
+} */

@@ -1,0 +1,9 @@
+export const partnerSuperuserCreatedGroupName = 'partner-superuser-created-service';
+export const databasBackupGroupName = 'partner-database-backup-service';
+export const databasUploadGroupName = 'partner-database-upload-service';
+export const pingGroupName = 'partner-ping-service';
+export const patientCreatedGroupName = 'partner-patient-created-service';
+export const appointmentcancelGroupName = 'partner-appointment-cancel-service';
+export const appointmentCompletedGroupName = 'partner-appointment-completed-service';
+export const appointmentBookedGroupName = 'partner-appointment-booked-service';
+export const familyMemberCreatedGroupName = 'partner-family-member-created-service';

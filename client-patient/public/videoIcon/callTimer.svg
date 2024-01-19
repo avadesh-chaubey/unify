@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="35" viewBox="0 0 94 35">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_17488" data-name="Path 17488" d="M74.5-80.173a6.47,6.47,0,0,1,6.5,6.443,6.47,6.47,0,0,1-6.5,6.443A6.47,6.47,0,0,1,68-73.73,6.47,6.47,0,0,1,74.5-80.173Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_17487" data-name="Path 17487" d="M-100-738.479h67.238V-884H-100Z" transform="translate(100 884)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_17484" data-name="Rectangle 17484" width="15.916" height="15.754" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_17486" data-name="Path 17486" d="M68-67.845H80.993V-81H68Z" transform="translate(-68 81)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_21895" data-name="Group 21895" transform="translate(-163 -718)">
+    <rect id="Rectangle_17483" data-name="Rectangle 17483" width="94" height="35" rx="5" transform="translate(163 718)" fill="rgba(0,0,0,0.35)"/>
+    <g id="Group_21894" data-name="Group 21894">
+      <g id="Group_21893" data-name="Group 21893" transform="translate(105 809.174)" clip-path="url(#clip-path)">
+        <g id="Group_21892" data-name="Group 21892" transform="translate(40.715 -210.724)" clip-path="url(#clip-path-2)">
+          <g id="Group_21891" data-name="Group 21891" transform="translate(25.823 129.117)" style="mix-blend-mode: normal;isolation: isolate">
+            <g id="Group_21890" data-name="Group 21890" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+              <g id="Group_21889" data-name="Group 21889" transform="translate(1.462 1.299)" clip-path="url(#clip-path-4)">
+                <path id="Path_17485" data-name="Path 17485" d="M54.667-93.439H71.991v17.2H54.667Z" transform="translate(-56.832 91.419)" fill="#cc1e31"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="Dr._Priti_Chopra" data-name="Dr. Priti Chopra" transform="translate(193 742)" fill="#fff" font-size="20" font-family="Avenir-Heavy, Avenir" font-weight="800" letter-spacing="0.019em"><tspan x="0" y="0">00:01</tspan></text>
+    </g>
+  </g>
+</svg>

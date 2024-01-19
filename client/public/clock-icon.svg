@@ -1,0 +1,13 @@
+<svg data-name="Component 84 – 14" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="a">
+            <path data-name="Rectangle 18265" transform="translate(8688 4158)" style="fill:#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Mask Group 275" transform="translate(-8688 -4158)" style="clip-path:url(#a)">
+        <g data-name="Icon feather-clock">
+            <path data-name="Path 51266" d="M17.545 10.272A7.272 7.272 0 1 1 10.272 3a7.272 7.272 0 0 1 7.273 7.272z" transform="translate(8689.904 4159.904)" style="stroke:rgb(69, 45, 123);fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2px"/>
+            <path data-name="Path 51267" d="M18 9v4.237l3.382 1.412" transform="translate(8681.881 4157.613)" style="stroke:rgb(69, 45, 123);fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2px"/>
+        </g>
+    </g>
+</svg>

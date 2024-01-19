@@ -1,0 +1,198 @@
+.add-onboarding-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  bottom: 45px;
+  justify-content: center;
+  top: 30px;
+}
+.add-onboarding-btn button {
+  margin-top: 5%;
+  height: 120px;
+  width: 120px;
+}
+.add-onboarding-btn button:nth-child(n) {
+  margin-left: 70px;
+  justify-content: left;
+  background-color: #152a75;
+  border-radius: 25px;
+  font-size: 13px;
+}
+.add-onboarding-btn button span:nth-child(n) {
+  justify-content: center;
+}
+.add-onboarding-btn a:nth-child(n) {
+  top: 1rem;
+  position: relative;
+  right: 30px;
+  margin-bottom: 70px;
+}
+.emp-onboarding-logo {
+  height: unset !important;
+  position: relative;
+  top: 45px;
+}
+.onboarding-right-area {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0;
+  padding: 10px;
+  padding-top: 0;
+  overflow-x: hidden;
+}
+.onboarding-logo-size.home_page_logo.home_page_logo {
+  height: 50px;
+}
+.btn-disabled .MuiButton-containedPrimary{
+  background-color: #7783ad;
+}
+.select-field .MuiFormHelperText-root.Mui-error {
+  position: unset !important;
+  top: unset !important;
+}
+.select-field .MuiFormHelperText-contained.MuiFormHelperText-contained {
+  margin-left: unset;
+}
+.profile-pic-validation-message {
+  color: red;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  font-size: 12px;
+}
+.title-validationerr {
+  color: red;
+}
+.hide-section-menu {
+  display: none;
+}
+.inactive-btn {
+  background-color: #7986b7 !important;
+}
+
+/** 
+`* Doctor Onboarding
+*/
+.doctor-onboarding-main {
+  width: 100%;
+  flex-grow: 1;
+  margin: auto;
+  padding: 10px;
+}
+.upload-emp-pic {
+  margin-left: 35px;
+  height: 150px;
+  width: 80px;
+  /* margin-top: 35px; */
+}
+.preview-profile-pic {
+  height: 150px !important;
+  width: 150px !important;
+}
+.remove-profile-pic-btn {
+  position: relative;
+  left: 120px;
+  top: 10px;
+  z-index: 1000;
+}
+.profic-pic-emp {
+  background-color: #d8d8d8;
+  width: 150px;
+  border-radius: 100px;
+  height: 150px;
+  top: 30px;
+  position: relative;
+  left: 30px;
+}
+.form-input form .full-width-div {
+  width: 100%;
+  float: left;
+  margin: 8px;
+}
+.onboarding-half-div.half-div.half-div {
+  width: 48%;
+}
+.onboarding-full-div.half-div.half-div {
+  width: 100%;
+}
+.full-width-textarea {
+  width: 100% !important;
+}
+.form-input form .onboarding-half-div > div {
+  width: 100%;
+}
+.gender-field-padding > div > div {
+  padding-top: 13px !important;
+  padding-left: 12px !important;
+  font-size: 14px !important;
+}
+.upload-pic-caption {
+  font-weight: 600;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.onboarding-action-buttons {
+  float: right;
+  right: 0;
+  margin-right: 8%;
+  margin-top: 30px;
+  padding-bottom: 70px;
+}
+.doctor-onboarding-cancel-btn {
+  margin-right: 10px !important;
+  border-radius: 30px !important;
+  background-color: #fff !important;
+  color: #000;
+  width: 120px;
+  border: 1px solid #737171 !important;
+  font-weight: 600 !important;
+}
+.doctor-onboarding-cancel-btn:hover {
+  background-color: #f8f8f8 !important;
+}
+.doctor-save-btn {
+  color: "#000";
+  border-radius: 30px !important;
+  width: 120px;
+}
+.available-days-autocomplete .MuiFilledInput-root {
+  background-color: #f1f1f1 !important;
+  padding-top: 4px !important;
+}
+.available-days-autocomplete .MuiChip-root {
+  position: relative !important;
+  top: 6px !important;
+  height: 25px;
+  font-size: 12px;
+  margin-bottom: 9.5px;
+  margin-top: 8px;
+}
+.available-days-autocomplete .MuiChip-deleteIcon {
+  width: 18px !important;
+}
+
+/* Medicine Onboard */
+.select-drug-type .MuiSelect-root {
+  padding: 20px 12px 2px !important;
+}
+.ptax-field {
+  margin: 4px !important;
+  padding-right: 15px !important;
+}
+/* Add New Diagnostic Test Section */
+.diagnostic-test-header {
+  padding-left: 15px;
+}
+/* Add New Role Page */
+.role-form-main {
+  width: 75%;
+  right: 45px;
+}
+.add-role-field .MuiInputBase-input {
+  padding-left: 35px;
+}

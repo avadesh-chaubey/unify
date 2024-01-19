@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="57" viewBox="0 0 56 57">
+    <defs>
+        <path id="1d7ku0m4pa" d="M28 .582c15.464 0 28 12.5 28 27.918 0 15.419-12.536 27.918-28 27.918S0 43.918 0 28.5C0 13.081 12.536.582 28 .582z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-100 -814) translate(20 803) translate(80 11)">
+                        <mask id="vsk1ykhsdb" fill="#fff">
+                            <use xlink:href="#1d7ku0m4pa"/>
+                        </mask>
+                        <path fill="#000" d="M-5.833 -5.235L61.833 -5.235 61.833 62.235 -5.833 62.235z" mask="url(#vsk1ykhsdb)"/>
+                    </g>
+                    <g>
+                        <g fill="#FFF" fill-rule="nonzero" stroke="#FFF" stroke-width=".5">
+                            <path d="M8.5 0C5.467 0 3 2.35 3 5.237v9.526C3 17.651 5.467 20 8.5 20s5.5-2.331 5.5-5.197V5.237C14 2.349 11.533 0 8.5 0zm4.169 14.803c0 2.167-1.87 3.93-4.169 3.93-2.299 0-4.169-1.781-4.169-3.97V5.237c0-2.189 1.87-3.97 4.169-3.97 2.299 0 4.169 1.781 4.169 3.97v9.566z" transform="translate(-100 -814) translate(20 803) translate(80 11) translate(14 15) translate(6)"/>
+                            <path d="M7.834 23.695v4.001h-1.28c-.367 0-.665.292-.665.652 0 .36.298.652.665.652h3.892c.367 0 .665-.292.665-.652 0-.36-.298-.652-.665-.652h-1.28v-4C13.543 23.361 17 19.767 17 15.397v-.746c0-.36-.298-.652-.666-.652-.368 0-.666.292-.666.652v.746c0 3.87-3.215 7.019-7.168 7.019-3.953 0-7.168-3.149-7.168-7.019v-.746c0-.36-.298-.652-.666-.652-.368 0-.666.292-.666.652v.746c0 4.37 3.457 7.964 7.834 8.297z" transform="translate(-100 -814) translate(20 803) translate(80 11) translate(14 15) translate(6)"/>
+                        </g>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width="1.5" d="M0.5 27.5L27.5 2.5" transform="translate(-100 -814) translate(20 803) translate(80 11) translate(14 15)"/>
+                        <path stroke="#000" stroke-linecap="square" stroke-width="1.5" d="M1.5 28.5L28.5 3.5" transform="translate(-100 -814) translate(20 803) translate(80 11) translate(14 15)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

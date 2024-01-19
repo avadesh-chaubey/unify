@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Group_23454" data-name="Group 23454" transform="translate(-18 -727)">
+    <circle id="Ellipse_212" data-name="Ellipse 212" cx="27" cy="27" r="27" transform="translate(18 727)" fill="rgba(66,66,66,0.5)"/>
+    <g id="Icon_feather-upload" data-name="Icon feather-upload" transform="translate(29.5 738.5)">
+      <path id="Path_51263" data-name="Path 51263" d="M26.088,22.5v4.8a2.4,2.4,0,0,1-2.4,2.4H6.9a2.4,2.4,0,0,1-2.4-2.4V22.5" transform="translate(0 -3.608)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_51264" data-name="Path 51264" d="M22.493,10.5l-6-6-6,6" transform="translate(-1.203)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_51265" data-name="Path 51265" d="M18,4.5V18.892" transform="translate(-2.706)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin: 0;
+        font-size: 12px;
+    }
+    .details{
+        background-color:#f4f4f4;
+        display: inline-flex;
+        width: 570px;
+        height: 30%;
+    }
+    .heading{
+       text-align: center;
+       background-color:#142c74;
+       height: 100%;
+       width: 560px;
+       color: #f1f1f1;
+       padding: 2px;
+       margin: 20px;
+       padding :2px;
+    }
+    .container {
+    max-width: 600px;
+    height: 45px;
+    background: url('https://storage.googleapis.com/diahome-com-bucket-1/Image/Rectangle.png');
+    }
+    .container__image {
+    width: 150px;
+    float: left;
+    color: #f1f1f1;
+    margin-left: 15px;
+    margin-top: 5px; 
+  }
+  .container__text {
+    text-align: right;
+    color: #f1f1f1;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="container__image" src="https://storage.googleapis.com/diahome-com-bucket-1/Image/logo_name.png"/>
+        <div class="container__text">
+          <p style="font-size: 8px;margin-top: 11px">Call us at<span>:</span>7540001234</p>
+          <p style="font-size: 8px;">Download the Diahome App</p>
+       </div>
+    </div>
+    <br>
+    <div style="padding-left: 20px;">
+        <p style="font-weight: bold;">Hi {{patientFirstName}} {{patientLastName}},</p>
+        <br>
+        <p>Thanks for booking appointment on Diahome. Here the details for appointment:</p>
+        <br>
+    </div>
+    <h2 class="heading" >Your appointment has been confirmed</h2>
+    <div style="padding-left: 20px;" >
+        <p style="font-weight: bold;color: #142c74;">{{doctorName}} ({{docotrType}})</p>
+        <p style="font-weight: bold;">{{doctorQualification}}</p>
+    </div>
+    <p></p>
+    <hr style="width: 560px;margin: 20px;">
+    <br>
+    <div style="padding-left: 20px;">
+        <p class="details"><span style="width: 150px; height: 20px; font-weight: bold;"> Date :</span><span style="font-weight: bold;">{{appointmentDate}}</span></p> 
+    </div>
+    <div style="padding-left: 20px;">
+        <p class="details"><span style="width: 150px; height: 20px; font-weight: bold;"> Time :</span><span style="font-weight: bold;">{{appointmentTime}}</span></p>
+    </div>
+    <div style="padding-left: 20px;">
+        <p class="details"><span style="width: 150px; height: 20px; font-weight: bold;">Fee Paid :</span><span style="font-weight: bold;">Rs. {{feePaid}}</span></p>
+    </div>
+    <br>
+    <p style="padding-left: 20px;"> You will receive a call from our physician assistant shortly for further guidance.</p>
+    <br>
+    <p style="padding-left: 20px;"> If you are unable to keep appointment, request you to please reschedule it as soon as possible.</p>
+    <p style="padding-left: 20px;">To manage your appointment/queries, please call us at 7540001234 or write us on <a href = "mailto:care@diahome.com" style="text-decoration: none;color:black;">care@diahome.com</a> </p>
+    <br>
+    <div style="font-weight: bold;padding-left: 20px;">
+        <p>Regards,</p>
+        <p>Team Diahome</p>
+        <br>
+    </div>
+    <div style="font-weight: lighter;color: gray;font-size: 8px;padding-left: 20px;">
+        <p>You are receiving this email because you are registered on the Diahome app.This email is meant to</p>
+        <p>communicate about your appointment/care and is not meant for promotional purposes.</p>
+    </div>
+</body>
+</html>

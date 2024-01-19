@@ -1,0 +1,185 @@
+{"relaton_all":[{
+  "relation" : "Aunty",
+  "value" : "aunty"
+},
+{
+  "relation" : "Brother",
+  "value" : "brother"
+},
+{
+  "relation" : "Cousin",
+  "value" : "cousin"
+},
+{
+  "relation" : "Daughter",
+  "value" : "daughter"
+},
+{
+  "relation" : "Daughter-in-law",
+  "value" : "daughter-in-law"
+},
+{
+  "relation" : "Father",
+  "value" : "father"
+},
+{
+  "relation" : "Father-in-law",
+  "value" : "father-in-law"
+},
+{
+  "relation" : "Granddaughter",
+  "value" : "granddaughter"
+},
+{
+  "relation" : "Grandfather",
+  "value" : "grandfather"
+},
+{
+  "relation" : "Grandmother",
+  "value" : "grandmother"
+},
+{
+  "relation" : "Grandson",
+  "value" : "grandson"
+},
+{
+  "relation" : "Husband",
+  "value" : "husband"
+},
+{
+  "relation" : "Mother",
+  "value" : "mother"
+},
+{
+  "relation" : "Mother-in-law",
+  "value" : "mother-in-law"
+},
+{
+  "relation" : "Sister",
+  "value" : "sister"
+},
+{
+  "relation" : "Sister-in-law",
+  "value" : "sister-in-law"
+},
+{
+  "relation" : "Son",
+  "value" : "son"
+},
+{
+  "relation" : "Son-in-law",
+  "value" : "son-in-law"
+},
+{
+  "relation" : "Uncle",
+  "value" : "uncle"
+},
+{
+  "relation" : "Wife",
+  "value" : "wife"
+},
+{
+  "relation" : "Other",
+  "value" : "other"
+},
+{
+  "relation" : "Self",
+  "value" : "self"
+}
+],
+"relaton_male":[
+  {
+    "relation" : "Brother",
+    "value" : "brother"
+  },
+  {
+    "relation" : "Cousin",
+    "value" : "cousin"
+  },
+  {
+    "relation" : "Father",
+    "value" : "father"
+  },
+  {
+    "relation" : "Father-in-law",
+    "value" : "father-in-law"
+  },
+  {
+    "relation" : "Grandfather",
+    "value" : "grandfather"
+  },
+  {
+    "relation" : "Grandson",
+    "value" : "grandson"
+  },
+  {
+    "relation" : "Son",
+    "value" : "son"
+  },
+  {
+    "relation" : "Uncle",
+    "value" : "uncle"
+  },
+  {
+    "relation" : "Other",
+    "value" : "other"
+  },
+  {
+    "relation" : "Self",
+    "value" : "self"
+  }
+  ],
+  "relaton_female":[{
+    "relation" : "Aunty",
+    "value" : "aunty"
+  },
+  {
+    "relation" : "Cousin",
+    "value" : "cousin"
+  },
+  {
+    "relation" : "Daughter",
+    "value" : "daughter"
+  },
+  {
+    "relation" : "Daughter-in-law",
+    "value" : "daughter-in-law"
+  },
+  {
+    "relation" : "Granddaughter",
+    "value" : "granddaughter"
+  },
+  {
+    "relation" : "Grandmother",
+    "value" : "grandmother"
+  },
+  {
+    "relation" : "Mother",
+    "value" : "mother"
+  },
+  {
+    "relation" : "Mother-in-law",
+    "value" : "mother-in-law"
+  },
+  {
+    "relation" : "Sister",
+    "value" : "sister"
+  },
+  {
+    "relation" : "Sister-in-law",
+    "value" : "sister-in-law"
+  },
+  {
+    "relation" : "Wife",
+    "value" : "wife"
+  },
+  {
+    "relation" : "Other",
+    "value" : "other"
+  },
+  {
+    "relation" : "Self",
+    "value" : "self"
+  }
+  ]
+}

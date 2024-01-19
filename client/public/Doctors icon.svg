@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16925" data-name="Rectangle 16925" width="50" height="50" transform="translate(1106 242)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_89" data-name="Mask Group 89" transform="translate(-1106 -242)" clip-path="url(#clip-path)">
+    <g id="stethoscope" transform="translate(1116.784 252)">
+      <g id="Group_10268" data-name="Group 10268" transform="translate(0 1.248)">
+        <path id="Path_8826" data-name="Path 8826" d="M53.056,19.932H49.311v2.341h2.575v4.408a7.022,7.022,0,1,1-14.044,0V22.273h2.5V19.932H36.671A1.17,1.17,0,0,0,35.5,21.1v5.579a9.363,9.363,0,1,0,18.726,0V21.1A1.17,1.17,0,0,0,53.056,19.932Z" transform="translate(-35.501 -19.932)" fill="#9e2d6b"/>
+      </g>
+      <g id="Group_10269" data-name="Group 10269" transform="translate(8.953 15.624)">
+        <path id="Path_8827" data-name="Path 8827" d="M178.478,261.158v5.376a5.854,5.854,0,0,1-11.7,0v-7.42h-2.341v7.42a8.2,8.2,0,0,0,16.385,0v-5.376Z" transform="translate(-164.434 -259.114)" fill="#9e2d6b"/>
+      </g>
+      <g id="Group_10270" data-name="Group 10270" transform="translate(19.837 11.178)">
+        <path id="Path_8828" data-name="Path 8828" d="M342.547,171.912a4.33,4.33,0,1,0,4.33,4.33A4.335,4.335,0,0,0,342.547,171.912Zm0,6.32a1.99,1.99,0,1,1,1.99-1.99A1.992,1.992,0,0,1,342.546,178.232Z" transform="translate(-338.216 -171.912)" fill="#9e2d6b"/>
+      </g>
+      <g id="Group_10271" data-name="Group 10271" transform="translate(3.628)">
+        <path id="Path_8829" data-name="Path 8829" d="M94.6,0a1.17,1.17,0,0,0-1.17,1.17v2.5a1.17,1.17,0,0,0,2.341,0V1.17A1.17,1.17,0,0,0,94.6,0Z" transform="translate(-93.428 0)" fill="#9e2d6b"/>
+      </g>
+      <g id="Group_10272" data-name="Group 10272" transform="translate(13.118)">
+        <path id="Path_8830" data-name="Path 8830" d="M239.1,0a1.17,1.17,0,0,0-1.17,1.17v2.5a1.17,1.17,0,1,0,2.341,0V1.17A1.17,1.17,0,0,0,239.1,0Z" transform="translate(-237.934 0)" fill="#9e2d6b"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "name": "Admin Access",
+    "viewChecked": false,
+    "editChecked": false,
+    "sections": [
+      {
+        "id": 2,
+        "name": "Dashboard Overview",
+        "viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 3,
+            "name": "Filters",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 4,
+            "name": "Download",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 5,
+            "name": "Print",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 6,
+            "name": "Preview",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Patient List",
+        "viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 8,
+            "name": "Filters",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 9,
+            "name": "Download",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 10,
+            "name": "Print",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 11,
+            "name": "Preview",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Doctors List",
+        "viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 13,
+            "name": "Filters",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 14,
+            "name": "Download",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 15,
+            "name": "Print",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 16,
+            "name": "Preview",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Appointment List",
+        "viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 18,
+            "name": "Filters",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 19,
+            "name": "Download",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 20,
+            "name": "Print",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 21,
+            "name": "Preview",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Front Desk",
+    "viewChecked": false,
+    "editChecked": false,
+    "sections": [
+      {
+        "id": 52,
+        "name": "Roaster Management",
+        "viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 53,
+            "name": "Calendar",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 54,
+            "name": "Roaster",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 55,
+            "name": "Profile",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 56,
+            "name": "Fees",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 57,
+            "name": "Statistics",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Employee Onboarding",
+    "viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 102,
+        "name": "Add New Patient",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 103,
+        "name": "Add New Doctor",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 104,
+        "name": "Add New Employee",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 105,
+        "name": "Add New Appointment",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 106,
+        "name": "Add New Unit",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 107,
+        "name": "Add New Article",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 108,
+        "name": "Add New Notification",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Settings",
+    "viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 152,
+        "name": "General",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 153,
+        "name": "Hospital Information",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 154,
+        "name": "Pharmacy",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 155,
+        "name": "Branches",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "CMS",
+    "viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 202,
+        "name": "Filters",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 203,
+        "name": "Download",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 204,
+        "name": "Print",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 205,
+        "name": "Preview",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  }
+]

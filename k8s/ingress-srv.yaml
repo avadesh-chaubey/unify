@@ -1,0 +1,40 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-service
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+  rules:
+    - host: unifycare.com
+      http:
+        paths:
+          - backend:
+              serviceName: auth-srv
+              servicePort: 3000
+            path: /api/users/?(.*)
+          - backend:
+              serviceName: appointment-srv
+              servicePort: 3000
+            path: /api/appointment/?(.*)
+          - backend:
+              serviceName: orders-srv
+              servicePort: 3000
+            path: /api/order/?(.*)
+          - backend:
+              serviceName: partner-srv
+              servicePort: 3000
+            path: /api/partner/?(.*)
+          - backend:
+              serviceName: utility-srv
+              servicePort: 3000
+            path: /api/utility/?(.*)
+          - backend:
+              serviceName: notification-srv
+              servicePort: 3000
+            path: /api/notification/?(.*)
+          - backend:
+              serviceName: client-srv
+              servicePort: 3000
+            path: /?(.*)

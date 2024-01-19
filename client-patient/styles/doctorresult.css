@@ -1,0 +1,326 @@
+.sideMenuText {
+  height: 50px;
+  margin-left: 30px;
+  vertical-align: middle;
+  color: #707070;
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  padding-top: 10px;
+  font-family: Avenir_heavy !important;
+}
+.searchInput {
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 15px;
+  opacity: 1;
+  font-size: 0.7rem;
+  width: 650px;
+  height: 45px;
+  background-color: #f6f7fa;
+  color: #555555;
+  cursor: pointer;
+}
+.searchInput:hover {
+  background-color: #f2f2f2;
+}
+.filterButton {
+  margin-top: 20px;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 0.7rem;
+  background-color: #f6f7fa;
+  color: #555555;
+}
+.SpecialityWrapper {
+  /* border-radius: 5px; */
+  display: inline-flex;
+  overflow: hidden;
+  background: #f6f7fa;
+  /* border: 1px solid #cccccc; */
+  padding-left: 40px;
+  padding-right: 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+  min-width: 300px;
+  min-height: 45px;
+}
+.SpecialityWrapper.MuiInput-underline:before {
+  display: none;
+}
+.SpecialityWrapper.MuiInput-underline:after {
+  display: none;
+}
+.SpecialityWrapper.MuiFormLabel-root,
+.SpecialityWrapper.MuiInputLabel-root,
+.SpecialityWrapper.MuiInputLabel-formControl,
+.SpecialityWrapper.MuiInputLabel-animated,
+.SpecialityWrapper.MuiInputLabel-shrink,
+.SpecialityWrapper.MuiFormLabel-filled {
+  display: none;
+}
+/* .SpecialityWrapper.select.MuiSelect-root,
+.SpecialityWrapper.select.MuiSelect-select,
+.SpecialityWrapper.select.MuiSelect-selectMenu,
+.SpecialityWrapper.select.MuiInputBase-input,
+.SpecialityWrapper.select.MuiInput-input {
+  padding-right: 24px;
+  color: red;
+} */
+.btnDiv {
+  border-radius: 5px;
+  border: 1px solid #502e92;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  color: #502e92;
+  cursor: pointer;
+  /* margin-right: 50px; */
+}
+.btnDivsec {
+  border-radius: 5px;
+  border: 1px solid red;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  color: #502e92;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.editApmt .MuiDialog-paperWidthSm {
+  max-width: 350px !important;
+  max-height: 225px !important;
+}
+.date-range-expand-icon {
+  color: #8b8b8b;
+}
+.dateRange .rdrDefinedRangesWrapper {
+  display: none;
+}
+.slotBtn {
+  /* background-color: rgb(0, 181, 175); */
+  border: 1px solid #bebebe;
+  width: 65px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555555;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.morningSlotWrapper {
+  /* border-radius: 5px; */
+  display: inline-flex;
+  overflow: hidden;
+  background: #fff;
+  /* border: 1px solid #cccccc; */
+  /* padding-left: 40px; */
+  padding-right: 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+  min-width: 150px;
+  min-height: 45px;
+  margin-top: 15px;
+}
+.morningSlotWrapper.MuiInput-underline:before {
+  display: none;
+}
+.morningSlotWrapper.MuiInput-underline:after {
+  display: none;
+}
+.morningSlotWrapper.MuiFormLabel-root,
+.morningSlotWrapper.MuiInputLabel-root,
+.morningSlotWrapper.MuiInputLabel-formControl,
+.morningSlotWrapper.MuiInputLabel-animated,
+.morningSlotWrapper.MuiInputLabel-shrink,
+.morningSlotWrapper.MuiFormLabel-filled {
+  display: none;
+}
+
+/* doctor profile */
+.videoLayer {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  /* border: 1px solid; */
+  /* border-radius: 79px; */
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.videoLayer svg {
+  font-size: 38px;
+  background: #7f7f7f80;
+  border-radius: 38px;
+}
+.videoLayer svg path {
+  color: #f6f6f680;
+}
+.react-thumbnail-generator {
+  height: 120px;
+  width: 180px;
+  position: relative;
+  /* padding: 10px; */
+  /* border: 1px solid #c0c0c0; */
+  /* margin: 10px; */
+}
+
+.scrollOuter {
+  /* padding: 15px; */
+  width: 100%;
+  flex-grow: 1;
+  /* overflow: scroll; */
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.scrollInner {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.scrollInner .image {
+  min-height: 200px;
+  width: 200px;
+  margin-right: 10px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  /* margin: 10px; */
+}
+.react-thumbnail-generator {
+  height: 120px;
+  width: 180px;
+  position: relative;
+  /* padding: 10px; */
+  /* border: 1px solid #c0c0c0; */
+  /* margin: 10px; */
+}
+
+.videoSec {
+  min-height: 200px;
+  width: 250px;
+  position: relative;
+  padding: 10px;
+  /* border: 1px solid #c0c0c0; */
+  /* margin: 10px; */
+}
+.scrollInner .image img {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+.react-thumbnail-generator img {
+  /* cursor: none; */
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+}
+.react-thumbnail-generator video {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+  position: absolute;
+  top: 0px;
+}
+.videoPlayer .MuiDialog-paperWidthSm,
+.uploadSec .MuiDialog-paperWidthSm {
+  max-width: 750px !important;
+  width: 750px;
+}
+.videoPlayer .MuiDialogContent-root {
+  width: 750px;
+  overflow: auto;
+}
+/* .react-thumbnail-generator{
+  height: 150px;
+  width: 200px;
+} */
+.videoLayer {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  /* border: 1px solid; */
+  /* border-radius: 79px; */
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.videoLayer svg {
+  font-size: 38px;
+  background: #7f7f7f80;
+  border-radius: 38px;
+}
+.videoLayer svg path {
+  color: #f6f6f680;
+}
+.accordianDiv .MuiOutlinedInput-input,
+.uploadSec .MuiOutlinedInput-input {
+  padding: 14px 11px;
+}
+.accordianDiv .MuiAccordionSummary-root.Mui-expanded {
+  min-height: 0px;
+}
+.accordianDiv .MuiAccordion-rounded {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  border: 2px solid #e1e1e1;
+  padding: 5px;
+}
+.accordianDiv .MuiCollapse-entered {
+  margin: 0 10px;
+  border-top: 0.5px solid #979797;
+}
+.uploadDiv,
+.uploadArticle {
+  width: 200px;
+  min-height: 200px;
+  position: relative;
+  border: 1px solid;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.uploadDiv img,
+.uploadArticle img {
+  height: 100%;
+  padding: 80px 64px;
+}
+.uploadVideo img {
+  height: 100%;
+  padding: 60px;
+}
+/* .uploadArticle img {
+  height: 100%;
+  padding: 80px 64px;
+} */
+.uploadVideo {
+  min-height: 200px;
+  width: 200px;
+  position: relative;
+  height: 212px;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  margin: 10px;
+}
+.uploadDoc {
+  width: 575px;
+  height: 260px;
+  text-align: center;
+}
+.uploadDoc img {
+  height: 100%;
+  object-fit: scale-down;
+  border: 1px solid #e3e3e3;
+  width: 572px;
+  border-radius: 5px;
+}
+.doctorAwards {
+  padding: 8px 80px !important;
+}

@@ -1,0 +1,119 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders
+  template:
+    metadata:
+      labels:
+        app: orders
+    spec:
+      containers:
+        - name: orders
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          livenessProbe:
+            httpGet:
+              path: /api/health/liveness
+              port: 3000
+              scheme: 'HTTP'
+            initialDelaySeconds: 45
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /api/health/readiness
+              port: 3000
+              scheme: 'HTTP'
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          env:
+            - name: MOCK_PAYMENT_KEY
+              value: 'bbbshyaw?ysys3bf'
+            - name: GCS_BUCKET
+              value: 'unifycare-dev-platform'
+            - name: GCLOUD_PROJECT
+              value: 'gamma-unify-care'
+            - name: DATABACKUP_TAR_FILENAME
+              value: Orders.tar
+            - name: FILE_LOG_NAME
+              value: 'ordersLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare-dev-platform
+            - name: MONGO_URI
+              value: 'mongodb+srv://orders:evvlrTROEjj9zWy8@cluster0.3uj35.mongodb.net/orders?retryWrites=true&w=majority'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+            - name: RAZORPAY_WEBHOOK_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-webhook-secret
+                  key: RAZORPAY_WEBHOOK_SECRET
+            - name: RAZORPAY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-key
+                  key: RAZORPAY_API_KEY
+            - name: RAZORPAY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-secret
+                  key: RAZORPAY_API_SECRET
+            - name: APPOINTMENT_RAZORPAY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-key
+                  key: RAZORPAY_API_KEY
+            - name: APPOINTMENT_RAZORPAY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-secret
+                  key: RAZORPAY_API_SECRET
+            - name: PHARMACY_RAZORPAY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-key
+                  key: RAZORPAY_API_KEY
+            - name: PHARMACY_RAZORPAY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-secret
+                  key: RAZORPAY_API_SECRET
+            - name: TESTLAB_RAZORPAY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-key
+                  key: RAZORPAY_API_KEY
+            - name: TESTLAB_RAZORPAY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-secret
+                  key: RAZORPAY_API_SECRET
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: orders-srv
+spec:
+  selector:
+    app: orders
+  ports:
+    - name: orders
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

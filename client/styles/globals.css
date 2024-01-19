@@ -1,0 +1,86 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: ROBOTO; */
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
+  /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  background-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.action-container {
+  width: 100%;
+  float: left;
+  height: 60px;
+  background: #f8f5f5;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.action-container .login {
+  float: right;
+  padding-right: 20px;
+}
+/* 
+@font-face {
+  font-family: ROBOTOLIGHT;
+  src: url('/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ROBOTOMEDIUM;
+  src: url('/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ROBOTO;
+  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ROBOTOBLACK;
+  src: url('/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ROBOTOBOLD;
+  src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+} */
+
+/* @font-face {
+  font-family: ryoGothicPlusNB;
+  src: url('/fonts/Ryo-Gothic-PlusN-B.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ryoGothicPlusNEL;
+  src: url('/fonts/Ryo-Gothic-PlusN-EL.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ryoGothicPlusNL;
+  src: url('/fonts/Ryo-Gothic-PlusN-L.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ryoGothicPlusNM;
+  src: url('/fonts/Ryo-Gothic-PlusN-M.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: ryoGothicPlusNR;
+  src: url('/fonts/Ryo-Gothic-PlusN-R.ttf') format('truetype');
+} */
+
+#__next-prerender-indicator,
+#__next-build-watcher {
+  display: none;
+}

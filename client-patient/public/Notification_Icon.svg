@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18470" data-name="Rectangle 18470" width="50" height="50" transform="translate(0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_361" data-name="Mask Group 361" transform="translate(0)" clip-path="url(#clip-path)">
+    <g id="Group_23877" data-name="Group 23877" transform="translate(6.836 6.158)">
+      <g id="Group_23875" data-name="Group 23875" transform="translate(0 0)">
+        <path id="Icon_ionic-md-notifications" data-name="Icon ionic-md-notifications" d="M16.28,21.183a6.519,6.519,0,0,0,6.527-6.472H9.753A6.519,6.519,0,0,0,16.28,21.183Z" transform="translate(-0.467 17.365)" fill="none" stroke="#00b5af" stroke-width="2"/>
+        <path id="Icon_ionic-md-notifications-2" data-name="Icon ionic-md-notifications" d="M34.165,29.79V19.413A12.263,12.263,0,0,0,24.652,7.526V6.205a2.854,2.854,0,0,0-5.708,0V7.526A12.263,12.263,0,0,0,9.43,19.413V29.79L5.625,33.564v1.887H37.97V33.564Z" transform="translate(-5.625 -3.375)" fill="none" stroke="#424242" stroke-width="2"/>
+      </g>
+      <g id="Group_23876" data-name="Group 23876" transform="translate(13.536 0)">
+        <circle id="Ellipse_236" data-name="Ellipse 236" cx="11.217" cy="11.217" r="11.217" transform="translate(0)" fill="#db2032"/>
+        <text id="_9" data-name="9" transform="translate(7.717 16.717)" fill="#fff" font-size="13" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.019em"><tspan x="0" y="0">9</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

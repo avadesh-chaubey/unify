@@ -1,0 +1,15 @@
+<svg id="Component_82_4" data-name="Component 82 – 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18132" data-name="Rectangle 18132" width="29" height="29" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_205" data-name="Mask Group 205" clip-path="url(#clip-path)">
+    <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(6.246 4.781)">
+      <path id="Path_50683" data-name="Path 50683" d="M6.335,6H19.181a1.835,1.835,0,0,1,1.835,1.835V20.681a1.835,1.835,0,0,1-1.835,1.835H6.335A1.835,1.835,0,0,1,4.5,20.681V7.835A1.835,1.835,0,0,1,6.335,6Z" transform="translate(-4.5 -4.165)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_50684" data-name="Path 50684" d="M24,3V6.67" transform="translate(-12.072 -3)" fill="none" stroke="#00b2a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_50685" data-name="Path 50685" d="M12,3V6.67" transform="translate(-7.412 -3)" fill="none" stroke="#00b2a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_50686" data-name="Path 50686" d="M4.5,15H19.583" transform="translate(-3.787 -7.66)" fill="none" stroke="#00b2a9" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

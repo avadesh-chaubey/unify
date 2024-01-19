@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18229" data-name="Rectangle 18229" width="35" height="35" transform="translate(34 500)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_256" data-name="Mask Group 256" transform="translate(-34 -500)" clip-path="url(#clip-path)">
+    <g id="Icon_feather-lock" data-name="Icon feather-lock" transform="translate(42.248 507.07)">
+      <path id="Path_51233" data-name="Path 51233" d="M6.544,16.5H20.849a2.044,2.044,0,0,1,2.044,2.044V25.7a2.044,2.044,0,0,1-2.044,2.044H6.544A2.044,2.044,0,0,1,4.5,25.7V18.544A2.044,2.044,0,0,1,6.544,16.5Z" transform="translate(-4.5 -7.304)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_51234" data-name="Path 51234" d="M10.5,12.2V8.109a5.109,5.109,0,1,1,10.218,0V12.2" transform="translate(-6.413 -3)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Icon_feather-key" data-name="Icon feather-key" d="M.207,3.931l.414-.414M2.195,1.942a1.138,1.138,0,1,1,1.609,0,1.138,1.138,0,0,1-1.609,0Zm0,0-.85.85m0,0L.724,2.172,0,2.9l.621.621m.724-.724-.724.724" transform="translate(48.592 522.023) rotate(-45)" fill="none" stroke="#00b2a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+  </g>
+</svg>

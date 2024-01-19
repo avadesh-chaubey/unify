@@ -1,0 +1,85 @@
+.general-setting-page {
+  padding-top: 12px;
+}
+.hospital-logo-upload {
+  float: right;
+  display: flex;
+  width: 54.5%;
+}
+.hospital-logo-field {
+  width: 100%;
+  margin: 0px 8px 0 0px !important;
+}
+.logo-label-field {
+  display: inline-grid;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+.upload-icon-pos {
+  margin: auto;
+  width: 100%;
+  padding-left: 45%;
+}
+.add-new-branch {
+  float: right;
+}
+.tab-lines {
+  position: relative;
+  bottom: 8px;
+}
+.add-new-branch-btn {
+  padding: 9px !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  color: #000000A1 !important;
+  text-transform: none !important;
+  border: 1px solid rgb(26 16 16) !important;
+}
+.braches-table {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 225px);
+  padding-top: 20px;
+}
+.default-table {
+  overflow: hidden;
+}
+.profile-icon {
+  height: 32px !important;
+  width: 32px !important;
+}
+.settings-icon {
+  width: 23px !important;
+}
+.headers-pos {
+  position: relative;
+  bottom: 5px;
+}
+.back-btn-icon {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  height: 35px;
+  width: 35px;
+}
+.back-btn-icon .MuiIconButton-label {
+  position: relative;
+  left: 5px;
+}
+.settings-checkbox-icons {
+  height: 30px !important;
+  width: 30px !important;
+  color: #7F368C;
+}
+.upload-logo-btn.MuiButton-contained.Mui-disabled{
+  color: rgba(0, 0, 0, 0.87) !important;
+  background-color: #e0e0e0;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.logo-img-upload.label-upload-img{
+  height: 85px !important;
+  object-fit: cover !important;
+}
+.hide-upload-logo-label {
+  display: none !important;
+}

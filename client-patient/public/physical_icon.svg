@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18268" data-name="Rectangle 18268" width="32" height="32" transform="translate(8869 4324)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_278" data-name="Mask Group 278" transform="translate(-8869 -4324)" clip-path="url(#clip-path)">
+    <g id="Group_23399" data-name="Group 23399" transform="translate(8875.666 4330.667)">
+      <path id="Path_51273" data-name="Path 51273" d="M-2150.2,3034.62v8.939h14.433v-8.939" transform="translate(2152.23 -3024.892)" fill="none" stroke="#555" stroke-linecap="round" stroke-width="1.2"/>
+      <path id="Path_51274" data-name="Path 51274" d="M-2157.012,3019.156l9.493-7.356,9.173,7.356" transform="translate(2157.012 -3011.801)" fill="none" stroke="#555" stroke-linecap="round" stroke-width="1.2"/>
+      <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(6.844 9.222)">
+        <path id="Path_51275" data-name="Path 51275" d="M18,7.5v4.975" transform="translate(-15.513 -7.5)" fill="none" stroke="#00b2a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        <path id="Path_51276" data-name="Path 51276" d="M7.5,18h4.975" transform="translate(-7.5 -15.513)" fill="none" stroke="#00b2a9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

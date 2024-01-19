@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "test": "ARH",
+    "test_type": "ARH"
+  },
+  {
+    "id": 2,
+    "test": "BIOLINE",
+    "test_type": "BIO"
+  },
+  {
+    "id": 3,
+    "test": "MEDALL",
+    "test_type": "MED"
+  },
+  {
+    "id": 4,
+    "test": "LALPATH",
+    "test_type": "LAL"
+  }
+]

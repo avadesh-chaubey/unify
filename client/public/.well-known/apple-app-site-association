@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "GU9M6K2H9B.com.UnifyTechnologies.rainbowDoctor",
+                "paths": [ "/resetPassword/*"]
+            }
+        ]
+    }
+}

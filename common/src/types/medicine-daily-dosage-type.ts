@@ -1,0 +1,17 @@
+export enum MedicineDailyDosage {
+  OnceADay = 'once:a:day',
+  TwiceADay = 'twice:a:day',
+  ThriceADay = 'thrice:a:day',
+  FourTimesADay = 'four:times:a:day',
+  FiveTimesADay = 'five:times:a:day',
+  SixTimesADay = 'six:times:a:day',
+  EveryHours = 'every:hours',
+  EveryTwoHours = 'every:two:hours',
+  EveryThreeHours = 'every:three:hours',
+  EveryFourHours = 'every:four:hours',
+  EveryFiveHours = 'every:five:hours',
+  EverySixHours = 'every:six:hours',
+  EverySevenHours = 'every:seven:hours',
+  EveryEightHours = 'every:eight:hours',
+  SOS = 'sos',
+}

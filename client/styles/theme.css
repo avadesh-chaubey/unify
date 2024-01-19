@@ -1,0 +1,183 @@
+/* Landing Page Footer css */
+.index-page-footer {
+  background-image: linear-gradient( #00B6BD,#00888A );
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.index-page-main {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+  max-width: 100% !important;
+}
+
+.index-page-div {
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.landing-page {
+  background-image: url('/logo/background_image.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Login Page background-color */
+.mainDiv {
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(to bottom, #7F368C, #DB2032); */
+}
+
+/* Login Button Color in landing page / login page */
+.primary-button {
+  background-image: linear-gradient(to top, #152a75, #152a75) !important;
+  color: #fff;
+}
+.disabledDraft {
+  background-image: linear-gradient(to top, #aba6a6, #aba6a6) !important;
+  color: #fff;
+}
+
+/* Background color Header of the doctor portal */
+.appbar.MuiAppBar-colorDefault {
+  background-color: #ffffff;
+}
+
+/* Add New Button Admin Portal */
+.action-bttn {
+  height: 48px;
+  border-radius: 4px;
+  background-color: #152a75;
+  color: #fff !important;
+  width: 170px;
+  float: right;
+  margin-bottom: 10px !important;
+  padding: 15px 30px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -1px;
+}
+
+/* New appointment notification */
+.new-app-notification {
+  background-color: #00888A;
+}
+.refresh-app-list {
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+.card-logo {
+  width: 25%;
+  height: 100%;
+  float: left;
+  box-shadow: none !important;
+  margin-top: -32px;
+  background-color: transparent !important;
+  display: flex;
+  margin-left: 10px;
+}
+
+.theme-card {
+  width: 100%;
+  height: 100%;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.theme-card-media {
+  height: 390px;
+  width: 435px !important;
+  object-fit: contain !important;
+}
+.home_page_logo {
+  width: 80%;
+  height: 80%;
+  object-fit: contain !important;
+}
+.logo-with-btn {
+  padding-top: 4%;
+  /* display: inline-flex; */
+  flex-direction: row;
+}
+.register-btn-index {
+  float: right;
+  position: relative;
+  margin-right: 50px !important;
+  border-radius: 20px !important;
+  width: 115px;
+  height: 36px;
+  cursor: pointer;
+}
+.intro-title {
+  width: 48%;
+  float: left;
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 60px;
+}
+/* Resent tag active state */
+.resend.active {
+  opacity: 1;
+  text-decoration: underline;
+  color: #152A75;
+  cursor: pointer;
+}
+/* New hospital registration page */
+.register-menu {
+  width: 23%;
+  height: 100%;
+  background-image: linear-gradient(to top, #DB2032, #7F368C);
+  float: left;
+}
+.left-area {
+  position: absolute;
+  width: 88px;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  height: 100vh;
+  background-image: linear-gradient(to top, #DB2032, #7F368C);
+  transition: width 0.5s;
+  overflow: hidden;
+}
+.otpVerification.landing-page {
+  height: 100vh;
+}
+.forgotPassCrossIcon {
+  height: 25px;
+  cursor: pointer;     
+  position: relative;
+  top: 10px;
+}
+.doctor-appbar {
+  background-image: linear-gradient(to left, #DB2032, #7F368C);
+}
+.doctor-side-menu {
+  background-image: linear-gradient(to top, #DB2032, #7F368C);
+  height: 100vh;
+}
+.side-menu-font-color, .side-menu-item-font span {
+  color: #fff !important;
+  font-size: 15px;
+}
+.physician-appbar {
+  background-image: url('/logo/physician_app_bar.png');
+}
+.physician-banner {
+  height: 100vh;
+  background-image: url('/logo/physician_side_menu_banner.png');
+}
+.physician-font-color, .physician-font-color span {
+  color: #4084bd !important;
+}

@@ -1,0 +1,184 @@
+
+/* ************ Blog List CSS*********** */
+
+.blogChip{
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1.5px solid;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.chipDiv{
+  position: absolute;
+  top: -55px;
+  background: linear-gradient(transparent, #00000073);
+  width: 100%;
+  height: 55px;
+}
+.multiplyThree{
+  height: 300px;
+  width: 100%;
+  padding: 15px 0;
+  position: relative;
+  border-radius: 10px;
+}
+.multiplyThree img{
+  width: 100%;
+  height: 100%;
+}
+.multiplyThree .blogThreeDetails{
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  background: linear-gradient(transparent, #00000073);
+  width: 100%;
+  padding: 10px 0px;
+}
+.multiplyThree .blogThreeDetails .title{
+  width: 70%;
+  font-size: 21px;
+  padding: 5px 10px;
+}
+.multiplyThree .blogThreeDetails .autherNdate{
+  font-size: 18px;
+  
+}
+.autherNdate span{
+  padding-right: 10px;
+}
+.autherNdate .icon{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.notMulThree .blognotThreeDetails .autherNdate{
+  font-size: 16px;
+  padding: 10px 0;
+}
+.notMulThree{
+  height: 220px;
+  width: 100%;
+  padding: 15px 0;
+  position: relative;
+  /* border-radius: 10px; */
+  border-bottom: 1px solid;
+}
+.notMulThree img{
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+}
+.notMulThree .blognotThreeDetails{
+  float: right;
+  width: 69%;
+  color: #626262;
+}
+.notMulThree .blognotThreeDetails .title{
+  color: #000;
+  font-size: 22px;
+}
+.notMulThree .blognotThreeDetails .meta{
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.chipDivNotThree{
+  position: absolute ; 
+  bottom: 35px ;
+}
+.chipDivNotThree .blogChip{
+  color: #591078 
+}
+
+/* ************* Blog Details CSS *********************** */
+.blogDetails{
+  padding: 15px;
+  color: #7d7b7b;
+}
+.blogDetails .title{
+  color: #000;
+  font-size: 22px;
+}
+.DetailsAutherNdate{
+  font-size: 18px;
+  padding: 15px 0;
+}
+.DetailsAutherNdate span:first-child{
+  padding-right: 40px;
+}
+.DetailsAutherNdate .icon{
+  font-size: 24px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+.blogDetails .blogImage{
+  height: 235px;
+  width: 100%;
+  position: relative;
+}
+.blogDetails .blogImage img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.blogCategory{
+  position: absolute;
+  bottom: 0px;
+  color: #fff;
+  background: linear-gradient(transparent, #00000073);
+  width: 100%;
+  padding: 10px 0px;
+  height: 80px;
+}
+.metaKeywords{
+  padding: 20px 0;
+  width: 80%;
+}
+.blogDetails .shareIcon{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.blogDetails .shareIcon svg{
+  font-size: 30px;
+}
+.metaKeywords .metaChip{
+  color: #591078;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1.5px solid;
+  border-radius: 25px;
+  margin-left: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.blogDetails .content{
+  word-break: break-all;
+  line-height: 1.8;
+}
+.blogShare .MuiDialog-paperWidthSm{
+  width: 100%;
+  height: 20vh;
+}
+.blogShare .shareItemIcon{
+  font-size: 40px;
+  margin: 0 5%;
+}
+.blogShare .shareItemIcon.whatsapp{
+  color: #25D366;
+}
+.blogShare .shareItemIcon.facebook{
+  color: #4267B2;
+}
+.blogShare .shareItemIcon.mail{
+  color: #DB4437;
+}
+.blogShare .shareItemIcon.twitter{
+  color: #1da1f2;
+}
+.blogShare .shareIconDiv button{
+  margin: 0 5%;
+}

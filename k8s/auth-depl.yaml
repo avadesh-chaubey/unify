@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - name: auth
+          image: adhiman24/auth
+          env:
+            - name: SYSTEM_SMS_SENDER_ID
+              value: DIAHOM
+            - name: DEPLOYMENT_URL
+              value: 'https://dev.diahome.com'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'Diahome'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: MASTER_ROSTER_EMAIL_ID
+              value: 'admin@diahome.com'
+            - name: MASTER_ROSTER_MOBILE_NUMBER
+              value: '9999900000'
+            - name: DATABACKUP_TAR_FILENAME
+              value: employee
+            - name: FILE_LOG_NAME
+              value: 'authLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare
+            - name: MONGO_URI
+              value: 'mongodb://auth-mongo-srv:27017/auth'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-srv
+spec:
+  selector:
+    app: auth
+  ports:
+    - name: auth
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

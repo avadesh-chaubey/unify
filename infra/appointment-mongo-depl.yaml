@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appointment-mongo-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: appointment-mongo
+  template:
+    metadata:
+      labels:
+        app: appointment-mongo
+    spec:
+      volumes:
+      - name: appointment-mongo-persistent-storage
+        persistentVolumeClaim:
+         claimName: appointment-mongo-pv-claim
+      containers:
+        - name: appointment-mongo
+          image: mongo
+          volumeMounts:
+          - name: appointment-mongo-persistent-storage
+            mountPath: /data/db
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: appointment-mongo-srv
+spec:
+  selector:
+    app: appointment-mongo
+  ports:
+    - name: db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: appointment-mongo-pv-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

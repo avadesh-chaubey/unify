@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: partner-mongo-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: partner-mongo
+  template:
+    metadata:
+      labels:
+        app: partner-mongo
+    spec:
+      volumes:
+      - name: partner-mongo-persistent-storage
+        persistentVolumeClaim:
+         claimName: partner-mongo-pv-claim
+      containers:
+        - name: partner-mongo
+          image: mongo
+          volumeMounts:
+          - name: partner-mongo-persistent-storage
+            mountPath: /data/db
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: partner-mongo-srv
+spec:
+  selector:
+    app: partner-mongo
+  ports:
+    - name: db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: partner-mongo-pv-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+

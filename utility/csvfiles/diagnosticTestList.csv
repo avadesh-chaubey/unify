@@ -1,0 +1,980 @@
+24HR PROTEINURIA (Urea; Creatinine; Urine protein; Creatinine Clearance; Volume; Urine Protein; Albumin Excretion Ratio; Urine protein; Albumin Creatinine ratio),1000,false,,,ARH
+ABSOLUTE EOSINOPHIL COUNT,200,false,,,ARH
+ACE,800,false,,,ARH
+ACETYL CHOLINE RECEPTOR ANTIBODY TITRE (ACH),3100,false,,,ARH
+ACID PHOSPHATASE,300,false,,,ARH
+ACTIC-MELCEL PROTEIN,660,false,,,ARH
+ACTIVATED PARTIAL THROMBOPLASTIN TIME (aPTT),220,false,,,ARH
+ADRENOCORTICOTROPIC HORMONE,968,false,,,ARH
+AEROBIC MICROBACTERIUM CULTURE & SENSITIVITY,1100,false,,,ARH
+AFB STAIN,150,false,,,ARH
+AFTER BREAKFAST BLOOD SUGAR,95,false,,,ARH
+AFTER DINNER BLOOD SUGAR,95,false,,,ARH
+AFTER LUNCH BLOOD SUGAR,85,false,,,ARH
+ALBUMIN,140,false,,,ARH
+ALKALINE PHOSPHATASE,175,false,,,ARH
+ALPHA FETO PROTEIN,780,false,,,ARH
+AMH- Anti-Müllerian Hormone,1550,false,,,ARH
+AMINOACIDS,1700,false,,,ARH
+AMYLASE,380,false,,,ARH
+AMYLASE & LIPASE,540,false,,,ARH
+ANA,1075,false,,,ARH
+ANCA,2000,false,,,ARH
+ANCA - (MPO & PR3) by IFA,1500,false,,,ARH
+ANCA - Myeloperoxidase (MPO) ,1100,false,,,ARH
+ANCA -(PR3) Antibody,1100,false,,,ARH
+ANGIOTENSIN CONVERTING ENZYME,715,false,,,ARH
+ANTI - CCP,1400,false,,,ARH
+ANTI CITROLINATED PEPTIDE LEVEL,800,false,,,ARH
+ANTI HBc Ab (Total Antibodies to Hepatitis B ,850,false,,,ARH
+ANTI HCV,605,false,,,ARH
+ANTI HCV (FOR SPECIAL CAMP),2500,false,,,ARH
+ANTI PARTIAL THROMBOPLASTINTIME,220,false,,,ARH
+Anti SM Ab (Smooth Muscle Antibody),1500,false,,,ARH
+ANTI THROMBIN III ANTIGEN,2420,false,,,ARH
+ANTI THYROID TEST,1100,false,,,ARH
+Anti- LKM 1,1600,false,,,ARH
+ANTIBODIES TO HEPATITIS B ENVELOP ANTIGEN (HB,550,false,,,ARH
+Antimitochondrial Antibody Test (AMA),1300,false,,,ARH
+APOLIPOPROTEIN - A 1,500,false,,,ARH
+APOLIPOPROTEIN - B,320,false,,,ARH
+ARTERIAL BLOOD GAS,1250,false,,,ARH
+ASCITIC FLUID CULTURE AND SENSITIVITY TEST,575,false,,,ARH
+ASO,750,false,,,ARH
+BAL - Culture & Sensitivity,400,false,,,ARH
+BAL - Cytology,1000,false,,,ARH
+BAL - Fungal Smear & Culture,725,false,,,ARH
+BAL - Gram Staining,210,false,,,ARH
+BAL - MTB GeneXpert,1850,false,,,ARH
+BENCE JONES PROTEIN,135,false,,,ARH
+Beta - 2 - microglobulin,1300,false,,,ARH
+Beta HCG (Serum CLIA),500,false,,,ARH
+BICARBONATE,120,false,,,ARH
+BILE ACIDS TOTAL,1500,false,,,ARH
+BILIRUBIN,120,false,,,ARH
+BILIRUBIN (DIRECT / INDIRECT),200,false,,,ARH
+BIOCHEMICAL ANALYSIS,350,false,,,ARH
+BLEEDING TIME,150,false,,,ARH
+BLOOD COLLECTION (HOUSE VISIT),200,false,,,ARH
+BLOOD CULTURE SENSITIVITY,1100,false,,,ARH
+BLOOD GROUP (Blood group; Rh Factor),150,false,,,ARH
+BLOOD UREA,140,false,,,ARH
+Body Fluid (Protein),200,false,,,ARH
+Body Fluid (Sugar),80,false,,,ARH
+BODY FLUID - ADENOSINE DEAMINASE (ADA),500,false,,,ARH
+BODY FLUIDS - (RBC),300,false,,,ARH
+BUN,115,false,,,ARH
+C - REACTIVE PROTEIN (Serum / Nephelometry)) ,460,false,,,ARH
+C-ANCA,1200,false,,,ARH
+C-PAP,800,false,,,ARH
+C-PEPTIDE ASSAY (Fasting; postprandial),1260,false,,,ARH
+C-PEPTIDE ASSAY (F),850,false,,,ARH
+C-PEPTIDE ASSAY (PP),850,false,,,ARH
+CA - 19.9,1000,false,,,ARH
+CA 125,1200,false,,,ARH
+CA 15.3,1100,false,,,ARH
+CALCITONIN ,1700,false,,,ARH
+CALCIUM,180,false,,,ARH
+CALCULUS (STONE) ANALYSIS GALLBLADDER,200,false,,,ARH
+CARDIOLIPIN ANTIBODY 1gG,480,false,,,ARH
+CARDIOLIPIN ANTIBODY 1gM,480,false,,,ARH
+CEA,1050,false,,,ARH
+CELL COUNT,250,false,,,ARH
+CERULOPLASMIN,1000,false,,,ARH
+CHIKUNGUNYA- IG M ANTIBODY,600,false,,,ARH
+CHLORIDE,60,false,,,ARH
+CHOLESTEORAL,275,false,,,ARH
+Chylomicron Qualitative (URINE),350,false,,,ARH
+Clostridium Difficile Toxin A and B,1800,false,,,ARH
+CLOT RETRACTION TEST,200,false,,,ARH
+CLOTTING TIME,140,false,,,ARH
+Complement component 3 (C3),525,false,,,ARH
+Complement component 4 (C4),525,false,,,ARH
+Copper (Urine 24 Hrs),1500,false,,,ARH
+CPK,500,false,,,ARH
+CPK ( MB ),700,false,,,ARH
+CREATININE,140,false,,,ARH
+CSF (Oligoclonal Banding),3500,false,,,ARH
+CSF - CELL COUNT,150,false,,,ARH
+CSF - INDIA INK STAINING,250,false,,,ARH
+CSF - LACTATE DEHYDROGENASE,330,false,,,ARH
+CSF - PROTEIN,200,false,,,ARH
+CSF - TB PCR,1850,false,,,ARH
+CSF-CULTURE AND SENSITIVITY,660,false,,,ARH
+CULTURE & SENSITIVITY (Catheter Tip),400,false,,,ARH
+CYSTO LOGICAL,440,false,,,ARH
+D - DIMER,1320,false,,,ARH
+DENGUE -IGG,950,false,,,ARH
+DENGUE -IGM,775,false,,,ARH
+DENGUE NS1/ IgG / Ig M (RAPID CARD),1750,false,,,ARH
+DIFFERENTIAL COUNT (Differntial count; Neutrophils; Eosinophils; Lymphocytes; Monocytes; Basophils; Others),120,false,,,ARH
+Dihyroxy Testosterone (DHT),1500,false,,,ARH
+DNA (Double Strand) Antibody,1100,false,,,ARH
+Drugs of Abuse Panel-9 Drug Panel Urine Spot,4500,false,,,ARH
+ELECTROLYTES (Sodium; Potassium; Chloride; Bicarbonate; Anion Gap),480,false,,,ARH
+ESR,90,false,,,ARH
+External Nuclear Antigen Profile (ENA),5100,false,,,ARH
+Extractable Nuclear Antigen Profile (ENA),5100,false,,,ARH
+EXTRATABLE NUCLEAR ANTIGEN (ENA),1100,false,,,ARH
+FACTOR V,2640,false,,,ARH
+FACTOR V - LEIDEN MUTANT DEDECTION,4500,false,,,ARH
+FASTING BLOOD SUGAR,90,false,,,ARH
+FERRITIN,425,false,,,ARH
+FETOPROTEIN,475,false,,,ARH
+FIBRINOGEN LEVEL,800,false,,,ARH
+FLUID ANALYSIS (Total count; Total protein; Albumin),550,false,,,ARH
+FLUIDCULTURE,350,false,,,ARH
+FOLIC ACID,770,false,,,ARH
+FREE PSA,800,false,,,ARH
+FREE T3,300,false,,,ARH
+FREE T4,300,false,,,ARH
+FRUCTOSAMINE,700,false,,,ARH
+FUNGAL CULTURE AND SENSITIVITY (WITH KOH MOUNT),800,false,,,ARH
+Fungal Stain; Culture and Identification- Nail,990,false,,,ARH
+GAD ANTIBODIES,5100,false,,,ARH
+GAMMA GT,180,false,,,ARH
+Gliadin IgA & IgG Antibodies (Deamidated),3000,false,,,ARH
+HAEMOGLOBIN,150,false,,,ARH
+HAEMOGRAM (Total WBC Count; Differential Count; Neutrophils; Lymphocytes; Eosinophils; Monocytes; Basophils; Haemoglobin; RBC; PCV; MCV; MCH; MCHC; Platelets; Others; ESR),450,false,,,ARH
+Hanging Drop for V. Cholerae,250,false,,,ARH
+HAV-IGG,640,false,,,ARH
+HAV-IGM,530,false,,,ARH
+Hb ELECTROPHORESIS,750,false,,,ARH
+HBA1C,520,false,,,ARH
+HBcAb- Total Abs - (Core Antigen),950,false,,,ARH
+HBeAg,600,false,,,ARH
+HBsAb- Total Abs to HBsAg,900,false,,,ARH
+HBsAg,100,false,,,ARH
+HBsAg (Quantification- CLIA),450,false,,,ARH
+HCV (Rapid Card - Screening),625,false,,,ARH
+HCV - GENOTYPING ,9000,false,,,ARH
+HCV RNA (QUAM),7920,false,,,ARH
+HCV-RNA Quantification (Viral Load),6800,false,,,ARH
+Helicobacter Pylori Ig A Abs,1450,false,,,ARH
+Helicobacter Pylori Ig G Abs,1450,false,,,ARH
+Helicobacter Pylori Ig M Abs,1450,false,,,ARH
+Hepatitis A Virus (HAV) - Ig G Ab,1100,false,,,ARH
+Hepatitis A Virus (HAV) - Ig M Ab,1100,false,,,ARH
+HEPATITIS B ENVELOPE ANTIGEN (HBeAg),870,false,,,ARH
+HEPATITIS B SURFACE ANTIGEN,300,false,,,ARH
+Hepatitis E Virus (HEV) - Ig G Ab,1200,false,,,ARH
+Hepatitis E Virus (HEV) - Ig M Ab,1200,false,,,ARH
+HEV-IGG,1100,false,,,ARH
+HEV-IGM,1100,false,,,ARH
+HIV I & II,400,false,,,ARH
+HIV I & II (Quantification),500,false,,,ARH
+HIV I & II (Rapid Card- Screening),500,false,,,ARH
+HLA-B27,1440,false,,,ARH
+HOMOCYSTEINE,1500,false,,,ARH
+HOMOGENTISIC ACID (ALKAPTONURIA) URINE,500,false,,,ARH
+HSV 1 & 2 Antibodies to Herpes Simplex Virus ,2000,false,,,ARH
+HYDROXY PROLINE,10440,false,,,ARH
+HYDROXY PROLINE(TOTAL & FREE),3000,false,,,ARH
+IGM ANTIBODIES TO HEPATITIS BCORE ANTIGEN (HB,870,false,,,ARH
+IMMUNO FIXATION,4500,false,,,ARH
+IMMUNOGLOBULIN A,550,false,,,ARH
+IMMUNOGLOBULIN E,650,false,,,ARH
+IMMUNOGLOBULIN G,550,false,,,ARH
+IMMUNOGLOBULIN M,550,false,,,ARH
+IMMUNOGLOBULIN PROFILE (Immunoglobin G; Immunoglobin A; Immunoglobin M; Immunoglobin E),1550,false,,,ARH
+INSULIN (FASTING),700,false,,,ARH
+INSULIN (POST PRANDIAL),700,false,,,ARH
+INSULIN ANTIBODIES,750,false,,,ARH
+INSULIN ASSAY (Fasting; Postprandial),1500,false,,,ARH
+Islet Cell Antibody (ICA-512) Serum,2200,false,,,ARH
+JEV - RNA (Japanese Encephalitis Virus) CSF,4000,false,,,ARH
+KOH MOUNT,300,false,,,ARH
+LACTATE PLASMA,900,false,,,ARH
+LDH,350,false,,,ARH
+LEPTO -IGG,770,false,,,ARH
+LEPTO -IGM,550,false,,,ARH
+Leptospira Ig G/ Ig M (Rapid Card),1300,false,,,ARH
+LIPASE,320,false,,,ARH
+LIPID PROFILE (Triglycerides; Total Cholestrol; HDL; LDL; VLDL; Total Chol/ HDL-Chol ratio; LDL-Chol/ HDL Chol ratio),520,false,,,ARH
+LIPOPROTEIN (a),550,false,,,ARH
+LITHIUM,600,false,,,ARH
+LIVER ENZYME TEST (SGOT; SGPT; GGT),170,false,,,ARH
+LIVER FUNCTION TEST (Total Bilirubin; Total Protein; Albumin; Globulins; SGOT; SGPT; Alkaline Phosphatase; GGT),780,false,,,ARH
+LIVER FUNCTION TEST (COMPLETE) (total Bilirubin; Total Protein; Albumin; Globulins; SGOT; SGPT; Alkaline Phosphatase; Urine - Bile pigments; Bile salts; Urobilinogen; Hepatitis B Surface Antigen; HbsAg; GGT),880,false,,,ARH
+LUPUS ANTICOAGULANTS,1400,false,,,ARH
+LUTEINIZING HORMONE(LH),300,false,,,ARH
+MANTOX,225,false,,,ARH
+Metanephrine - Free (Plasma),2100,false,,,ARH
+Metanephrine; Urine 24 Hrs,1900,false,,,ARH
+MF - QBC,200,false,,,ARH
+MOTION ( SUB STANCE ),70,false,,,ARH
+MOTION EXAMINATION (Microscopic examination; Colour; Form; Reaction; Blood; Mucus; Macroscopic examination; Ova; Cyst; RBCs; Parasites; Others),80,false,,,ARH
+MOTION FOR OCCULT BLOOD,110,false,,,ARH
+MP-QBC,320,false,,,ARH
+MYOGLOBIN,440,false,,,ARH
+MYOGLOBIN (BLOOD ),1100,false,,,ARH
+OSMOLALITY (SERUM),650,false,,,ARH
+OSMOLALITY (URINE),650,false,,,ARH
+OSMOLALITY-OSMOLARITY (SERUM),650,false,,,ARH
+OSMOLALITY-OSMOLARITY (URINE),650,false,,,ARH
+P.ANCA,1200,false,,,ARH
+PAP SMEAR - LBC with reflex to HPV-DNA & P16,1300,false,,,ARH
+PAP SMEAR-CONVENTIONAL,600,false,,,ARH
+PARA THYROID HORMONE,1100,false,,,ARH
+PCR - TB (BLOOD),2000,false,,,ARH
+PCV,75,false,,,ARH
+PERIPHERAL SMEAR STUDY,500,false,,,ARH
+Peritoneal Dialysis Fluid (Creatinine),200,false,,,ARH
+Peritoneal Dialysis Fluid (Glucose),80,false,,,ARH
+Peritoneal Dialysis Fluid (Potassium),200,false,,,ARH
+Peritoneal Dialysis Fluid (Sodium),200,false,,,ARH
+Peritoneal Dialysis Fluid (Urea),100,false,,,ARH
+PHOSPHALIPID ANTIBODY 1gG,550,false,,,ARH
+PHOSPHALIPID ANTIBODY 1gM,550,false,,,ARH
+PHOSPHOROUS,600,false,,,ARH
+PLATELET COUNT,180,false,,,ARH
+PLURAL FLUID DIAGNOSTIC TEST,2100,false,,,ARH
+POSTPRANDAL BLOOD SUGAR,90,false,,,ARH
+POTASSIUM,140,false,,,ARH
+Progesterone (P4),600,false,,,ARH
+PROLACTIN,500,false,,,ARH
+PROTEIN C ANTIGEN,2640,false,,,ARH
+PROTEIN CREATININE RATIO,1925,false,,,ARH
+PROTEIN ELECTRO PHORESIS,650,false,,,ARH
+PROTEIN S ANTIGEN,2640,false,,,ARH
+PROTHROMBIN TIME (PT / INR),510,false,,,ARH
+PS FOR MP / MF,600,false,,,ARH
+PUS CULTURE ( AUTOMATED),600,false,,,ARH
+PUS CULTURE / SENSITIVITY ( Aerobi ),600,false,,,ARH
+PUS CULTURE WITH SWAB,500,false,,,ARH
+QUANTIFERON GOLD TB,2500,false,,,ARH
+R. GLUCOSE,100,false,,,ARH
+Rabies Antibody,2000,false,,,ARH
+RAFACTOR,425,false,,,ARH
+RANDOM BLOOD SUGAR,90,false,,,ARH
+RBC,120,false,,,ARH
+RENAL FUNCTION TEST - 1 (Blood Urea; Creatinine; eGFR; Albumin/Creatinine Ratio; Protein Creatinine Ratio; Expected Protein Excretion),750,false,,,ARH
+RENAL FUNCTION TEST - 2 (Blood Urea; Creatinine; eGFR),400,false,,,ARH
+RENAL FUNCTION TEST - 3 (Albumin/Creatinine ratio; Protein/Creatinine ratio; Expected protein excretion),600,false,,,ARH
+RENAL FUNCTION TEST - 4 (Blood Urea; Creatinine) ,320,false,,,ARH
+RETICULOCYTE COUNT,450,false,,,ARH
+Rheumatoid Factor (Serum / Nephleometry),450,false,,,ARH
+RUBELLA (German Measles)- Ig G Abs,550,false,,,ARH
+RUBELLA (German Measles)- Ig M Abs,550,false,,,ARH
+SEIRUM IRON,200,false,,,ARH
+SERUM AMMONIA,1300,false,,,ARH
+SERUM COPPER,1000,false,,,ARH
+SERUM CORTISOL,490,false,,,ARH
+SERUM ESTRADIOL,375,false,,,ARH
+SERUM FSH,330,false,,,ARH
+SERUM IMMUNO FIXATION WITH ELECTROPHOROSIS,4290,false,,,ARH
+SERUM INSULIN (FBS),450,false,,,ARH
+SERUM INSULIN (PPBS),450,false,,,ARH
+SERUM INSULIN ASSAY (Fasting; Postprandial),900,false,,,ARH
+SERUM IRON,500,false,,,ARH
+SERUM KETONE (ACETONE),900,false,,,ARH
+SERUM LH,330,false,,,ARH
+SERUM PROGESTERONE,375,false,,,ARH
+SERUM TRH (PROLACTIN),1200,false,,,ARH
+Sex Hormone Binding Globulin (SHBG),2200,false,,,ARH
+SGOT,140,false,,,ARH
+SGPT,160,false,,,ARH
+Skin Biopsy (Special Stains),1800,false,,,ARH
+SMEAR FOR MALARIAL PARASITE,200,false,,,ARH
+SMEAR FOR MFP,200,false,,,ARH
+SODIUM,120,false,,,ARH
+SODIUM VALPORATE ACID,450,false,,,ARH
+Soluble Liver Antigen (SLA),1350,false,,,ARH
+SPUTUM CULTURE SENSITIVITY,650,false,,,ARH
+SPUTUM FOR AFB,125,false,,,ARH
+SPUTUM FOR CYTOLOGY,600,false,,,ARH
+SPUTUM GRAN STAIN,144,false,,,ARH
+STOOL CULTURE & SENSITIVITY,600,false,,,ARH
+Stool Fat Globules,150,false,,,ARH
+STOOL HANGINIG DROP,165,false,,,ARH
+STOOL OCCULT BLOOD,150,false,,,ARH
+Synovial Fluid Cell Count,200,false,,,ARH
+Synovial Fluid Routine (Sugar; Protein; LDH),450,false,,,ARH
+T3,250,false,,,ARH
+T4,440,false,,,ARH
+TESTOSTERONE FREE,880,false,,,ARH
+TESTOSTERONE TOTAL,650,false,,,ARH
+THIAMINE (VITAMIN B1),2000,false,,,ARH
+THYROID ANTIBODIES-AtAb (Includes TPO & ATA S,1400,false,,,ARH
+THYROID ANTIBODIES-AtAb (Includes TPO & ATA Serum),1700,false,,,ARH
+THYROID ANTIBODY TITRE (M),500,false,,,ARH
+THYROID ANTIBODY TITRE (TG),500,false,,,ARH
+THYROID FUNCTION TEST (Total T4; TSH),800,false,,,ARH
+THYROID FUNCTION TEST,800,false,,,ARH
+TIBC,600,false,,,ARH
+TISSUE BIOPSY (HPE LARGE),1500,false,,,ARH
+TISSUE BIOPSY (HPE SMALL),1000,false,,,ARH
+TISSUE CULTURE & SENSITIVITY,600,false,,,ARH
+Tissue Transglutaminase (tTG) Abs IgA,1300,false,,,ARH
+Tissue Transglutaminase (tTG) Abs IgG,1300,false,,,ARH
+TMTG ANTIBODIES,1045,false,,,ARH
+TORCH PANEL - 8 ,3000,false,,,ARH
+TOTAL ANTIBODIES TO HEPATITIS BCORE ANTIGEN(H,870,false,,,ARH
+TOTAL BILIRUBIN,200,false,,,ARH
+TOTAL COUNT,90,false,,,ARH
+TOTAL PROTEIN,350,false,,,ARH
+TOTAL PSA ASSAY,900,false,,,ARH
+TP IGA,350,false,,,ARH
+TP IGG,350,false,,,ARH
+TPHA (Treponema pallidum haemagglutination),550,false,,,ARH
+TRANSFERRIN,1000,false,,,ARH
+TRIGLYCERIDES,190,false,,,ARH
+TROPONIN -T TEST,850,false,,,ARH
+TROPONIN I,1500,false,,,ARH
+Troponin T (Quantification),1300,false,,,ARH
+TSH,420,false,,,ARH
+TUBERCLOSIS (MTB) DNA FOR REAL TIME PCR,2000,false,,,ARH
+TUBERCULOSIS PCR,2150,false,,,ARH
+URIC ACID,120,false,,,ARH
+URIC ACID CRYSTALS,150,false,,,ARH
+URINARY ELECTROPHORESIS,650,false,,,ARH
+URINARY SODIUM,110,false,,,ARH
+URINE COMPLETE EXAMINATION (Colour; Appearance; Specific gravity; pH; leucocytes; Nitrite; Protein; Glucose; Ketone; Urobilinogen; Bilirubin; Blood-RBC; Urine Deposits),90,false,,,ARH
+URINE CULTURE SENSITIVITY,550,false,,,ARH
+URINE CYTOLOGY,385,false,,,ARH
+URINE CYTOLOGY FOR MALIGNANCY,1200,false,,,ARH
+URINE DEPOSITS (Epithelial cells; Pus Cells; RBCs; Casts; Crystals; Bacteria; Others; Microscopic examination),80,false,,,ARH
+URINE FOR BILE SALTS / PIGMENTS,55,false,,,ARH
+URINE FOR MTB,2100,false,,,ARH
+URINE FOR SODIUM,120,false,,,ARH
+URINE HAEMOGLOBIN,330,false,,,ARH
+URINE KETONE,120,false,,,ARH
+Urine Myoglobin ,550,false,,,ARH
+URINE SMEAR FOR AFB,220,false,,,ARH
+Urine Spot Potassium,250,false,,,ARH
+URINE SPOT PROTEINS,400,false,,,ARH
+Urine Spot Sodium,180,false,,,ARH
+VALPORIC ACID,700,false,,,ARH
+Vanillyl Mandelic Acid (VMA) Urine 24 Hrs,2500,false,,,ARH
+VDRL,110,false,,,ARH
+VITAMIN B12 ASSAY,875,false,,,ARH
+VITAMIN D total,1580,false,,,ARH
+WIDAL (S.Typhi O; H; AH; BH Antigen),400,false,,,ARH
+1; 25 Dihydroxyvitamin D,3300,false,,,BIO
+17 Ketosteroids - 24 hr Urine,4000,false,,,BIO
+17-Hydroxy Corticosteroids - 24 hr Urine,4000,false,,,BIO
+17-Hydroxy Progesterone,600,false,,,BIO
+25 Hydroxyvitamin D,1400,false,,,BIO
+5 Alpha; DHT - DiHydro Testosterone,2300,false,,,BIO
+5 HIAA (Hydroxyindolacetic Acid)- 24 hr Urine,2500,false,,,BIO
+Absolute Basophils Count,100,false,,,BIO
+Absolute Eosinophil Count,100,false,,,BIO
+Absolute Lymphocyte Count,100,false,,,BIO
+Absolute Monocyte Count,100,false,,,BIO
+Absolute Neutrophils Count,100,false,,,BIO
+ACE (Angiotensin Converting Enzyme),750,false,,,BIO
+Acetyl choline receptor Antibody,2750,false,,,BIO
+Acid Fast Staining,125,false,,,BIO
+Acid Fast Staining; Sputum,125,false,,,BIO
+Acid Phosphatase – Prostatic,300,false,,,BIO
+Acid Phosphatase – Total,200,false,,,BIO
+Act.Partial Thromboplastin Time (aPTT),300,false,,,BIO
+ACTH,1000,false,,,BIO
+ADA,500,false,,,BIO
+AFB culture,500,false,,,BIO
+AFB Culture (Rapid Isolation),1200,false,,,BIO
+AFP(Alpha Feto Protein),450,false,,,BIO
+Alanine aminotransferase (ALT/SGPT),135,false,,,BIO
+Albumin,135,false,,,BIO
+Alcohol Quantitative,900,false,,,BIO
+Aldolase,900,false,,,BIO
+Aldosterone Serum,1800,false,,,BIO
+Alkaline Phosphatase,165,false,,,BIO
+Alkaline Phosphatase with Bone Fraction,1700,false,,,BIO
+Allergen - Aspergillus Fumigatus,1000,false,,,BIO
+Allergen - Casein (Milk Protein),1000,false,,,BIO
+Allergen - Gluten,1000,false,,,BIO
+Allergen Almond,1000,false,,,BIO
+Allergen Cashew,1000,false,,,BIO
+Allergen Egg - White,1000,false,,,BIO
+Allergen Egg - Yolk,1000,false,,,BIO
+Allergen Milk,1000,false,,,BIO
+Allergen Nuts,1000,false,,,BIO
+Allergen Walnut,1000,false,,,BIO
+Allergy Panel Drugs Serum,3500,false,,,BIO
+Allergy Profile (Food),3000,false,,,BIO
+Allergy Profile (Food; Nonveg),5000,false,,,BIO
+Allergy Profile (Inhalation/ Respiratory),3000,false,,,BIO
+Allergy Screening Tryptase,1000,false,,,BIO
+Alpha 1 Antitrypsin,1500,false,,,BIO
+Aluminum,3000,false,,,BIO
+Amino Acids -CSF; Qualitative,2900,false,,,BIO
+Amino levulinic acid (ALA),4500,false,,,BIO
+Aminoaciduria,2900,false,,,BIO
+Aminogram - Plasma Quantitative,7000,false,,,BIO
+Aminogram- Plasma; Qualitative,2900,false,,,BIO
+Ammonia,500,false,,,BIO
+Amoebic Antibody IgG,1800,false,,,BIO
+Amphetamine;Urine Spot,800,false,,,BIO
+Amylase,400,false,,,BIO
+ANA ( ENZYME IMMUNOASSAY),500,false,,,BIO
+ANA (Immunofluorescence),675,false,,,BIO
+ANA Profile; Blot,3000,false,,,BIO
+ANCA (C & P),1200,false,,,BIO
+ANCA -C (PR3),600,false,,,BIO
+ANCA-P (MPO),600,false,,,BIO
+Androstenedione (A4),900,false,,,BIO
+ANTI HCV,1000,false,,,BIO
+ANTI – TG (ATG),630,false,,,BIO
+ANTI – TPO (ATMA),600,false,,,BIO
+Anti Cardiolipin AB IGA,700,false,,,BIO
+Anti Cardiolipin Antibody (IgG),600,false,,,BIO
+Anti Cardiolipin Antibody (IgM),600,false,,,BIO
+ANTI CCP,1150,false,,,BIO
+Anti Chlamydial Antibody IgG,1300,false,,,BIO
+Anti Chlamydial Antibody IgM,1300,false,,,BIO
+Anti Cysticercosis Antibody,1100,false,,,BIO
+Anti Diuretic Hormone-ADH,3500,false,,,BIO
+Anti DNASE B,1500,false,,,BIO
+ANTI dS DNA,650,false,,,BIO
+Anti Gliadin IgA,1500,false,,,BIO
+Anti Gliadin IgG,1500,false,,,BIO
+ANTI HAV – IgG,1300,false,,,BIO
+ANTI HAV – IgM,600,false,,,BIO
+ANTI HAV – Total,600,false,,,BIO
+ANTI HBC – IgM,600,false,,,BIO
+ANTI HBC – TOTAL,600,false,,,BIO
+ANTI HBE,600,false,,,BIO
+ANTI HBS,550,false,,,BIO
+Anti HCV IgM,1500,false,,,BIO
+ANTI HDV IgM,2000,false,,,BIO
+ANTI HEV IGG,1300,false,,,BIO
+ANTI HEV IgM,650,false,,,BIO
+Anti Mumps IgG,1300,false,,,BIO
+Anti Mumps IgM,1300,false,,,BIO
+Anti Neutrophil Cystoplasmic Antibody (ANCA) - IFA,2000,false,,,BIO
+Anti Phospolipid AntibodY - IgA,1200,false,,,BIO
+Anti Phospolipid Antibody - IgG,600,false,,,BIO
+Anti Phospolipid Antibody - IgM,600,false,,,BIO
+ANTI SCL 70,1400,false,,,BIO
+Anti Sperm Antibody,550,false,,,BIO
+Anti Streptolysin O (ASO),350,false,,,BIO
+Anti Streptolysin O (ASO),350,false,,,BIO
+Anti Thrombin III Activity,1500,false,,,BIO
+Apolipoprotein B,500,false,,,BIO
+Apolipoprotein A1,500,false,,,BIO
+Apolipoproteins E,4300,false,,,BIO
+APT Test For Fetal Haemoglobin,100,false,,,BIO
+Arsenic;Blood,3000,false,,,BIO
+ASCA IGA,1700,false,,,BIO
+ASCA IGG,1700,false,,,BIO
+ASKA (Striated) Muscle Antibody,3900,false,,,BIO
+Aspartate aminotransferase (AST/SGOT),135,false,,,BIO
+Aspergillosis Antibody IGG,2000,false,,,BIO
+Aspergillosis Antibody IGM,2000,false,,,BIO
+Bcr-Abl (Philadelphia) t(9 22),5500,false,,,BIO
+BCR-ABL Gene Rearrangement; PCR Quantitative @ (Real Time PCR),5500,false,,,BIO
+Bence Jones Protein - Urine,80,false,,,BIO
+Benzodiazapine,500,false,,,BIO
+BETA 2 Glycoprotein 1 (IgG),1000,false,,,BIO
+Beta 2 Glycoprotein 1 (IgM),1000,false,,,BIO
+Beta 2 Microglobin,1300,false,,,BIO
+Beta HCG,500,false,,,BIO
+Beta HCG - ELFA,570,false,,,BIO
+Beta-2-Crosslaps; C-Telopeptides (B-CTX),2200,false,,,BIO
+Beta-2-glycoprotein I-IgA,1800,false,,,BIO
+Bicarbonate,165,false,,,BIO
+Bile Acids - Total,1600,false,,,BIO
+Bilirubin Direct,80,false,,,BIO
+Bilirubin Neonate,225,false,,,BIO
+Bilirubin Total,125,false,,,BIO
+Bilirubin Total; Direct & Indirect,225,false,,,BIO
+Blood Group & RH,275,false,,,BIO
+BNP(NT pro B-type Natriuretic Peptide),1300,false,,,BIO
+Borrelia Burgdorferi(Lyme) - IgG Ab,2000,false,,,BIO
+Borrelia Burgdorferi(Lyme) - IgM Ab,2000,false,,,BIO
+Brucella Antibody (Abort & Melitensis),300,false,,,BIO
+Brucella Antibodies IgG,1000,false,,,BIO
+Brucella Antibodies IgM,1000,false,,,BIO
+BUN,110,false,,,BIO
+C/S Blood-Enteric & Non Enteric (Automated),700,false,,,BIO
+C/S Blood-Enteric & Non Enteric (Manual),350,false,,,BIO
+C1 Esterase Inhibitor,2800,false,,,BIO
+C3,600,false,,,BIO
+C4,600,false,,,BIO
+CA – 125,675,false,,,BIO
+CA – 15-3,650,false,,,BIO
+CA – 19-9,650,false,,,BIO
+CA 72.4,1700,false,,,BIO
+Calcitonin,1700,false,,,BIO
+Calcium – 24 hr Urine,200,false,,,BIO
+Calcium - Spot Urine,100,false,,,BIO
+Calcium Creatinine Ratio; Urine,300,false,,,BIO
+Calcium Ionised,250,false,,,BIO
+Calcium-Total,165,false,,,BIO
+Cannabis (Marijuana),800,false,,,BIO
+Carbamazepine,600,false,,,BIO
+Carcino Embryonic Antigen (CEA),600,false,,,BIO
+Catecholamine - 24 hr Urine,5000,false,,,BIO
+Catecholamine - Plasma,6000,false,,,BIO
+CBC (TC; DC; HB; RBC; PLT; RBC INDICES),185,false,,,BIO
+CD 19,2000,false,,,BIO
+CD 4 / CD 8 COUNTS,1400,false,,,BIO
+Cell Count (Body Fluids),100,false,,,BIO
+Cell count (CSF),200,false,,,BIO
+Centromere Antibody IgG,1700,false,,,BIO
+Ceruloplasmin,700,false,,,BIO
+CH-50 (Complement; Total),4000,false,,,BIO
+Chikungunya ; Qualitative PCR,4500,false,,,BIO
+Chikungunya Antibody -IgM,600,false,,,BIO
+Chlamydia Trachomatis-IGA,1000,false,,,BIO
+Chloride,125,false,,,BIO
+Chloride- 24 hr Urine,200,false,,,BIO
+Chloride- CSF,100,false,,,BIO
+Chloride- Spot Urine,150,false,,,BIO
+Chloride- Synovial Fluid,200,false,,,BIO
+Cholesterol,105,false,,,BIO
+Cholestrol HDL (Direct ),180,false,,,BIO
+Cholinesetrase,550,false,,,BIO
+Chromium,2500,false,,,BIO
+Chromogranin - A,5000,false,,,BIO
+Chromosome Analysis,2750,false,,,BIO
+Chylomicron; Qualitative,500,false,,,BIO
+Chyluria,150,false,,,BIO
+Citrate; 24 hr Urine,1000,false,,,BIO
+CK – MB STAT,550,false,,,BIO
+Clostridium Difficile Toxin (A&B),2200,false,,,BIO
+CMV Avidity  Test,1500,false,,,BIO
+CMV DNA PCR Qualitative,3000,false,,,BIO
+CMV DNA PCR Quantitative,6500,false,,,BIO
+CMV IgG,450,false,,,BIO
+CMV IgM,450,false,,,BIO
+Cocaine,700,false,,,BIO
+Complete Hemogram,275,false,,,BIO
+Copper,400,false,,,BIO
+Copper - Urine,1500,false,,,BIO
+Cortisol,480,false,,,BIO
+Cortisol Free - 24 Hrs Urine,1000,false,,,BIO
+C-Peptide (F),600,false,,,BIO
+C-Peptide (PP),600,false,,,BIO
+CPK,325,false,,,BIO
+Creatinine,110,false,,,BIO
+Creatinine Clearance - 24 Hrs Urine,170,false,,,BIO
+CRP,350,false,,,BIO
+CRP (High Sensitivity),350,false,,,BIO
+Cryoglobulin,120,false,,,BIO
+Cryptococcus Antigen CSF,2000,false,,,BIO
+Crystals; Fluid,900,false,,,BIO
+Culture & Sensitivity - Others (Any Body Fluid),350,false,,,BIO
+Culture for AFB (Mycobacterium),500,false,,,BIO
+Culture for AFB (Mycobacterium); Automated,1200,false,,,BIO
+Cyclosporine (C0),3100,false,,,BIO
+Cyclosporine (C2),3100,false,,,BIO
+Cyfra 21.1,3300,false,,,BIO
+Cystatin C,900,false,,,BIO
+Cysticercosis IGG,1100,false,,,BIO
+Cytology,250,false,,,BIO
+D - Dimer,550,false,,,BIO
+Dengue Antibody ( IgG & IgM),1100,false,,,BIO
+Dengue Antibody ( IgG),625,false,,,BIO
+Dengue Antibody ( IgM),625,false,,,BIO
+Dengue Ns1 Antigen,800,false,,,BIO
+DHEA,2500,false,,,BIO
+DHEA Sulphate (DHEASO4),575,false,,,BIO
+Differential Cell Count,85,false,,,BIO
+Digoxin,700,false,,,BIO
+Diphtheria IgG-Antibodies,2900,false,,,BIO
+Direct Coombs Test (DCT),300,false,,,BIO
+Dopamine,3000,false,,,BIO
+Drugs Of Abuse - 10 Drugs,4700,false,,,BIO
+Drugs Of Abuse - 12 Drugs,6400,false,,,BIO
+Drugs Of Abuse - 5 Drugs,2400,false,,,BIO
+Drugs Of Abuse - 9 Drugs,4300,false,,,BIO
+EBV (NA) IGG,2200,false,,,BIO
+EBV (NA) IGM,2200,false,,,BIO
+EBV (VCA) IGG,1750,false,,,BIO
+EBV (VCA) IGM,1750,false,,,BIO
+Echinococcus(Hydatid Cyst) IgG,2000,false,,,BIO
+Electrolytes (Na+;K+;Cl-),450,false,,,BIO
+Electrophoresis HB,900,false,,,BIO
+Electrophoresis-24 Hrs Urine,1000,false,,,BIO
+Endomysial Antibody IgA,1800,false,,,BIO
+Endomysial Antibody IgG,1800,false,,,BIO
+Epstein-Barr Virus (EBV) DNA,7000,false,,,BIO
+Erythropoietin,1500,false,,,BIO
+ESR,80,false,,,BIO
+Estradiol,500,false,,,BIO
+Factor - V Functional,2200,false,,,BIO
+Factor IX Activity,1700,false,,,BIO
+Factor V Leiden Mutatant Analysis,4000,false,,,BIO
+Factor VIII Functional,2500,false,,,BIO
+Factor X Functional,5000,false,,,BIO
+Factor XIII Activity,1500,false,,,BIO
+Fat Globules (Stool),80,false,,,BIO
+FDP,1000,false,,,BIO
+Febrile Agglutination Test (FAT) (WIDAL;Brucella;Weil-felix;Paul Bunnell),1000,false,,,BIO
+Ferritin,650,false,,,BIO
+Fibrinogen,700,false,,,BIO
+Filarial Antibody,1500,false,,,BIO
+Filarial Antigen,700,false,,,BIO
+Folic Acid,800,false,,,BIO
+Free BHCG,500,false,,,BIO
+Free PSA,800,false,,,BIO
+Free T3,250,false,,,BIO
+Free T4,250,false,,,BIO
+Free Testosterone,600,false,,,BIO
+Fructosamine,500,false,,,BIO
+FSH,300,false,,,BIO
+FT3;FT4;TSH,475,false,,,BIO
+Fungal Smear,150,false,,,BIO
+Fungus Culture,400,false,,,BIO
+G6PD Level,600,false,,,BIO
+GAD-65- IgG,4500,false,,,BIO
+Galactomannan (Aspergillus Antigen); Serum,5600,false,,,BIO
+Galactose 1 Phosphate,1700,false,,,BIO
+Gamma GT,220,false,,,BIO
+Ganglioside antibody IgG (Anti GM1),3800,false,,,BIO
+Gastrin,1200,false,,,BIO
+GBM - Glomerular Basement Membrane Antibody,1200,false,,,BIO
+GCT- 100 gm Glucose,110,false,,,BIO
+GCT- 50 gm Glucose,110,false,,,BIO
+GCT- 75 gm Glucose,110,false,,,BIO
+Glomerular Filtration Rate (eGFR),200,false,,,BIO
+Glucose – PP,60,false,,,BIO
+Glucose - Fasting,60,false,,,BIO
+Glucose – Random,60,false,,,BIO
+Glucose; Body fluids,60,false,,,BIO
+Glucose; CSF,60,false,,,BIO
+Glucose; Peritonial Fluid,60,false,,,BIO
+Glucose; Pleural Fluid,60,false,,,BIO
+Glucose-Ascitic Fluid,60,false,,,BIO
+Gonococci,125,false,,,BIO
+Gram Stain - Pus,100,false,,,BIO
+Gram Stain - Urine,100,false,,,BIO
+Gram Stain Aspiration Fluid,100,false,,,BIO
+Gram staining,150,false,,,BIO
+Gram Staining - Pleural Fluid,100,false,,,BIO
+Gram staining - Synovial fluid,100,false,,,BIO
+Gram Staining - Vaginal Swab,100,false,,,BIO
+Gram's Stain,100,false,,,BIO
+Gramstain - Pericardial Fluid,100,false,,,BIO
+Growth Hormone,550,false,,,BIO
+GTT- 2 HRS 75 Gm Glucose load (non-pregnant),250,false,,,BIO
+GTT- 3HRS 100 gm Glucose load (Pregnant),300,false,,,BIO
+Haemoglobin Urine,300,false,,,BIO
+Haptoglobin,1500,false,,,BIO
+HbA1C ( Glycosylated Haemoglobin),510,false,,,BIO
+HBeAg,750,false,,,BIO
+HBsAg,350,false,,,BIO
+HBsAg,1000,false,,,BIO
+HBsAg Confirmation,700,false,,,BIO
+HBV-DNA (Qualitative),3000,false,,,BIO
+HBV-DNA (Quantitative),5000,false,,,BIO
+HCV - Genotyping,7000,false,,,BIO
+HCV IgM,1500,false,,,BIO
+HCV-RNA PCR (Qualitative),3000,false,,,BIO
+HCV-RNA PCR (Quantitative),6000,false,,,BIO
+HE4 with ROMA index,3000,false,,,BIO
+Helicobacter Pylori -IgM antibodies,1800,false,,,BIO
+Helicobacter Pylori-IgG antibodies,1300,false,,,BIO
+Hemochromatosis (HFE) Mutations Analysis (C282Y; H63D),7500,false,,,BIO
+Hemoglobin,120,false,,,BIO
+Hemosiderin,500,false,,,BIO
+Hepatitis B Genotyping (HBV),7500,false,,,BIO
+Her-2/Neu(C-Er-B2)(ERBB2)by FISH,10000,false,,,BIO
+Histone Antibody,1500,false,,,BIO
+HIV -1 Proviral DNA (Qualitative),4000,false,,,BIO
+HIV Combo,500,false,,,BIO
+HIV P24 Antigen,1200,false,,,BIO
+HIV-RNA (Qualitative),2000,false,,,BIO
+HIV-RNA (Quantitative),3800,false,,,BIO
+HLA B27,4000,false,,,BIO
+HLA- B5 (51/52); Disease Association,5100,false,,,BIO
+Homocysteine; Urine - Qualitative,1500,false,,,BIO
+Homocystine,850,false,,,BIO
+HSV II -IgG,425,false,,,BIO
+HSV II -IgM,425,false,,,BIO
+HSV DNA (1 & 2) Qualitative,3200,false,,,BIO
+HSV I - IgG,425,false,,,BIO
+HSV I - IgM,425,false,,,BIO
+HSV I & II IgG,425,false,,,BIO
+HSV I & II IgM,425,false,,,BIO
+HTLV (I & II) Antibody,4900,false,,,BIO
+Human Papillomavirus DNA (LBC),2500,false,,,BIO
+IgA,375,false,,,BIO
+IgE,475,false,,,BIO
+IGF BP3,3000,false,,,BIO
+IgG,400,false,,,BIO
+IgG4 Sub Class,4600,false,,,BIO
+IgM,375,false,,,BIO
+Immunofixation Qualitative,5000,false,,,BIO
+Immunofixation Quantitative,7000,false,,,BIO
+Immunoglobulin D,3000,false,,,BIO
+India Ink Preparation,125,false,,,BIO
+Indirect Combs Test (RH Antibody Titre),375,false,,,BIO
+Inhibin A,1200,false,,,BIO
+Inhibin B,1700,false,,,BIO
+Insulin (F),550,false,,,BIO
+Insulin (PP),550,false,,,BIO
+Insulin (R),550,false,,,BIO
+Insulin - 30 Minutes,550,false,,,BIO
+Insulin -120 Minutes,550,false,,,BIO
+Insulin Antibody Free,1500,false,,,BIO
+Insulin Like Growth Factor (IGF-1),2200,false,,,BIO
+Intrinsic Factor Antibody,2300,false,,,BIO
+Iron,275,false,,,BIO
+Islet cell anibody (ICA-512),2500,false,,,BIO
+JAK 2 Mutation,6000,false,,,BIO
+Jo 1 Antibody,1400,false,,,BIO
+Ketone (D3 Hydroxybutyrate),2500,false,,,BIO
+Lactate,1000,false,,,BIO
+Lactate; CSF,1000,false,,,BIO
+LDH,325,false,,,BIO
+LDH- Isoenzymes,4500,false,,,BIO
+LE Cell Preparation,200,false,,,BIO
+Lead,1000,false,,,BIO
+Leishmania (Kala Azar) Antibody IgG,2000,false,,,BIO
+Leptin (Human Leptin),5000,false,,,BIO
+Leptospira by DFM,350,false,,,BIO
+Leptospira by MAT Test,450,false,,,BIO
+Leptospira IgG & IgM (Card ),600,false,,,BIO
+Leptospira IgM (IC ),500,false,,,BIO
+Leptospiral Antibody (IgM),500,false,,,BIO
+Leptospiral Antibody (IgG ),900,false,,,BIO
+LH,370,false,,,BIO
+Lipase,425,false,,,BIO
+Lipase; Body Fluids,500,false,,,BIO
+Lipid Profile (Direct - Fasting),550,false,,,BIO
+Lipid Profile (Fasting),500,false,,,BIO
+Lipoprotein (A),600,false,,,BIO
+Lithium,300,false,,,BIO
+Liver Function Test,500,false,,,BIO
+Liver Function Test with GGT,500,false,,,BIO
+LKM -1 Antibodies,2000,false,,,BIO
+Lupus Anti Coagulation (LA1;LA2),1300,false,,,BIO
+Macro Prolactin,700,false,,,BIO
+Magnesium,285,false,,,BIO
+Magnesium - Spot Urine,700,false,,,BIO
+Magnesium – 24 hrs Urine,700,false,,,BIO
+Malarial Antigen (Vivax & Falciparum),600,false,,,BIO
+Malarial Parasite (QBC),275,false,,,BIO
+Malarial Parasite (Slide),110,false,,,BIO
+Measles (Rubeola) - Antibody IgG,1200,false,,,BIO
+Measles (Rubeola) - Antibody IgM,1200,false,,,BIO
+Mercury; Blood,3000,false,,,BIO
+Metanephrine 24 Hrs - Urine,3000,false,,,BIO
+Metanephrine-free; plasma,4000,false,,,BIO
+Methaqualone; Urine,500,false,,,BIO
+Methyl Malonic Acid,900,false,,,BIO
+Microalbumin; Urine,375,false,,,BIO
+Microalbumin/Creatinine ; 24 Hrs; Urine,375,false,,,BIO
+Microalbumin/Creatinine ; Urine,375,false,,,BIO
+Microbiology Surviellance (1 Settled plate),175,false,,,BIO
+Microbiology Surviellance (10 Settled plate),1750,false,,,BIO
+Microbiology Surviellance (2 Settled plate),350,false,,,BIO
+Microbiology Surviellance (20 Swab),3500,false,,,BIO
+Microbiology Surviellance (3 Settled plate),525,false,,,BIO
+Microbiology Surviellance (3 Swab),525,false,,,BIO
+Microbiology Surviellance (30 Swab),5250,false,,,BIO
+Microbiology Surviellance (4 Settled plate),700,false,,,BIO
+Microbiology Surviellance (4 Swab),700,false,,,BIO
+Microbiology Surviellance (40 Swab),7000,false,,,BIO
+Microbiology Surviellance (5 Settled plate),875,false,,,BIO
+Microbiology Surviellance (5 Swab),875,false,,,BIO
+Microbiology Surviellance (50 Swab),8750,false,,,BIO
+Microbiology Surviellance (6 Settled plate),1050,false,,,BIO
+Microbiology Surviellance (6 Swab),1050,false,,,BIO
+Microbiology Surviellance (7 Settled plate),1225,false,,,BIO
+Microbiology Surviellance (7 Swab),1225,false,,,BIO
+Microbiology Surviellance (8 Settled plate),1440,false,,,BIO
+Microbiology Surviellance (8 Swab),1200,false,,,BIO
+Microbiology Surviellance (9 Swab),1575,false,,,BIO
+Microbiology Surviellance Test (1 Swab),175,false,,,BIO
+Microbiology Surviellance Test (10 Swab),1750,false,,,BIO
+Microbiology Surviellance Test (12 Swab),2100,false,,,BIO
+Microbiology Surviellance Test (2 Swab),350,false,,,BIO
+Microbiology Surviellance Test (9 Swab),1575,false,,,BIO
+Microbiology Surviellance Test (Anaerobic),400,false,,,BIO
+Microfilaria (MF) by QBC,275,false,,,BIO
+Mitochondrial Antibodies (AMA),900,false,,,BIO
+MRSA Screen -PCR,2500,false,,,BIO
+MTHFR Mutations,7500,false,,,BIO
+Mullerian Inhibiting Substance - AMH,1500,false,,,BIO
+MUSK Antibody; Myasthenia gravis,6000,false,,,BIO
+Mycoplasma pneumoniae IgG,2000,false,,,BIO
+Mycoplasma pneumoniae IgM,2000,false,,,BIO
+Myoglobin Serum,2500,false,,,BIO
+Myoglobin Urine,1500,false,,,BIO
+Newborn Screening-Basic,1700,false,,,BIO
+Nickel,2500,false,,,BIO
+Nicotine Metabolite,1900,false,,,BIO
+NMDA Receptor Antibody (NR1),7000,false,,,BIO
+NMO with MOG Antibody,4000,false,,,BIO
+Novel Influenza A (H1N1 2009) RT-PCR,3700,false,,,BIO
+NSE-Neuron Specific Enolase,3500,false,,,BIO
+Oligoclonal band;CSF,5000,false,,,BIO
+Opiates (Morphine),700,false,,,BIO
+Ornithine Quantitative,8000,false,,,BIO
+Osmolality (Serum),600,false,,,BIO
+Osmolality (Urine),500,false,,,BIO
+Osmotic (RBC) Fragility,600,false,,,BIO
+Other sample - Microbiology Surviellance,175,false,,,BIO
+Other Specimen C/S,350,false,,,BIO
+OVARIAN ANTIBODY,3500,false,,,BIO
+Oxalate - 24 Hrs Urine,1500,false,,,BIO
+P1NP (Total),2150,false,,,BIO
+Pap Smear,900,false,,,BIO
+Paracetamol,1000,false,,,BIO
+Parathyroid Hormone; Intact (iPTH),600,false,,,BIO
+Parietal Cell Antibody (GPCA),2200,false,,,BIO
+Parvovirus (B19) IGG,2500,false,,,BIO
+Parvovirus B19 IGM,2500,false,,,BIO
+Parvovirus B19; DNA PCR,3200,false,,,BIO
+Paul Bunnel Test (IM - Screening),350,false,,,BIO
+PCV,60,false,,,BIO
+Peripheral Smearstudy,230,false,,,BIO
+Phenobarbitone,700,false,,,BIO
+PhenylAlanine Screen,1600,false,,,BIO
+Phenytoin,500,false,,,BIO
+Phosphorus,125,false,,,BIO
+Phosphorus (24 Hrs Urine),200,false,,,BIO
+Phosphorus (Spot Urine),200,false,,,BIO
+PLA2 receptor antibody,5000,false,,,BIO
+Platelet Antibody,6000,false,,,BIO
+Platelet Count,120,false,,,BIO
+Potassium,120,false,,,BIO
+Potassium (24hrs Urine),150,false,,,BIO
+Potassium (Spot Urine),150,false,,,BIO
+Pre Albumin,3500,false,,,BIO
+Prenatal Screening - 1st Trimester (F-BhCG; PAPPa),1650,false,,,BIO
+Prenatal Screening - 2nd TRIMESTER (F-BhCG; AFP; uE3),1650,false,,,BIO
+Prenatal Screening - Quadruple Markers. (F-BhCG; AFP; uE3 & Inhibin A),3000,false,,,BIO
+Procalcitonin,1800,false,,,BIO
+Progesterone,440,false,,,BIO
+Prolactin,420,false,,,BIO
+Propoxyphene,1000,false,,,BIO
+Protein Electrophoresis,350,false,,,BIO
+Protein S -Activity,2600,false,,,BIO
+Protein Total,100,false,,,BIO
+Protein Total & A/G Ratio,220,false,,,BIO
+Protein; Pericardial fluid,100,false,,,BIO
+Protein; Ascitic Fluid,100,false,,,BIO
+Protein; Body fluids,100,false,,,BIO
+Protein; CSF,100,false,,,BIO
+Protein; Cystic Fluid,100,false,,,BIO
+Protein; Peritoneal Fluid,100,false,,,BIO
+Protein; Pleural Fluid,100,false,,,BIO
+Protein; Urine,100,false,,,BIO
+Protein; Urine 24 hr,170,false,,,BIO
+Protein/Creatinine Ratio; 24 Hrs Urine (PCR),250,false,,,BIO
+Protein/Creatinine Ratio; Spot Urine (PCR),185,false,,,BIO
+Protein-C Activity,2600,false,,,BIO
+Prothrombin G20210A (Factor II) Mutation,6000,false,,,BIO
+Prothrombin Time (PT),240,false,,,BIO
+PSA,500,false,,,BIO
+PSA; Free,800,false,,,BIO
+Pus Culture & Sensitivity,350,false,,,BIO
+RA Factor,300,false,,,BIO
+RA FACTOR,250,false,,,BIO
+Renin Activity (PRA),4500,false,,,BIO
+Reticulocyte Count,165,false,,,BIO
+RNP Sm Antibody,1500,false,,,BIO
+Rubella Avidity,1500,false,,,BIO
+Rubella IgG,425,false,,,BIO
+Rubella IgM,425,false,,,BIO
+RVVT - Russell viper venom time,700,false,,,BIO
+Salmonella Typhi Dot - IgG,400,false,,,BIO
+Salmonella Typhi Dot - IgM,400,false,,,BIO
+Scrub Typhus IgM,1200,false,,,BIO
+Selenium,3000,false,,,BIO
+Semen Analysis,275,false,,,BIO
+Semen Culture & Sensitivity,400,false,,,BIO
+Semen Fructose,50,false,,,BIO
+Serotonin (5-Hydroxy Tryptamine),4500,false,,,BIO
+SICKLING TEST,100,false,,,BIO
+Sirolimus,5500,false,,,BIO
+Smooth Muscle Antibody (ASMA),1300,false,,,BIO
+Sodium,120,false,,,BIO
+Sodium (24hrs Urine),150,false,,,BIO
+Sodium (Spot Urine),150,false,,,BIO
+Soluble Liver Antigen (SLA),1500,false,,,BIO
+Sputum Culture & Sensitivity,350,false,,,BIO
+SSA Anti RO Antibody,1500,false,,,BIO
+SSB LA Antibody,1500,false,,,BIO
+Stone Analysis,800,false,,,BIO
+Stool (Motion) Culture,350,false,,,BIO
+Stool-Complete Examination,125,false,,,BIO
+Stool-Occult Blood,50,false,,,BIO
+Stool-Reducing Substances,50,false,,,BIO
+Sucrose Lysis Test (PNH Screening Test),900,false,,,BIO
+Swab Culture & Sensitivity,350,false,,,BIO
+Syphilis (VDRL),175,false,,,BIO
+T3 Total,200,false,,,BIO
+T3; ELFA,250,false,,,BIO
+T4 Total,200,false,,,BIO
+T4; ELFA,250,false,,,BIO
+Tacrolimus Blood,3000,false,,,BIO
+TB PCR (Qualitative) (Gene Xpert),2000,false,,,BIO
+TB-GOLD (Quantiferon) (Gamma Interferon for TB),2200,false,,,BIO
+Testosterone,440,false,,,BIO
+TFT (T3; T4 & TSH),460,false,,,BIO
+Thalassemia - Beta (5 Common Mutation);Blood,8000,false,,,BIO
+Throat Swab Culture & Sensitivity,350,false,,,BIO
+Thrombin Time,650,false,,,BIO
+THYRO 5 (T3; T4; FT3; FT4 & TSH),500,false,,,BIO
+Thyrogobulin,600,false,,,BIO
+Thyroxine Binding Globulin (TBG),6000,false,,,BIO
+Tissue Transglutaminase (tTG) Ab-IgA,1500,false,,,BIO
+TNF (Tumour Necrosis Factor) Alpha,4400,false,,,BIO
+TORCH IgG - (Toxo; Rubella; CMV and HSV 1&2),1100,false,,,BIO
+TORCH IgM - (Toxo; Rubella; CMV and HSV 1&2),1100,false,,,BIO
+TORCH Panel IgM & IgG - (Toxo; Rubella; CMV and HSV 1&2),1400,false,,,BIO
+Total Iron Binding Capacity (IRON; UIBC & TIBC),400,false,,,BIO
+Total WBC Count,85,false,,,BIO
+Toxoplasma Avidity,1500,false,,,BIO
+Toxoplasma DNA PCR,3300,false,,,BIO
+Toxoplasma IgG,425,false,,,BIO
+Toxoplasma IgM,425,false,,,BIO
+TPHA,250,false,,,BIO
+TPMT Enzyme Activity (Thiopurine Methyl Transferase),4500,false,,,BIO
+Transferrin,900,false,,,BIO
+Transferrin Saturation (Iron; UIBC; TIBC and %saturation),400,false,,,BIO
+Triglyceride(TGL),115,false,,,BIO
+Troponin I,500,false,,,BIO
+Troponin T,800,false,,,BIO
+Troponin- T (high sensitive); Quantitative,800,false,,,BIO
+Tryptase Allergy Screening,2500,false,,,BIO
+TSH,220,false,,,BIO
+TSH Receptor Antibody IgG,3000,false,,,BIO
+TSH; ELFA,270,false,,,BIO
+Typhi Dot IgM & IgG,800,false,,,BIO
+Urea,115,false,,,BIO
+Urea / Creatinine,225,false,,,BIO
+Urea Clearance 24 Hour Urine,170,false,,,BIO
+Urea; Urine,150,false,,,BIO
+Urea; 24hrs Urine,170,false,,,BIO
+Uric Acid,130,false,,,BIO
+Uric Acid; Synovial Fluid,250,false,,,BIO
+Uric Acid; Urine,150,false,,,BIO
+Uric Acid; 24 Hrs Urine,150,false,,,BIO
+Urinary Stone Analysis,650,false,,,BIO
+Urine Alkaptanuria(Homogentisic Acid),1000,false,,,BIO
+Urine Complete Analysis,100,false,,,BIO
+Urine Culture & Sensitivity (Automated),600,false,,,BIO
+Urine Culture & Sensitivity (Manual),380,false,,,BIO
+Urine Organic Acid; Qualitative,2500,false,,,BIO
+Urine Sugar,30,false,,,BIO
+Urine Sugar (F),30,false,,,BIO
+Urine Sugar (Pp),30,false,,,BIO
+Vaginal Swab Culture & Sensitivity,380,false,,,BIO
+Valproic Acid,500,false,,,BIO
+Vancomycin,7000,false,,,BIO
+Varicella Zoster IgG Ab,1400,false,,,BIO
+Varicella Zoster IGM Ab,1400,false,,,BIO
+Varicella Zoster Virus (PCR),3500,false,,,BIO
+VGKC (Lgi1 & CASPR2) Antibody,8500,false,,,BIO
+Vitamin B1; (Thiamine),2900,false,,,BIO
+Vitamin A (Retinol),4000,false,,,BIO
+Vitamin B 12,700,false,,,BIO
+Vitamin B2 (Riboflavin),3000,false,,,BIO
+Vitamin B6; (Pyridoxine),3000,false,,,BIO
+Vitamin C (Ascorbic Acid),2500,false,,,BIO
+Vitamin E (Tocopherol),4000,false,,,BIO
+VMA - 24 Hrs Urine,3000,false,,,BIO
+VMA (SPOT),3000,false,,,BIO
+Vw-Von willbrand Antigen,8500,false,,,BIO
+Weil Felix,400,false,,,BIO
+Western Blot For HIV-1,2000,false,,,BIO
+Widal,245,false,,,BIO
+Y Chromosome Microdeletion,7000,false,,,BIO
+Zinc,180,false,,,BIO

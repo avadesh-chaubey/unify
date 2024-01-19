@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin: 0;
+        font-size: 12px;
+    }
+    .container {
+    max-width: 600px;
+    height: 45px;
+    background: url('https://storage.googleapis.com/diahome-com-bucket-1/Image/Rectangle.png');
+    }
+  .container__image {
+    width: 150px;
+    float: left;
+    color: #f1f1f1;
+    margin-left: 15px;
+    margin-top: 5px; 
+  }
+  .container__text {
+    text-align: right;
+    color: #f1f1f1;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="container__image" src="https://storage.googleapis.com/diahome-com-bucket-1/Image/logo_name.png"/>
+        <div class="container__text">
+          <p style="font-size: 8px;margin-top: 11px">Call us at<span>:</span>7540001234</p>
+          <p style="font-size: 8px;">Download the Diahome App</p>
+       </div>
+    </div>
+    <br>
+    <div style="padding-left: 20px;">
+        <p style="font-weight: bold;">Dear {{userFirstName}} {{userLastName}},</p>
+        <br>
+        <p>Welcome to Diahome.</p>
+        <p>Your account has been created as "{{userType}}".</p>
+        <p>Below are the account details, to sign in to your account, please visit- <a href="https://doctor.diahome.com/">"https://doctor.diahome.com"</a></p>
+        <p>Username - <span style="font-weight: bold;">{{userName}}</span></p>
+        <p>Password - <span style="font-weight: bold;">{{password}}</span></p>
+        <br>
+        <p>If you have any questions regarding your account, please contact us on email at <a href = "mailto:care@diahome.com" style="color:black;font-weight: bold;">care@diahome.com</a></p>
+        <p>and we'll be happy to help.</p>
+        <br>
+    </div>
+    <div style="font-weight: bold;padding-left: 20px;">
+        <p>Regards,</p>
+        <p>Team Diahome</p>
+        <br>
+    </div>
+    <div style="font-weight: lighter;padding-left: 20px;color: gray;font-size: 8px;">
+        <p>You are receiving this email because you are registered on the Diahome app.This email is meant to</p>
+        <p>communicate about your appointment/care and is not meant for promotional purposes.</p>
+    </div>
+</body>
+</html>

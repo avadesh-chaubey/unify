@@ -1,0 +1,16 @@
+export const patientCreatedGroupName = 'patient-created-service';
+export const appointmentBookedGroupName = 'patient-appointment-booked-service';
+export const databasBackupGroupName = 'patient-database-backup-service';
+export const prescriptionCreatedGroupName = 'prescription-created-service';
+export const databasUploadGroupName = 'patient-database-upload-service';
+export const consultantCreatedGroupName = 'patient-consultant-created-service';
+export const appointmentcancelGroupName = 'patient-appointment-cancelled-service';
+export const appointmentCompletedGroupName = 'patient-appointment-completed-service';
+export const paymentCompletedGroupName = 'patient-payment-completed-service';
+export const appointmentUpdatedGroupName = 'patient-appointment-upated-service';
+export const appointmentReminderGroupName = 'patient-appointment-reminder-service';
+export const consultantInfoUpdatedGroupName = 'patient-consultant-updated-service';
+export const pingGroupName = 'patient-ping-service';
+export const followupReminderGroupName = 'patient-followup-reminder-service';
+export const partnerInformationCreatedGroupName = 'patient-partner-information-created-service';
+export const partnerInformationUpdatedGroupName = 'patient-partner-information-updated-service';

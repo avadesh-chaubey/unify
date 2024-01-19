@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: rx-unifycare-tls
+spec:
+  secretName: rx-unifycare-crt
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: rx.unify.care
+  dnsNames:
+    - rx.unify.care
+    

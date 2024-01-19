@@ -1,0 +1,70 @@
+const response = {
+  data: [
+    {
+      uniqueId: "UT1090",
+      userFirstName: "Anjali",
+      userLastName: "Mehta",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1091",
+      userFirstName: "Lol Test",
+      userLastName: "Abraham",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1092",
+      userFirstName: "Fillmore",
+      userLastName: "Acevedo",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1093",
+      userFirstName: "Test",
+      userLastName: "Doc",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1094",
+      userFirstName: "Firoz ",
+      userLastName: "M",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1095",
+      userFirstName: "Kamal ",
+      userLastName: "Kapoor",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1096",
+      userFirstName: "Rajeev",
+      userLastName: "Verma",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+    {
+      uniqueId: "UT1097",
+      userFirstName: "Lakshmi ",
+      userLastName: "Yadav",
+      showOnboardingTime: "10:00PM",
+      specialization: "Physician",
+      appointmentDate: "21-12-2020",
+    },
+  ],
+};
+
+export default response;

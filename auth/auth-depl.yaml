@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auth
+  template:
+    metadata:
+      labels:
+        app: auth
+    spec:
+      containers:
+        - name: auth
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          livenessProbe:
+            # httpGet:
+            tcpSocket:
+              # path: /api/health/liveness
+              port: 3000
+              # scheme: 'HTTP'
+            initialDelaySeconds: 400
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /api/health/readiness
+              port: 3000
+              scheme: 'HTTP'
+            initialDelaySeconds: 400
+            periodSeconds: 30
+          env:
+            - name: FIREBASE_DATABASE_URL
+              value: 'https://rainbow-com-default-rtdb.asia-southeast1.firebasedatabase.app/'
+            - name: SYSTEM_SMS_SENDER_ID
+              value: unifycare-dev-platform
+            - name: PATIENT_IOS_APP_VERSION
+              value: '1.0.9'
+            - name: PATIENT_ANDROID_APP_VERSION
+              value: '1.0.9'
+            - name: PATIENT_IOS_APP_FORCED_UPDATE
+              value: 'false'
+            - name: PATIENT_ANDROID_APP_FORCED_UPDATE
+              value: 'false'
+            - name: DEPLOYMENT_URL
+              value: 'https://unify.care'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'unifycare-dev-platform'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: SYSTEM_RECEIVER_EMAIL_ID
+              value: 'avadeshc@unifytech.com'
+            - name: MASTER_ROSTER_EMAIL_ID
+              value: 'admin@diahome.com'
+            - name: MASTER_ROSTER_MOBILE_NUMBER
+              value: '9999900000'
+            - name: DEFAULT_ASSISTANT_EMAIL_ID
+              value: 'assistant1@diahome.com'
+            - name: DEFAULT_ASSISTANT_MOBILE_NUMBER
+              value: '9999900011'
+            - name: GCS_BUCKET
+              value: 'unifycare-dev-platform'
+            - name: GCLOUD_PROJECT
+              value: 'gamma-unify-care'
+            - name: DATABACKUP_TAR_FILENAME
+              value: Auth.tar
+            - name: FILE_LOG_NAME
+              value: 'authLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare-dev-platform
+            - name: MONGO_URI
+#              value: 'mongodb://auth-mongo-srv:27017/auth'
+              value: 'mongodb+srv://auth:MJArga7tL6wV8wxx@cluster0.3uj35.mongodb.net/auth?retryWrites=true&w=majority'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-srv
+spec:
+  selector:
+    app: auth
+  ports:
+    - name: auth
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

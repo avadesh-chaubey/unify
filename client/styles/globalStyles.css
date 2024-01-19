@@ -1,0 +1,675 @@
+.left-area:hover {
+  width: 315px;
+}
+.right-area.overflow {
+  overflow: hidden;
+}
+.custmerSupport ::-webkit-scrollbar,
+.overflow ::-webkit-scrollbar,
+.listing .medicine ::-webkit-scrollbar,
+.empTable ::-webkit-scrollbar,
+.settingFee ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.custmerSupport ::-webkit-scrollbar-track,
+.overflow ::-webkit-scrollbar-track,
+.listing .medicine::-webkit-scrollbar-track,
+.empTable ::-webkit-scrollbar-track,
+.settingFee ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custmerSupport ::-webkit-scrollbar-thumb,
+.overflow ::-webkit-scrollbar-thumb,
+.listing .medicine::-webkit-scrollbar-thumb,
+.empTable ::-webkit-scrollbar-thumb,
+.settingFee ::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.custmerSupport ::-webkit-scrollbar-thumb:hover,
+.overflow ::-webkit-scrollbar-thumb:hover,
+.listing .medicine::-webkit-scrollbar-thumb:hover,
+.empTable ::-webkit-scrollbar-thumb:hover,
+.settingFee ::-webkit-scrollbar-thumb:hover {
+  background: #c3c3c3;
+}
+
+.right-area {
+  position: fixed;
+  width: calc(100% - 100px);
+  left: 95px;
+  top: 0;
+  height: calc(100vh + 28px);
+  padding: 10px;
+  padding-top: 0;
+  overflow-x: hidden;
+}
+.permission {
+  overflow: hidden !important;
+}
+.unifyLogo {
+  width: 300px;
+  display: inline-block;
+  margin: 20px 20px;
+}
+.unifyLogo .logo {
+  width: 70px;
+  margin-left: -10px;
+}
+.unifyLogo .name {
+  width: 290px;
+  vertical-align: top;
+  padding-top: 17px;
+}
+.menu {
+  margin-top: -30px;
+}
+.menu-items {
+  margin-top: 50px;
+}
+.menu-items .items {
+  width: 350px;
+  display: inline-block;
+  /* padding: 10px; */
+  padding: 10px 10px 0px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.menu-items .items:hover {
+  background-color: rgba(3, 3, 3, 0.5);
+}
+
+.menu-items .items.active {
+  background-color: #152a75;
+}
+.menu-items .items .logo {
+  width: 35px;
+  height: 40px;
+  margin-top: 2px;
+}
+.menu-items .items .content_mgmt {
+  width: 40px !important;
+  height: 40px !important;
+}
+.menu-items .items span {
+  width: 215px;
+  vertical-align: top;
+  padding-left: 25px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.header-area {
+  margin: 30px;
+  margin-bottom: 15px;
+  display: flow-root;
+  margin-left: 8px;
+}
+.MuiMenuItem-root {
+  width: auto;
+  overflow: hidden;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  min-height: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 10px !important;
+  white-space: nowrap;
+  letter-spacing: 0.00938em;
+  padding-bottom: 10px !important;
+}
+.Component-paper-1 {
+  border: 1px solid #d3d4d5;
+  left: 1182px;
+}
+
+.header-area .heading {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.63);
+}
+.header-area .headright {
+  float: right;
+  position: relative;
+  margin-top: 0;
+}
+.header-area .righticon {
+  width: 1.8em;
+  height: 1.8em;
+  margin-left: 10px;
+  cursor: pointer;
+  object-fit: contain;
+}
+/* .header-area .logoutBtn{
+   position: absolute;
+   top: 30px;
+   left: 55px;
+   right: 0;
+   height: 25px;
+   background: #e0e0e0;
+   color: black;
+}
+.header-area .logoutBtn.hide{
+   display: none;
+} */
+.filter-area {
+  height: 48px;
+  border-radius: 6px;
+  border: solid 1px #979797;
+  background-image: linear-gradient(to bottom, #ffffff, #dbdbdb);
+}
+.action-bttn.addnew {
+  cursor: pointer;
+}
+.medicine-btn {
+  height: 48px;
+  border-radius: 30px;
+  background-color: #152a75;
+  color: #fff !important;
+  width: 220px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 10px !important;
+  padding: 15px 30px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -1px;
+}
+.test-btn {
+  height: 48px;
+  border-radius: 30px;
+  background-color: #152a75;
+  color: #fff !important;
+  width: 190px;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 10px !important;
+  padding: 15px 30px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -1px;
+}
+.pull-right {
+  float: right;
+}
+.mainDiv .leftSide {
+  width: 50%;
+  /* background-color: blue; url('../public/changeProfile.svg')*/
+  float: left;
+  height: 100%;
+}
+.mainDiv .rightSide {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+.rightSide.mainLogin {
+  width: 100%;
+}
+.mainDiv .rightSide .form {
+  height: 100%;
+  background: none;
+}
+.leftLogo .logo {
+  left: 18%;
+  position: absolute;
+  width: 300px;
+  height: calc(50vh + 215px);
+  object-fit: contain;
+}
+.leftLogo .name {
+  width: 55%;
+  vertical-align: top;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin-top: -20px;
+}
+.leftLogo .partner {
+  display: block;
+  width: 47%;
+  /* vertical-align: top; */
+  padding-top: 16px;
+  padding-left: 6%;
+}
+.rightSide .mainForm {
+  width: 50%;
+  margin: 0% 24%;
+  margin-top: 23%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+.rightSide .loginBtn {
+  display: inline-block;
+  /* color: #000; */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+  width: 100px;
+}
+.rightSide .mainForm .MuiFilledInput-input {
+  padding: 20px 5px 2px !important;
+  background-color: transparent !important;
+  color: #7a7474 !important;
+}
+.rightSide .mainForm .MuiInputLabel-formControl {
+  margin-left: -5px;
+  color: #7a7474;
+  font-size: 14px;
+}
+.rightSide .mainForm .MuiFormLabel-root.Mui-focused {
+  color: #7a7474 !important;
+}
+.rightSide .mainForm .MuiFilledInput-underline:before {
+  border-bottom: 1px solid #7a7474;
+}
+.rightSide .mainForm .MuiFilledInput-underline:after {
+  border-bottom: 1px solid #555555;
+}
+.rightSide .mainForm .MuiFilledInput-root {
+  background: transparent;
+}
+.rightSide .MuiPaper-elevation1 {
+  box-shadow: none;
+}
+.vl {
+  border-left: 1px solid #e6e6e6;
+  height: 55%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 20%;
+  bottom: 20%;
+}
+.rightSide .makeStyles-root-4 {
+  width: 20%;
+  position: absolute;
+  top: 19px;
+}
+.signOutDiagBottomLink {
+  position: relative;
+  top: 3px;
+}
+.signOutDiag {
+  z-index: 9999;
+  position: absolute;
+  width: 180px;
+  height: 235px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px 3px rgb(0 0 0 / 8%);
+  background-color: #ffffff;
+  right: -8px;
+  top: 40px;
+  text-align: center;
+}
+.signOutDiag.hide {
+  display: none;
+}
+.signOutDiag img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  /* margin: 5px; */
+  border: solid 1px #9b9b9b;
+  /* margin-left: 65px;
+   margin-top: 5px; */
+  object-fit: contain;
+}
+.signOutDiag .userName {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 15px;
+}
+.signOutDiag .userEmail {
+  font-size: 12px;
+  margin: 10px;
+  color: #898989;
+}
+.signOutDiag .signOutBtn {
+  color: #fff;
+  background-color: #452d7b;
+  font-size: 12px;
+  width: 40%;
+  margin: 6px 2px;
+  border-radius: 10px;
+  border: solid 1px #452d7b;
+  padding: 6px 6px;
+  text-transform: unset !important;
+}
+.signOutDiag .signOutBtn:hover {
+  color: #fff;
+  background-color: #452d7b;
+}
+#logout-admin {
+  color: #fff;
+  background-color: #452d7b;
+}
+.signOutDiag #UserprofilePic {
+  /* display: inline-block; */
+  width: 35px;
+  padding: 35px 0 0 0;
+  height: 35px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("../public/camera-black-icon.svg") center center no-repeat;
+  border-radius: 20px;
+  background-size: 25px 25px;
+  /* float: right; */
+  position: absolute;
+  top: 50px;
+  right: 45px;
+  cursor: pointer;
+}
+.noData .title {
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #9b9b9b;
+}
+
+.custmerSupport ::-webkit-scrollbar,
+.rosterManager ::-webkit-scrollbar,
+.listing .medicine ::-webkit-scrollbar,
+.empTable ::-webkit-scrollbar,
+.settingFee ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.custmerSupport ::-webkit-scrollbar-track,
+.rosterManager ::-webkit-scrollbar-track,
+.listing .medicine::-webkit-scrollbar-track,
+.empTable ::-webkit-scrollbar-track,
+.settingFee ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custmerSupport ::-webkit-scrollbar-thumb,
+.rosterManager ::-webkit-scrollbar-thumb,
+.listing .medicine::-webkit-scrollbar-thumb,
+.empTable ::-webkit-scrollbar-thumb,
+.settingFee ::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.custmerSupport ::-webkit-scrollbar-thumb:hover,
+.rosterManager ::-webkit-scrollbar-thumb:hover,
+.listing .medicine::-webkit-scrollbar-thumb:hover,
+.empTable ::-webkit-scrollbar-thumb:hover,
+.settingFee ::-webkit-scrollbar-thumb:hover {
+  background: #c3c3c3;
+}
+
+.leaveMark {
+  border: 1px solid red !important;
+}
+
+.unifyHealthCareLogo {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .unifyHealthCareLogo {
+    width: 165px;
+  }
+}
+.redDot {
+  color: #ff2100;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: -4%;
+  font-size: 35px;
+}
+.msgDiag {
+  display: none;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+}
+.msgDiag.show {
+  display: block;
+}
+.messagePrompt {
+  height: 40px;
+  /* background: #EC1D3C; */
+  position: relative;
+  min-width: 150px;
+  /* width: 180px; */
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  display: inline-block;
+}
+.right-area .setting {
+  width: 100%;
+  /* padding: 20px; */
+  /* height: 85vh;
+  overflow: auto; */
+}
+.right-area .setting .maindiv {
+  padding: 10px;
+  padding-right: 0px;
+}
+.right-area .setting .label {
+  /* width: 60%; */
+  float: left;
+  padding: 15px 0;
+  min-width: 370px;
+}
+.right-area .setting .text-div {
+  width: 130px;
+  margin: 0;
+}
+.right-area .setting .MuiFilledInput-input {
+  padding: 20px 5px 7px;
+}
+.accessPermission {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 18%;
+}
+.accessPermission .MuiFormControl-root {
+  margin: 25px 0px;
+  width: 100%;
+}
+.accessPermission .MuiOutlinedInput-root {
+  border-radius: 50px;
+}
+.accessPermission .action {
+  float: right;
+}
+.accessPermission .action .forward,
+.admin-panel-buttons .forward {
+  border-radius: 40px;
+  width: 130px;
+}
+.accessPermission .action .cancel,
+.admin-panel-buttons .cancel {
+  width: 130px;
+  margin: 25px 35px;
+  border-radius: 40px;
+  height: 40px;
+  background-color: #ffffff00;
+  /* border: 1px solid #152a75; */
+}
+.action .settingBtn {
+  margin-right: 58px;
+  margin-top: 70px;
+}
+.right-area .setting .action {
+  float: right;
+  margin-right: 35px;
+  /* margin-top: 70px; */
+  margin-top: -20px;
+}
+.right-area .setting .action .forward {
+  width: 140px;
+  /* position: fixed; */
+  left: 50%;
+  transform: translateX(-50%);
+  /* z-index: 99999; */
+  /* left: 480px; */
+  /* margin-top: 40px; */
+  margin-bottom: 20px;
+}
+#customized-menu .MuiMenuItem-root {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5;
+}
+#customized-menu .MuiList-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.MuiList-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.setting .MuiFormControlLabel-root {
+  margin: 0;
+  padding-left: 5px;
+  margin-top: 2px;
+}
+.setting .half-div {
+  width: 50%;
+  float: left;
+}
+.setting .section-header {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #777777;
+}
+.MuiListItem-gutters {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.chat-accessories {
+  background-color: #fff;
+}
+.img-logo {
+  height: 15px;
+  width: 15px;
+}
+.doc-navbar {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.MuiAccordionDetails-root {
+  padding: "8px 8px 16px" !important;
+  /* background: #00b6bd; */
+  padding-left: "-10px" !important;
+}
+.medicineSearch {
+  position: absolute;
+  top: 88px;
+  /* width: 80%; */
+  width: calc(100% - 230px);
+  left: 18px;
+}
+.medicine .medicineSearch.med {
+  width: calc(100% - 260px);
+}
+.medicineSearch .MuiAutocomplete-popupIndicator {
+  /* display: none; */
+  visibility: hidden;
+}
+.medicineSearch
+  .MuiAutocomplete-inputRoot[class*="MuiInput-root"]
+  .MuiAutocomplete-input:first-child {
+  padding: 10px 10px;
+}
+
+.medicineSearch .MuiAutocomplete-root .MuiFormControl-root {
+  margin: 0px;
+  padding: 0px;
+}
+.medicineSearch .MuiAutocomplete-clearIndicator {
+  right: 20px !important;
+}
+
+.setting .hospitalInfo {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+}
+.setting .infoEle {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0px;
+}
+.setting .infoEle .infolabel {
+  float: left;
+  padding: 15px 10px;
+  min-width: 90px;
+}
+.setting .infoEle .firstField {
+  /* width: 73%; */
+  margin: 0;
+  width: calc(100% - 110px);
+}
+.setting .hospitalInfo .MuiFilledInput-input {
+  padding: 20px 12px 7px;
+}
+.alphabateSearch {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.alphabateSearch .char {
+  width: 4%;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 6px;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.alphabateSearch .char:hover {
+  background: #c3c3c3;
+}
+.alphabateSearch .char.selected {
+  background: #7f368c;
+  color: #fff;
+  border-radius: 30px;
+}
+#simple-menu .MuiMenu-paper {
+  top: 135px !important;
+}
+.dashboard-signout-dialog {
+  right: 30px;
+  top: 60px;
+}

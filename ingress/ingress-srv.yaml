@@ -1,0 +1,219 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-service
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    acme.cert-manager.io/http01-edit-in-place: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+spec:
+  tls:
+    - hosts:
+        - unify.care
+      secretName: unify-care-crt
+    - hosts:
+        - central.unify.care
+      secretName: central-unify-care-crt
+    - hosts:
+        - admin.unify.care
+      secretName: admin-unify-care-crt
+    - hosts:
+        - hx.unify.care
+      secretName: hx-unify-care-crt
+    - hosts:
+        - dx.unify.care
+      secretName: dx-unify-care-crt
+    - hosts:
+        - rx.unify.care
+      secretName: rx-unify-care-crt
+    - hosts:
+        - doctor.unify.care
+      secretName: doctor-unify-care-crt
+    - hosts:
+        - patientpf.unify.care
+      secretName: patientpf-unify-care-crt
+    - hosts:
+        - partner.unify.care
+      secretName: partner-unify-care-crt
+  rules:
+    - host: unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: appointment-srv
+                port:
+                  number: 3000
+            path: /api/appointment/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: orders-srv
+                port:
+                  number: 3000
+            path: /api/order/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: cms-srv
+                port:
+                  number: 3000
+            path: /api/cms/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: partner-srv
+                port:
+                  number: 3000
+            path: /api/partner/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: utility-srv
+                port:
+                  number: 3000
+            path: /api/utility/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: patient-srv
+                port:
+                  number: 3000
+            path: /api/patient/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: notification-srv
+                port:
+                  number: 3000
+            path: /api/notification/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: employee-srv
+                port:
+                  number: 3000
+            path: /api/employee/?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: client-srv
+                port:
+                  number: 3000
+            path: /?(.*)
+            pathType: Prefix
+    # For Host Central.unify.care
+    - host: central.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for admin.unify.care
+    - host: admin.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for hx.unify.care
+    - host: hx.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for dx.unify.care
+    - host: dx.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for rx.unify.care
+    - host: rx.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    #for doctor.unify.care
+    - host: doctor.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for patient.unify.care
+    - host: patientpf.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: client-patient-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /?(.*)
+            pathType: Prefix
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix
+    # for partner.unify.care
+    - host: partner.unify.care
+      http:
+        paths:
+          - backend:
+              service:
+                name: auth-srv
+                port:
+                  #                  name:
+                  number: 3000
+            path: /api/users/?(.*)
+            pathType: Prefix

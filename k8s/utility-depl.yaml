@@ -1,0 +1,70 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: utility-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: utility
+  template:
+    metadata:
+      labels:
+        app: utility
+    spec:
+      containers:
+        - name: utility
+          image: adhiman24/utility
+          env:
+            - name: SYSTEM_SMS_SENDER_ID
+              value: DIAHOM
+            - name: DEPLOYMENT_URL
+              value: 'https://dev.diahome.com'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'Diahome'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: DATABACKUP_TAR_FILENAME
+              value: utility
+            - name: FILE_LOG_NAME
+              value: 'utilityLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare
+            - name: MONGO_URI
+              value: 'mongodb://utility-mongo-srv:27017/utility'
+            - name: GCS_BUCKET
+              value: 'dev-diahome-bucket-1'
+            - name: GCLOUD_PROJECT
+              value: 'dev-diahome-com'
+            - name: GCS_KEYFILE
+              value: './key.json'
+            - name: GOOGLE_APPLICATION_CREDENTIALS
+              value: './key.json'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: utility-srv
+spec:
+  selector:
+    app: utility
+  ports:
+    - name: utility
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

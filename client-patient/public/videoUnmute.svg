@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <path id="44rarbk9ga" d="M28 0c15.464 0 28 12.536 28 28S43.464 56 28 56 0 43.464 0 28 12.536 0 28 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-20 -816) translate(20 803) translate(0 13)">
+                        <mask id="7goemso1mb" fill="#fff">
+                            <use xlink:href="#44rarbk9ga"/>
+                        </mask>
+                        <path fill="#000" d="M-5.833 -5.833L61.833 -5.833 61.833 61.833 -5.833 61.833z" mask="url(#7goemso1mb)"/>
+                    </g>
+                    <g>
+                        <path fill-rule="nonzero" stroke="#FFF" d="M19.927 5H7.651C6.187 5 5 6.23 5 7.747v10.506C5 19.77 6.187 21 7.65 21h12.277c1.464 0 2.65-1.23 2.65-2.747v-2.842l6.981 4.176c.092.054.204.054.295 0 .091-.055.147-.156.147-.266V6.68c0-.11-.056-.21-.147-.265-.091-.055-.203-.055-.295 0l-6.98 4.175V7.747C22.578 6.23 21.39 5 19.927 5zm2.062 13.253c0 1.18-.923 2.137-2.062 2.137H7.651c-1.139 0-2.062-.957-2.062-2.137V7.747c0-1.18.923-2.137 2.062-2.137h12.276c1.139 0 2.062.957 2.062 2.137v10.506zM29.41 7.201v11.598l-6.833-4.093v-3.412L29.41 7.2z" transform="translate(-20 -816) translate(20 803) translate(0 13) translate(11 15)"/>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width="1.5" d="M0.5 25.5L27.5 0.5" transform="translate(-20 -816) translate(20 803) translate(0 13) translate(11 15)"/>
+                        <path stroke="#000" stroke-linecap="square" stroke-width="1.5" d="M1.5 26.5L28.5 1.5" transform="translate(-20 -816) translate(20 803) translate(0 13) translate(11 15)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.5" height="33.5" viewBox="0 0 33.5 33.5">
+  <g id="Icon_feather-help-circle" data-name="Icon feather-help-circle" transform="translate(0.75 0.75)">
+    <g id="Group_23445" data-name="Group 23445" transform="translate(0 0)">
+      <path id="Path_51248" data-name="Path 51248" d="M35,19A16,16,0,1,1,19,3,16,16,0,0,1,35,19Z" transform="translate(-3 -3)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Path_51347" data-name="Path 51347" d="M22.884,21.355l-3.567-3.567,3.567-3.567a1.082,1.082,0,0,0-1.529-1.529l-3.567,3.567-3.567-3.567a1.082,1.082,0,0,0-1.529,1.529l3.567,3.567-3.567,3.567a1.046,1.046,0,0,0,0,1.529,1.074,1.074,0,0,0,1.529,0l3.567-3.567,3.567,3.567a1.087,1.087,0,0,0,1.529,0A1.074,1.074,0,0,0,22.884,21.355Z" transform="translate(-1.393 -1.366)" fill="#00b2a9"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+.sideNavBg {
+    min-height: 600px;
+    height: 100%;
+ 
+    background: #823588;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #823588, #C1264B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #823588, #C1264B);
+  }
+
+  .sideNavBg .list-group-item {
+    background: #C1264B;
+    background: -webkit-linear-gradient(to right, #823588, #C1264B);
+    background: linear-gradient(to right, #823588, #C1264B);
+    color: #fff;
+  }
+
+  .devicer {
+    width: 15px;
+    display: blue;
+    height: 3px;
+    background: -webkit-linear-gradient(to right, #7467F0, #2896E9);
+    background: linear-gradient(to right, #7467F0, #2896E9);
+    margin-bottom: 1rem;
+  }
+
+  .custom-select {
+    border: none;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  .active-pink-4 input[type="text"]:focus:not([readonly]) {
+    border: 1px solid #979797;
+    box-shadow: 0 0 0 .5px #979797;
+    border-radius: 15px;
+    margin-left: 30px;
+  }
+
+  .active-pink-3 input[type="text"] {
+    border: 1px solid #979797;
+    box-shadow: 0 0 0 .5px #979797;
+    border-radius: 15px;
+    margin-left: 30px;
+  }
+
+  body {
+    background-color: #F6FBF8;
+  }
+
+  .roundVerticalBar {
+    height: 85px;
+    width: 15px;
+    background: -webkit-linear-gradient(to right, #7467F0, #2896E9);
+    background: linear-gradient(to right, #7467F0, #2896E9);
+    border-radius: 5px;
+    margin: 0 -7px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+  }
+
+  .roundVerticalBarRed {
+    height: 85px;
+    width: 15px;
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);
+    background: linear-gradient(to right, #89216B, #DA4453);
+    border-radius: 5px;
+    margin: 0 -7px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+  }
+  .selectWrapper{
+border-radius:36px;
+display:inline-block;
+overflow:hidden;
+background:#ffffff;
+border:1px solid #cccccc;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 12px;
+}
+.selectBox{
+width:140px;
+height:45px;
+border:0px;
+outline:none;
+color: #555555;
+}
+.treeGroup{
+padding-left: 1em !important;
+}
+.treeChild{
+padding-left: 0em;
+  border: 1px solid #fff !important;
+  border-width: 0 0 1px 1px !important;
+}
+.treeChild > i{
+margin: 0;
+  /* background: white; */
+  position: relative;
+  top: 20px;
+  z-index: 1;
+}

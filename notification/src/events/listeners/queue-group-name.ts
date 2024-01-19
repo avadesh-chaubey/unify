@@ -1,0 +1,15 @@
+export const removeChatGroupName = 'notification-remove-chat-group-service';
+export const addChatGroupName = 'notification-add-chat-group-service';
+export const databasBackupGroupName = 'notification-database-backup-service';
+export const databasUploadGroupName = 'notification-database-upload-service';
+export const sendNotificationGroupName = 'notification-send-notification-service';
+export const appointmentCompletedGroupName = 'notification-appointment-completed-service';
+export const appointmentCancelledGroupName = 'notification-appointment-cancelled-service';
+export const appointmentBookedGroupName = 'notification-appointment-booked-service';
+export const addSystemMessageInChatGroupName = 'notification-add-System-Message-service';
+export const consultantCreatedGroupName = 'notification-consultant-created-service';
+export const consultantInfoUpdatedGroupName = 'notification-consultant-updted-service';
+export const patientCreatedGroupName = 'notification-patient-created-service';
+export const pingGroupName = 'notification-ping-service';
+export const addNewAssistantInChatGroupName = 'notification-add-new-assistant-in-chat-group-service';
+export const appointmentUpdatedGroupName = 'notification-appointment-updated-service';

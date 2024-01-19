@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders
+  template:
+    metadata:
+      labels:
+        app: orders
+    spec:
+      containers:
+        - name: orders
+          image: adhiman24/orders
+          env:
+            - name: SYSTEM_SMS_SENDER_ID
+              value: DIAHOM
+            - name: DEPLOYMENT_URL
+              value: 'https://dev.diahome.com'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'Diahome'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: DATABACKUP_TAR_FILENAME
+              value: order
+            - name: FILE_LOG_NAME
+              value: 'ordersLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare
+            - name: MONGO_URI
+              value: 'mongodb://orders-mongo-srv:27017/orders'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+            - name: RAZORPAY_WEBHOOK_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-webhook-secret
+                  key: RAZORPAY_WEBHOOK_SECRET
+            - name: RAZORPAY_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-key
+                  key: RAZORPAY_API_KEY
+            - name: RAZORPAY_API_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: raz-api-secret
+                  key: RAZORPAY_API_SECRET
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: orders-srv
+spec:
+  selector:
+    app: orders
+  ports:
+    - name: orders
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

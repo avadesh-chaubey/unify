@@ -1,0 +1,2979 @@
+* {
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.loader {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #0000007a;
+}
+.loader .MuiCircularProgress-colorSecondary {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #00b6bd;
+}
+.loader .textStyle {
+  text-align: center;
+  position: absolute;
+  left: 51%;
+  top: 52%;
+  color: #00b6bd;
+}
+.section {
+  width: 1200px;
+  padding: 20px;
+}
+.container .section button.area:hover {
+  background: transparent !important;
+  cursor: auto;
+}
+.container .section button.area .MuiCardActionArea-focusHighlight,
+.container .section button.area .MuiTouchRipple-root {
+  opacity: 0 !important;
+}
+.section .content {
+  float: left;
+  width: 50%;
+}
+.section .content .heading {
+  color: #202020;
+  margin-bottom: 40px;
+  font-size: 3.5em;
+}
+.section .content .heading span {
+  color: #152a75;
+}
+.section .sec-img {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.register-agency {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.register-menu .logo {
+  margin: 40px 5%;
+  text-align: center;
+}
+.register-menu .logo img {
+  margin: auto;
+  display: block;
+}
+.register-menu .logo img:first-child {
+  margin-bottom: 105px;
+}
+.register-menu .logo .txt {
+  color: rgba(255, 255, 255, 1);
+}
+.register-menu .menu .MuiPaper-root {
+  background: transparent;
+}
+.register-body {
+  width: calc(100% - 25%);
+  height: 100%;
+  overflow: auto;
+  float: left;
+  padding: 20px 40px;
+}
+.steps .MuiSvgIcon-root {
+  width: 0.8em;
+  height: 0.8em;
+}
+.steps .active .MuiStepIcon-root.MuiStepIcon-active,
+.steps .MuiStepIcon-root.MuiStepIcon-completed {
+  color: transparent;
+  background: transparent;
+  border: 4px solid transparent;
+  border-radius: 20px;
+}
+.steps .MuiStepIcon-root.MuiStepIcon-completed path {
+  fill: aliceblue;
+  stroke: #fff;
+  stroke-width: 20px;
+}
+.steps .active .MuiStepIcon-root.MuiStepIcon-active circle,
+.steps .MuiStepIcon-root.MuiStepIcon-completed circle {
+  fill: aliceblue;
+}
+.steps .MuiStepIcon-root {
+  color: transparent;
+  background: transparent;
+  border: 1px solid #ffffff9e;
+  border-radius: 20px;
+}
+.register-menu .menu .MuiStepLabel-label {
+  color: #ffffff9e;
+}
+.steps .active .MuiStepLabel-label {
+  color: #fff !important;
+}
+.steps .MuiStepIcon-text {
+  display: none;
+}
+.form-area h2 {
+  margin-left: 32px;
+}
+.form-input form .half-div {
+  width: 48%;
+  float: left;
+  margin: 8px;
+}
+.some-align {
+  width: 48% !important;
+}
+.form-input form .info-div .selection-div {
+  width: 50%;
+  float: left;
+}
+.form-input form .selection-div label {
+  top: -5px;
+  position: relative;
+  font-weight: bold;
+  margin-left: 25px;
+  font-size: 1.1em;
+}
+.form-input form .half-div.selection-div > div {
+  margin-left: 26px;
+}
+.form-input form .info-div .selection-div label {
+  margin-left: 8px;
+  position: relative;
+  top: 3px;
+}
+form .info-div .MuiInputLabel-formControl {
+  margin-left: 0px;
+}
+.form-input .action {
+  margin-top: 40px;
+  margin-right: 20px;
+  text-align: right;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.form-input .action button:first-child {
+  margin-right: 20px;
+}
+
+.form-input .action_a {
+  margin-top: 40px;
+  margin-right: 20px;
+  text-align: right;
+  float: right;
+  right: 20px;
+  bottom: 20px;
+}
+.form-input .action_a button:first-child {
+  margin-right: 20px;
+}
+
+.action .back {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  box-shadow: none;
+  padding: 5px 30px;
+  border-radius: 4px;
+  height: 40px;
+}
+.action .back .fa {
+  font-size: 14px;
+  padding: 0px 20px 0 0;
+  position: relative;
+  top: 0px;
+}
+.active button:hover {
+  background-color: #152a75 !important;
+  color: #fff;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #152a75 !important;
+  color: #fff;
+}
+.action .forward,
+.admin-panel-buttons .forward {
+  background: #152a75;
+  color: #fff !important;
+  border: 1px solid #152a75;
+  box-shadow: none;
+  padding: 5px 30px;
+  height: 40px;
+}
+.action .forward .fa {
+  font-size: 14px;
+  padding: 0 0 0 6px;
+  position: relative;
+  left: 2px;
+}
+.form-input .MuiFormControl-fullWidth {
+  width: 97.5%;
+}
+.break {
+  height: 15px;
+  float: left;
+  width: 100%;
+}
+.err .MuiFormLabel-root {
+  color: #f44336;
+}
+.err.dragContent {
+  color: #f44336 !important;
+}
+.err .MuiInput-underline:before {
+  border-bottom: 1px solid#f44336;
+}
+.form-input form .verify-div {
+  display: block;
+  margin: 20px 0;
+}
+.form-input form .verify-div .MuiFormControl-root {
+  width: 40%;
+  margin-left: 33px;
+}
+.form-input form .verify-div .MuiFormControl-root label {
+  margin-left: 0;
+}
+.resend {
+  display: inline-block;
+  padding-top: 35px;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+.input-radio {
+  padding-left: 33px;
+  padding-top: 20px;
+}
+.input-radio > span {
+  color: rgb(0 0 0 / 47%);
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.input-radio .MuiRadio-colorPrimary.Mui-checked {
+  color: #b4ec51;
+}
+.info-div {
+  width: calc(50% - 52px);
+  float: left;
+  margin: 0 23px;
+}
+.info-div .more {
+  width: 47%;
+  padding-right: 0;
+  margin-right: 0 !important;
+}
+.three-div {
+  width: calc(33% - 49px);
+  float: left;
+  margin: 0 24px;
+}
+.three-div .more {
+  width: 97%;
+  padding-right: 0;
+  margin-right: 0 !important;
+}
+.dragContent {
+  font-size: 0.6em !important;
+  color: #00000075 !important;
+}
+.dragContentReports {
+  font-size: 0.6em !important;
+  color: #828282a1 !important;
+}
+.dragContent img {
+  width: 30px;
+  float: left;
+  margin-right: 20px;
+}
+.dragContentReports img {
+  width: 75px;
+  margin-right: 20px;
+}
+.dragContentReportserr img {
+  width: 75px;
+  margin-right: 20px;
+}
+.dragContent .dragContentText {
+  display: block;
+  margin-top: 10px;
+}
+.dragContentReports .dragContentText {
+  display: block;
+  margin-top: 10px;
+}
+.upload-option {
+  height: 70px;
+  position: relative;
+  margin: 10px 8px 0 8px;
+}
+.upload-reports {
+  width: 55%;
+  height: 70px;
+  float: right;
+  position: relative;
+  margin-top: -104px;
+}
+.three-div .upload-option {
+  margin: 10px 1px 0 8px;
+}
+.three-div .upload-reports {
+  margin: 10px 1px 0 8px;
+}
+.upload-option .val {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5px;
+  font-size: 0.8em;
+}
+.upload-reports .val {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5px;
+  font-size: 0.8em;
+}
+.upload-option input {
+  display: none;
+}
+.upload-reports input {
+  display: none;
+}
+.cs-test-report-upload input {
+  display: none;
+}
+.cs-test-report-upload [type="file"] + label {
+  background: #f1f1f1;
+  border: 1px dashed rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 2rem 12px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+  width: 100%;
+}
+.upload-option [type="file"] + label {
+  background: #f1f1f1;
+  border: 1px dashed rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 20px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: middle;
+  width: 100%;
+}
+.upload-reports [type="file"] + label {
+  background: #f1f1f1;
+  border: 2px dashed rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  font-size: 18px !important;
+  padding: 7rem 20px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.dragImageerr img {
+  color: #f44336 !important;
+  /* border: 1px solid#f44336 !important; */
+}
+.dragImageerr {
+  color: #f44336 !important;
+  /* border: 2px solid #f44336 !important; */
+}
+.dragContenterr img {
+  width: 30px;
+  float: left;
+  margin-right: 20px;
+}
+.dragContentReportserr img {
+  width: 30px;
+  float: left;
+  margin-right: 20px;
+}
+.dragContentReportserr {
+  font-size: 0.6em !important;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 20px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: middle;
+  width: 100%;
+  color: #f44336 !important;
+  border: 2px dashed #f44336 !important;
+}
+.dragContenterr {
+  font-size: 0.6em !important;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 20px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: middle;
+  width: 100%;
+  color: #f44336 !important;
+  border: 1px dashed #f44336 !important;
+}
+.mar-left-10 {
+  margin-left: 10px;
+}
+.mr-tp-25 {
+  margin-top: 25px;
+}
+.form-input form .err1 {
+  border-color: #f44336;
+  margin-top: 25px;
+  display: inline-block;
+}
+.form-input form .half-div.newblock {
+  width: 97%;
+  display: inline-block;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.two-div {
+  width: calc(50% - 52px);
+  float: left;
+  margin: 0 23px;
+  height: 90px;
+}
+.two-div .more {
+  width: 97%;
+  padding-right: 0;
+  margin-right: 0 !important;
+}
+.confirm-msg {
+  position: relative;
+  width: 100%;
+  height: 88vh;
+}
+.confirm-msg .message {
+  font-size: 2em;
+  padding: 30vh 5%;
+}
+.confirm-msg .action {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.final {
+  text-align: center;
+}
+.final img {
+  width: 165px;
+}
+.final .fa-check-circle {
+  color: #fff;
+  font-size: 130px;
+}
+form .MuiInput-underline:before {
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  padding: 5px 10px;
+  top: 0;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.17);
+}
+form .MuiInput-underline:after {
+  border: 1px solid #000;
+}
+form .MuiFormLabel-root.Mui-focused {
+  color: #000 !important;
+}
+form input {
+  padding: 7px !important;
+  background-color: #f1f1f1 !important;
+}
+.form-input form .half-div > div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+form > .form-auto {
+  top: -5px;
+  font-weight: bold;
+  margin-left: 22px;
+  font-size: 1.1em;
+}
+/* form .MuiInputLabel-formControl {
+  top: -5px;
+  font-weight: bold;
+
+  font-size: 1.1em;
+} */
+form .MuiInputLabel-formControl {
+  top: -5px;
+  font-weight: bold;
+  /* margin-left: 5px; */
+  font-size: 1.1em;
+}
+.three-div .MuiInputLabel-formControl,
+.two-div .MuiInputLabel-formControl {
+  margin-left: 0;
+}
+.menu .MuiStepConnector-vertical {
+  padding: 0;
+}
+.menu .MuiStepLabel-labelContainer {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.menu .active .MuiStepLabel-labelContainer {
+  margin-left: 20px;
+}
+form .MuiSelect-selectMenu {
+  padding-left: 7px;
+  background-color: #f1f1f1 !important;
+  margin-bottom: 0 !important;
+}
+.form-input form .half-div.newblock1 {
+  width: 48%;
+  margin: 8px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+.form-input form .half-div.newblock1 svg {
+  right: 30px;
+}
+form .newblock1.MuiInput-underline:after {
+  border: none;
+}
+.form-input form .half-div.newblock1 > div {
+  width: 89%;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  padding-right: 0;
+}
+.newblock1:before {
+  display: none;
+}
+.steps .MuiStepLabel-iconContainer {
+  position: relative;
+  left: 2px;
+}
+.active .MuiStepLabel-iconContainer {
+  border: 2px solid #fff;
+  padding-right: 0;
+  border-radius: 20px;
+  position: relative;
+  left: 1px;
+}
+.change-file {
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  top: 7px;
+  padding-right: 20px;
+  width: calc(100% - 50px);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.report-change {
+  color: #828282a1;
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  /* top: 7px; */
+  /* padding: 42px; */
+  padding: 15px 10px;
+  /* width: calc(100% - 50px); */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.delete-opt {
+  /* position: absolute;
+  right: 0;
+  top: 0; */
+  cursor: pointer;
+}
+.delete-reports-opt {
+  position: absolute;
+  right: 188px;
+  top: 23px;
+}
+.change-reports-file {
+  line-height: 12px;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  position: relative;
+  top: 18px;
+  padding-right: 24px;
+  /* width: calc(100% - 50px); */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+form .MuiSelect-selectMenu em {
+  font-style: normal;
+}
+/* .rosterManager .MuiCheckbox-colorSecondary.Mui-checked{
+   color: #d7d7d7 !important
+}
+.rosterManager .MuiIconButton-colorSecondary{
+   color: #d7d7d7 !important
+} */
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #152a75 !important;
+}
+.MuiIconButton-colorSecondary {
+  color: #152a75 !important;
+}
+.complete-with-error.MuiCheckbox-colorSecondary.Mui-checked.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #d8243c !important;
+}
+.complete-with-error.MuiIconButton-colorSecondary.MuiIconButton-colorSecondary {
+  color: unset !important;
+}
+
+.loader .text {
+  position: absolute;
+  top: calc(50% + 50px);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.steps .active .MuiStepIcon-root.MuiStepIcon-active,
+.steps .MuiStepIcon-root.MuiStepIcon-completed {
+  margin-left: 0.2px;
+  margin-top: -0.3px;
+  border: 3px solid transparent;
+}
+.active .MuiStepLabel-iconContainer {
+  left: 3px !important;
+}
+.steps .MuiStepLabel-iconContainer {
+  left: 5px;
+}
+.steps .MuiSvgIcon-root {
+  width: 0.6em;
+  height: 0.6em;
+}
+.menu .MuiStepLabel-labelContainer {
+  margin-top: 3px;
+}
+.register-menu .menu .MuiStepLabel-label {
+  font-size: 1.2em;
+}
+.menu .MuiStepConnector-vertical {
+  position: relative;
+  height: 20px;
+}
+.menu .MuiStepConnector-lineVertical {
+  position: absolute;
+  height: 35px;
+  top: -7px;
+}
+.registration form .MuiFormControl-root input {
+  padding: 20px 12px 2px !important;
+}
+.registration form .MuiInputLabel-formControl {
+  margin: 0;
+  font-size: 0.9em;
+}
+.otpVerification {
+  background-color: #fff;
+}
+.otpVerification form .MuiFormControl-root input {
+  padding: 20px 12px 2px !important;
+}
+.otpVerification form .MuiInputLabel-formControl {
+  margin: 0;
+  font-size: 0.9em;
+}
+.companyDetails {
+  margin-left: 25%;
+}
+.companyDetails .form-input .action {
+  position: relative;
+}
+.mainForm {
+  display: inline-block;
+  height: 70vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.companyInfo form .MuiFormControl-root input,
+.authSign form .MuiFormControl-root input,
+.bankAcc form .MuiFormControl-root input {
+  padding: 20px 12px 2px !important;
+}
+.companyInfo form .MuiInputLabel-formControl,
+.authSign form .MuiInputLabel-formControl,
+.bankAcc form .MuiInputLabel-formControl {
+  /* margin: 0; */
+  font-size: 0.9em;
+}
+.companyInfo.form-input form .info-div .selection-div label,
+.authSign.form-input form .info-div .selection-div label {
+  top: 7px;
+  margin-left: 0px;
+}
+.companyInfo.form-input form .half-div.newblock {
+  margin-top: 0px;
+}
+.companyInfo .selection-div {
+  margin-top: -8px;
+}
+.companyInfo .selection-div .MuiFilledInput-input {
+  padding: 18px 14px 5px;
+}
+.companyInfo.form-input form .selection-div label {
+  font-size: 0.9em;
+}
+.verify-div {
+  position: relative;
+}
+.verify-div .resendSec {
+  position: absolute;
+  top: 0;
+  right: -45px;
+  width: 170px;
+}
+.searchBar {
+  float: left;
+  width: 30%;
+}
+.searchBar .search {
+  position: relative;
+  margin-right: 2px;
+  margin-left: 0;
+  width: 100%;
+}
+.searchBar .searchIcon {
+  padding: 2px;
+  height: 100%;
+  left: 15px;
+  top: 3px;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBar .searchIcon .MuiSvgIcon-root {
+  fill: #979797;
+}
+.searchBar .inputStyle {
+  padding: 5px 6px 1px 0px;
+  padding-left: 27px;
+  margin-left: 15px;
+  width: 100%;
+  border-bottom: 1px solid #808080;
+}
+.empTable .table .MuiTableHead-root .MuiTableCell-root.MuiTableCell-head {
+  color: #777777;
+  font-weight: bold;
+}
+.empTable {
+  /* height: 70vh; */
+  width: 100%;
+  /* overflow-x: hidden; */
+  /* margin-left: 1%; */
+}
+.empTable .searchField {
+  width: 28%;
+  display: inline-block;
+  background: #f6fbf8;
+  height: 48px;
+  position: absolute;
+}
+.empTable .searchField .searchIcon {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.MuiTableCell-root {
+  font-size: "0.675rem" !important;
+}
+.MuiTableContainer-root {
+  overflow: scroll;
+}
+.midPart {
+  float: left;
+  margin-top: 17px;
+  margin-left: 72px;
+}
+.midPart span {
+  color: #555555;
+}
+.midPart .MuiFormControl-root,
+.sortRight .MuiFormControl-root {
+  margin-top: -10px;
+}
+.midPart .MuiFormControl-root .MuiSelect-select,
+.sortRight .MuiFormControl-root .MuiSelect-select {
+  font-size: 14px;
+  color: #555555;
+  padding-left: 10px;
+}
+.midPart .feeSec {
+  float: left;
+  margin-left: 15%;
+}
+.rosterManager .midPart {
+  width: 35%;
+}
+.rosterManager .sortRight {
+  float: right;
+  margin-top: 18px;
+  margin-right: 15px;
+}
+.empTable tbody {
+  border: solid 2px #ded8d8 !important;
+}
+.empTable .MuiTableCell-stickyHeader {
+  background-color: #fff;
+}
+.empTable tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+.empTable .resendBtn {
+  color: #0068e1;
+  padding: 0px;
+  display: block;
+}
+.empTable .MuiFormControl-root.MuiTextField-root {
+  margin: 0px;
+  padding: 3px 0px;
+}
+.empTable .MuiFormControl-root .MuiInputBase-root {
+  background-color: transparent;
+}
+.empTable .MuiFormControl-root .MuiSelect-root {
+  padding: 0px;
+  padding-right: 30px;
+  font-size: 15px;
+}
+.empTable .MuiTable-root.table {
+  width: 99.5%;
+}
+.empTable .MuiTable-stickyHeader {
+  border-collapse: collapse;
+}
+.empTable .MuiPaper-elevation1 {
+  box-shadow: none;
+}
+.empTable .MuiFilledInput-underline:hover:before,
+.empTable .MuiFilledInput-underline:before,
+.empTable .MuiFilledInput-underline:after {
+  border: none;
+}
+.action-bttn .addnew {
+  cursor: pointer;
+}
+.reschedule #form-dialog-title {
+  padding: 15px 20px;
+}
+.reschedule .MuiDialogContent-root {
+  padding: 0px;
+  padding-left: 30px;
+}
+.save-sheet {
+  height: 48px;
+  border-radius: 4px;
+  background-color: #152a75;
+  color: #fff !important;
+  width: 176px;
+  cursor: pointer;
+  margin-bottom: 20px !important;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin: 60px auto;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 65%;
+  z-index: 9999;
+  margin-left: 5px !important;
+}
+#form-dialog-title {
+  padding: 15px 35px;
+}
+#form-dialog-title h2 {
+  font-weight: bold;
+}
+.arh {
+  width: 40%;
+}
+.addDialog .MuiDialog-paperWidthSm {
+  max-width: 60%;
+}
+.addDialog .half-div {
+  width: 47%;
+  float: left;
+  margin: 8px;
+}
+.arhDialog .MuiDialog-paperWidthSm {
+  /* max-width: 60%; */
+  width: 40%;
+}
+.arhDialog .half-div {
+  width: 47%;
+  float: left;
+  margin: 8px;
+}
+.MuiFormHelperText-root.Mui-error {
+  position: absolute !important;
+  top: 45px !important;
+}
+.addMedcine .MuiFormHelperText-root.Mui-error,
+.addtest .MuiFormHelperText-root.Mui-error {
+  top: 39px !important;
+}
+.addDialog .select-div {
+  width: 98%;
+  float: left;
+}
+.arhDialog .select-div {
+  width: 98%;
+  float: left;
+}
+/* .addDialog .select-div .half-div {
+   width: 45%;
+} */
+.addDialog .MuiFilledInput-input {
+  padding: 20px 12px 5px;
+  color: #555555;
+}
+.addDialog .saveBtn,
+.addNewApmt .saveBtn,
+.cancelAndRefund .saveBtn,
+.reschedule .saveBtn {
+  width: 115px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px;
+}
+.addDialog .cancelBtn,
+.addNewApmt .cancelBtn,
+.cancelAndRefund .cancelBtn,
+.reschedule .cancelBtn {
+  width: 115px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #979797;
+}
+.arhDialog .MuiFilledInput-input {
+  padding: 20px 12px 5px;
+  color: #555555;
+}
+.arhDialog .saveBtn,
+.addNewApmt .saveBtn,
+.cancelAndRefund .saveBtn,
+.reschedule .saveBtn {
+  width: 115px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px;
+}
+.arhDialog .cancelBtn,
+.addNewApmt .cancelBtn,
+.cancelAndRefund .cancelBtn,
+.reschedule .cancelBtn {
+  width: 115px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #979797;
+}
+.reschedule .MuiDialog-paperWidthSm {
+  min-width: 635px;
+}
+.addDialog .MuiFormLabel-root.Mui-focused {
+  color: #55555570;
+}
+.addDialog .MuiFilledInput-underline:after {
+  border-bottom: 2px solid #979797;
+}
+.addDialog .MuiInputLabel-formControl {
+  top: -5px;
+}
+.addDialog .MuiFormLabel-root {
+  font-size: 0.85rem;
+}
+.addDialog .select-div.spec {
+  width: calc(97% + 2px);
+}
+.arhDialog .MuiFormLabel-root.Mui-focused {
+  color: #55555570;
+}
+.arhDialog .MuiFilledInput-underline:after {
+  border-bottom: 2px solid #979797;
+}
+.arhDialog .MuiInputLabel-formControl {
+  top: -5px;
+}
+.arhDialog .MuiFormLabel-root {
+  font-size: 0.85rem;
+}
+.arhDialog .select-div.spec {
+  width: calc(97% + 2px);
+}
+
+.select-div.spec .MuiInputLabel-formControl {
+  left: 12px;
+}
+.select-div.spec .MuiChip-root.MuiAutocomplete-tag {
+  border: 1px solid #979797;
+  background: #fff;
+  height: 23px !important;
+}
+.select-div.spec
+  .MuiAutocomplete-inputRoot[class*="MuiInput-root"]
+  .MuiAutocomplete-input:first-child {
+  padding: 8px 15px;
+}
+.select-div.spec label + .MuiInput-formControl {
+  margin-top: 10px;
+}
+.select-div.spec
+  .MuiAutocomplete-inputRoot[class*="MuiInput-root"]
+  .MuiAutocomplete-input {
+  padding: 8px;
+}
+.select-div.spec
+  .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink {
+  top: 0;
+}
+.half-div.mobsec .MuiFormControl-marginNormal {
+  margin: 0;
+}
+.addDialog .MuiDialogContent-root {
+  margin-left: 10px;
+}
+.addDialog .profileImage {
+  float: left;
+  /* text-align: center; */
+  /* width: 99%; */
+  width: calc(98% + 5px);
+}
+.addDialog .upload-option [type="file"] + label {
+  border: 2px dotted rgba(0, 0, 0, 0.17);
+}
+.addDialog .upload-reports [type="file"] + label {
+  border: 2px dotted rgba(0, 0, 0, 0.17);
+}
+.addDialog .profileImage .dragContent img {
+  margin-left: 30%;
+}
+.addDialog .profileImage .dragContentReports img {
+  margin-left: 30%;
+}
+.addDialog .profileImage .dragContentReportserr img {
+  margin-left: 30%;
+}
+.addDialog .profileImage .dragContent .uploadText {
+  margin-top: 18px;
+  float: left;
+}
+
+.addDialog .profileImage .dragContentReports .uploadText {
+  margin-top: 18px;
+  float: left;
+}
+.arhDialog .MuiDialogContent-root {
+  margin-left: 10px;
+}
+.arhDialog .profileImage {
+  float: left;
+  /* text-align: center; */
+  /* width: 99%; */
+  width: calc(98% + 5px);
+}
+.arhDialog .upload-option [type="file"] + label {
+  border: 2px dotted rgba(0, 0, 0, 0.17);
+}
+.arhDialog .upload-reports [type="file"] + label {
+  border: 2px dotted rgba(0, 0, 0, 0.17);
+}
+.arhDialog .profileImage .dragContent img {
+  margin-left: 30%;
+}
+.arhDialog .profileImage .dragContentReports img {
+  margin-left: 30%;
+}
+.arhDialog .profileImage .dragContentReportserr img {
+  margin-left: 30%;
+}
+.arhDialog .profileImage .dragContent .uploadText {
+  margin-top: 18px;
+  float: left;
+}
+
+.arhDialog .profileImage .dragContentReports .uploadText {
+  margin-top: 18px;
+  float: left;
+}
+
+.right-area.custmerSupport {
+  /* min-height: 100vh; */
+  min-height: 600px;
+  overflow-y: scroll;
+}
+.right-area.rosterManager {
+  min-height: 80vh;
+}
+.rosterManager .mainView,
+.custmerSupport .mainView {
+  width: 100%;
+  display: block;
+  /* height: 78%; */
+  /* margin-top: 5px; */
+}
+.mainView .doctorList,
+.mainView .patientlist,
+.mainView .rightDocList {
+  width: 25%;
+  /* height: 80vh; */
+  overflow-x: hidden;
+  float: left;
+  padding: 0px;
+  margin-top: 53px;
+  padding-right: 5px;
+}
+
+.mainView .doctorList {
+  width: 28%;
+  /* height: 80vh; */
+  overflow-x: hidden;
+  float: left;
+  padding: 0px;
+  margin-top: 53px;
+  padding-right: 5px;
+}
+.custmerSupport .mainView .preApmtList {
+  margin-right: 5px;
+}
+/* .custmerSupport .mainView .patientlist {
+  border-right: solid 2px #979797;
+} */
+.custmerSupport .mainView .rightDocList {
+  border-left: solid 2px #979797;
+  padding-right: 0;
+  padding-left: 5px;
+}
+.mainView .doctorcard {
+  height: 100px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  width: 99%;
+  box-shadow: 0 2px 4px 0 rgba(39, 28, 28, 0.5);
+  /* background-color: aqua; */
+}
+.mainView .doctorcard:hover {
+  cursor: pointer;
+  background-color: #e1efff;
+  /* box-shadow: inset 0 1px 9px 0 rgba(0, 0, 0, 0.5);
+   background-color: rgba(126, 211, 33, 0.34); */
+}
+.mainView .doctorcard.active {
+  /* cursor: pointer; */
+  border-radius: 4px;
+  border: solid 2px #2188cb;
+  background-color: #e1efff;
+  /* box-shadow: inset 0 1px 9px 0 rgba(0, 0, 0, 0.5);
+   background-color: rgba(126, 211, 33, 0.34); */
+}
+/* .mainView .doctorcard.active:hover {
+   box-shadow: none !;
+   background-color: transparent !important;
+} */
+.active button:hover,
+.active button:hover {
+  background-color: transparent !important;
+}
+.mainView .doctorcard .MuiCardContent-root,
+.mainView .patientCard .MuiCardContent-root,
+.mainView .doctorPreApmt .MuiCardContent-root {
+  padding: 0px 10px;
+}
+.doctorcard .docImage {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.patientTestReportCard {
+  margin-bottom: 12px;
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding: 5px;
+  margin-top: 6px;
+  align-items: center;
+}
+.doctorcard .docImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid gray;
+  object-fit: contain;
+}
+.patientTestReportCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.doctorcard .docDetails {
+  float: left;
+  text-align: left;
+  padding: 20px 0px;
+  width: 70%;
+  /* margin-left: 35px; */
+  position: relative;
+  bottom: 8px;
+}
+
+.doctorcard .hospitalDetails {
+  padding: 15px 5px !important;
+  bottom: 4px !important;
+}
+
+.doctorcard .titleSection {
+  padding: 28px 2px !important;
+}
+.doctorcard .titleSection .main-qualification,
+.doctorcard .titleSection .main-qualification .qualification {
+  display: flex;
+}
+.doctorcard .titleSection .main-qualification .qualification:last-child > span {
+  display: none;
+}
+.doctorcard .titleSection .time {
+  position: absolute;
+  font-size: 11px;
+  top: 22px;
+  color: #3d63a9;
+  transform: translate(158px, 0);
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Appointment Cards and Doctor Info Cards */
+  .doctorcard .docImage {
+    width: 50px;
+    height: 50px;
+  }
+  .doctorcard .docDetails {
+    margin-bottom: 0px;
+    position: relative;
+    /* bottom: 66px; */
+    margin-left: 25px;
+  }
+  .doctorcard .docDetails span,
+  .patientReportDetails span,
+  .doctorPreApmt .doctorDetails span {
+    font-size: 12px;
+  }
+  .doctorcard .docDetails .cnstFee,
+  .doctorPreApmt .doctorDetails .cnstFee {
+    width: 50px !important;
+    padding: 1px 4px !important;
+  }
+}
+
+/* Media queries for iPad Pro */
+@media screen and (max-width: 1024px) {
+  .doctorcard .docImage {
+    width: 50px;
+    height: 50px;
+  }
+  .doctorcard .docDetails {
+    margin-bottom: 0px;
+    position: relative;
+    /* bottom: 66px; */
+    margin-left: 25px;
+  }
+  .doctorcard .docDetails span,
+  .patientReportDetails span,
+  .doctorPreApmt .doctorDetails span {
+    font-size: 12px;
+  }
+  .doctorcard .docDetails .cnstFee,
+  .doctorPreApmt .doctorDetails .cnstFee {
+    width: 50px !important;
+    padding: 1px 4px !important;
+  }
+}
+.patientReportDetails {
+  color: "#535353";
+  float: left;
+  text-align: left;
+  padding: 10px 0px;
+  margin-left: 10px;
+  line-height: 24px;
+}
+.doctorcard .docDetails span,
+.patientReportDetails span,
+.doctorPreApmt .doctorDetails span {
+  display: block;
+  text-align: left;
+  margin-right: 1px;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #545454;
+  line-height: 1.5;
+  /* width: 200px; */
+  /* overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; */
+}
+.doctorPreApmt .doctorDetails span {
+  font-size: 13px;
+}
+.doctorcard .docDetails .cnstFee,
+.doctorPreApmt .doctorDetails .cnstFee {
+  float: right;
+  width: 55px;
+  padding: 1px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: solid 1px #d3d3d3;
+  background-image: linear-gradient(to bottom, #ffffff, #ebebeb);
+}
+.doctorPreApmt .doctorDetails .cnstFee {
+  padding: 0px 8px;
+  width: 50px;
+}
+.mainView .centerItemMain {
+  position: relative;
+  float: left;
+  width: 47%;
+  height: 82vh;
+  border-right: 1px solid #979797;
+}
+.mainView .centerItemMain .action {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.mainView .centerItem {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 10px 2%;
+  /* border-right: 1px solid #979797; */
+  border-left: 1px solid #979797;
+  overflow-y: scroll;
+  height: 72vh;
+}
+.custmerSupport .mainView .detailSec {
+  display: block;
+  float: left;
+  position: relative;
+  width: 50%;
+  padding: 2%;
+  /* border-left: solid 2px #979797;
+   border-right: solid 1px #979797; */
+}
+.centerItem .consultation {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.centerItem .consultation .feeField {
+  width: 115px;
+}
+.feeField .MuiFilledInput-input {
+  padding: 14px 11px 11px;
+}
+.centerItem .consultation .constText {
+  color: #7b7b7b;
+  position: relative;
+  float: left;
+  margin-top: 15px;
+  width: 180px;
+  font-size: 15px;
+}
+/* .slotPreferenceTime{
+   height: 76%;
+   overflow-y: auto;
+} */
+.slotPreferenceTime .MuiSelect-selectMenu {
+  font-size: 15px;
+}
+/* .centerItem .action {
+  float: right;
+  margin-top: -60px;
+  margin-left: 360px
+  margin-left: 70%;
+  margin-bottom: 10px;
+  margin-right: -5px;
+  position: sticky;
+  top: 0;
+  float: right;
+  z-index: 999;
+} */
+.mainView .rightView {
+  width: 28%;
+  float: left;
+  position: relative;
+  /* height: 100%; */
+  height: 82vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.mainView .rightView .showSelectedDate {
+  height: 30px;
+  width: 100%;
+  border: solid 1px #979797;
+  background-image: linear-gradient(to bottom, #eeeeee, #d8d8d8);
+  padding: 8px 8px;
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+}
+.appoint-date {
+  float: left;
+}
+.rosterManager .markLeave {
+  float: right;
+  color: #3d63a9;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 105px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px #979797;
+  background-color: #ffffff;
+  padding: 5px 0;
+  text-align: center;
+  display: block;
+}
+.rosterManager .markLeave.hide {
+  display: none;
+}
+.rosterManager .markLeave.CancelLeave {
+  color: #a81c07;
+  display: none;
+}
+.rosterManager .markLeave.CancelLeave.hide {
+  display: block;
+}
+.calander .react-calander {
+  border: none;
+}
+.rightView .timeSlots .timeSlotSelect {
+  margin: 8px 5px;
+  width: 37%;
+  float: left;
+}
+.plusBtn {
+  margin-top: 13px !important;
+  position: relative;
+  right: 2px;
+  /* right: calc(100% - 503px); */
+  /* left: calc(60% + 135px); */
+  display: inline-block;
+  /* margin: 10px; */
+  font-size: 30px;
+  background: gray;
+  height: 40px;
+  width: 40px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #4a90e2;
+  border: solid 1px #d7d7d7;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  margin-left: calc(-10% + 7px);
+}
+.hideNewSlotBtn {
+  display: none;
+}
+.timeSlots .plusBtn {
+  position: relative;
+  right: 0;
+  width: 95%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  height: 45px;
+  padding: 12px 0;
+  margin: 10px 5px;
+}
+/* .timeSlots .MuiSelect-filled.MuiSelect-filled{
+   font-size: 0.88em;
+} */
+.calander .react-calendar .react-calendar__viewContainer {
+  margin-bottom: 10px;
+}
+.react-calendar {
+  padding: 0px 15px;
+}
+.react-calendar__navigation {
+  margin-bottom: 0;
+}
+.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button {
+  display: none;
+}
+.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
+  display: none;
+}
+.react-calendar__navigation .react-calendar__navigation__arrow {
+  color: #737373;
+  font-size: 30px;
+  padding: 0px 15px;
+}
+.react-calendar__tile {
+  border-radius: 50%;
+  height: 37px !important;
+  color: #8b8795 !important;
+}
+.react-calendar__tile.react-calendar__month-view__days__day--neighboringMonth {
+  color: rgba(139, 135, 149, 0.5) !important;
+}
+.react-calendar__tile--active:enabled,
+.react-calendar__tile--active:enabled {
+  background: #152a75 !important;
+  color: #fff !important;
+}
+.react-calendar__navigation button {
+  color: #000000;
+  font-weight: bold;
+}
+.react-calendar__month-view__weekdays {
+  color: #4a90e2;
+}
+.react-calendar__month-view__weekdays
+  .react-calendar__month-view__weekdays__weekday
+  abbr {
+  text-decoration: none !important;
+}
+.react-calendar__month-view__weekdays
+  .react-calendar__month-view__weekdays__weekday
+  abbr {
+  text-decoration: none !important;
+  display: block;
+  visibility: hidden;
+  margin-left: 8px;
+}
+.react-calendar__month-view__weekdays
+  .react-calendar__month-view__weekdays__weekday
+  abbr::first-letter {
+  visibility: visible;
+}
+/* .react-calendar__month-view__weekdays .react-calendar__month-view__weekdays__weekday abbr{
+   text-decoration: none !important;
+} */
+
+/* .custmerSupport .midPart {
+  width: 35%;
+} */
+.custmerSupport .sortRight {
+  float: right;
+  margin-top: 17px;
+  margin-right: 18px;
+}
+/* .MuiMenu-list {
+  background-image: linear-gradient(to bottom, #ffffff, #d4d4d4) !important;
+} */
+.MuiMenu-list:focus {
+  background-image: #152a75 !important;
+}
+.MuiMenu-list .MuiListItemIcon-root,
+.MuiListItemText-primary {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.filter-area .searchBar .search .MuiInputBase-root .MuiInputBase-input {
+  padding: 0 !important;
+  padding-top: 8px !important;
+  padding-bottom: 4px !important;
+}
+.custmerSupport .patientlist .patientCard,
+.custmerSupport .preApmtList .doctorPreApmt {
+  height: 100px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  width: 99%;
+  box-shadow: 0 2px 4px 0 rgba(39, 28, 28, 0.5);
+}
+.custmerSupport .patientlist .patientCard.active {
+  border: solid 2px #2188cb;
+  background-color: #e1efff;
+}
+.custmerSupport .patientlist .patientCard:hover {
+  /* border: solid 2px #2188cb; */
+  background-color: #e1efff;
+}
+.patientlist .patientCard .patientImage,
+.preApmtList .doctorPreApmt .doctorImg {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.patientlist .patientCard .patientImage img,
+.preApmtList .doctorPreApmt .doctorImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.patientlist .patientCard .patientDetails,
+.preApmtList .doctorPreApmt .doctorDetails {
+  /* width: 62%; */
+  float: left;
+  text-align: left;
+  padding: 20px 0px;
+  margin-left: 10px;
+}
+/* .preApmtList .doctorPreApmt .doctorDetails{
+   padding: 30px 0px;
+} */
+.patientlist .patientCard span {
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #545454;
+}
+.detailSec .detailHeader {
+  height: 40px;
+}
+.detailSec .detailHeadleft {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+.detailSec .detailHeadRight {
+  float: right;
+}
+.detailSec .detailHeadRight .callBtn {
+  height: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.detailSec .detailHeadRight .bookNew {
+  color: #0068e1;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 30px;
+}
+/* .detailSec .detailHeadRight .bookNew:hover{
+   text-decoration: underline;
+} */
+.detailSec .patientDetails {
+  border: solid 1px #979797;
+}
+.detailSec .patientDetails .detailItem {
+  padding: 25px 20px;
+  border-bottom: 1px solid #979797;
+}
+.detailSec .patientDetails .detailItem span {
+  font-size: 14px;
+}
+.detailSec .patientDetails .detailItem .title1 {
+  color: #9b9b9b;
+  width: 80px;
+  display: inline-block;
+}
+.detailSec .patientDetails .detailItem .title2 {
+  color: #545454;
+  font-weight: bold;
+}
+.detailSec .patientDetails .detailItem .clickableItem {
+  float: right;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+.custmerSupport .rightDocList .preApmt {
+  padding: 8%;
+  text-align: center;
+  color: #545454;
+}
+.custmerSupport .rightDocList .preApmt span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.addNewApmt .MuiDialog-paperWidthSm {
+  max-width: 60%;
+  width: 60%;
+}
+.addNewApmt .half-div {
+  width: 47%;
+  float: left;
+  margin: 8px;
+}
+.addNewApmt .MuiFilledInput-input {
+  padding: 22px 12px 5px;
+}
+.reschedule .addNewSlot {
+  min-height: 180px;
+}
+.addNewApmt .addNewSlot {
+  position: relative;
+  height: auto;
+  min-height: 225px;
+  width: 96%;
+  margin-bottom: 15px;
+  margin: 0px 10px;
+  float: left;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.addNewApmt .addNewSlot .MuiFilledInput-root {
+  background-color: transparent;
+}
+.addNewApmt .addNewSlot .consultSec {
+  margin: 10px 20px;
+  padding: 10px 0px;
+  border-bottom: 2px solid #979797;
+}
+.addNewApmt .addNewSlot .consultSec .text {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 5px;
+  color: #545454;
+}
+.addNewApmt .addNewSlot .cnstFee {
+  /* position: absolute;
+   top: 20px;
+   right: 25px; */
+  color: #545454;
+  margin-right: 5px;
+  float: right;
+  font-size: 15px;
+  width: 55px;
+  padding: 1px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: solid 1px #d3d3d3;
+  background-image: linear-gradient(to bottom, #ffffff, #ebebeb);
+}
+.addNewApmt .addNewSlot .daySec {
+  margin: 10px 20px;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #979797;
+}
+.addNewApmt .addNewSlot .daySec span {
+  cursor: pointer;
+}
+.addNewApmt .addNewSlot .daySec .daySelected {
+  color: #4a90e2;
+  text-decoration: underline;
+}
+.addNewSlot .apmtTimeSlot {
+  padding: 0 0px;
+}
+.addNewSlot .apmtTimeSlot .timeBtn {
+  width: 65px;
+  float: left;
+  height: 30px;
+  margin: 5px;
+  border-radius: 4px;
+  border: solid 1px #152a75;
+  background-color: #fff;
+  cursor: pointer;
+}
+.addNewSlot .apmtTimeSlot .timeBtn span {
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #152a75;
+}
+
+.slot-time-btn.slotError {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+.slot-time-btn.slotError span {
+  color: #fff !important;
+}
+.slot-time-btn.slotSelected span {
+  color: #fff !important;
+}
+.addNewSlot .apmtTimeSlot .timeBtn.slotSelected {
+  background-color: #152a75;
+}
+.addNewSlot .apmtTimeSlot .timeBtn.slotSelected span {
+  color: #fff;
+}
+.removeIcon {
+  /* color: #a81c07; */
+  float: left;
+  margin-top: 4px;
+  font-size: 17px;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-left: 13px;
+}
+.timeSlots .removeIcon {
+  /* margin-left: 11px; */
+  margin-top: 11px;
+}
+.minusLine {
+  width: 14px;
+  height: 1px;
+  border: none;
+  border-bottom: solid 3px #a81c07;
+  margin-left: 5px;
+  position: absolute;
+  display: block;
+}
+.timeSlots .action .forward {
+  color: rgb(0, 0, 0);
+  width: 155px;
+  float: left;
+  margin: 40px 30%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.MuiCollapse-wrapper {
+  /* box-shadow: 0 1px 9px 0 #00888a;
+  border-radius: 25px; */
+  border-top: 1px solid #e6e6e6;
+}
+.MuiAccordion-rounded {
+  border-radius: 10px !important;
+  box-shadow: 0 1px 9px 0 grey;
+}
+.MuiAccordion-root:before {
+  display: none;
+}
+.filter-tab {
+  padding: 15px 10px;
+}
+.hide-filter-tab {
+  display: none;
+}
+.basic-details {
+  position: relative;
+  top: 30px;
+  left: 90px;
+}
+.center-line-preview-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.preview-image-div {
+  background-color: #eee;
+}
+.left-nav-profile-pic {
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 23%;
+  width: 55% !important;
+  top: 30%;
+}
+.user-title {
+  margin: auto;
+  display: block;
+  /* width: 60%; */
+  text-align: center;
+}
+.side-nav-menu {
+  position: relative;
+  top: 35px;
+  margin-left: 20px;
+}
+.my-appointment-title {
+  font-size: 17px !important;
+  width: 70%;
+  white-space: nowrap;
+}
+
+.headerDetails.MuiAppBar-colorDefault {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  height: 50px;
+  background-color: #fff;
+}
+.consultationStartedMsg {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "ROBOTO";
+  font-weight: 600;
+  color: #b2b2b2;
+}
+.rn-fontSize-1enofrn {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "ROBOTO";
+  color: #b2b2b2;
+}
+/* #date-helper-text, */
+#title-helper-text {
+  position: unset !important;
+  margin-left: 0px !important;
+}
+#state-helper-text {
+  position: unset !important;
+  margin: -7px 0 0 0px !important;
+}
+#city-helper-text {
+  position: unset !important;
+  margin: -7px 0 0 0px !important;
+}
+.menu-dot-icon.MuiButton-root:hover {
+  background-color: unset;
+}
+.menu-dot-icon > div {
+  z-index: 10;
+}
+.appoint-list-details {
+  width: 430px;
+}
+.appointment-default-list {
+  min-height: calc(100vh - 10%);
+  overflow-y: auto;
+  background-color: #eee !important;
+}
+.hide-child-btn-effect.MuiIconButton-root:hover {
+  background-color: unset;
+}
+.btnPadding {
+  padding: 6px 30px !important;
+}
+@media screen and (min-width: 1920px) {
+  .appoint-list-details {
+    width: 100%;
+  }
+  .btnPadding {
+    padding: 6px 39px !important;
+  }
+}
+.consultation-field.Mui-focused fieldset {
+  border-color: #eee !important;
+}
+.complete-consult-btn {
+  position: relative;
+  bottom: 25px;
+}
+@media screen and (min-width: 2560px) {
+  .btnPadding {
+    padding: 6px 64px !important;
+  }
+}
+@media screen and (min-width: 3840px) {
+  .btnPadding {
+    padding: 6px 116px !important;
+  }
+}
+@media screen and (min-width: 5120px) {
+  .btnPadding {
+    padding: 6px 168px !important;
+  }
+}
+
+.react-autosuggest__input {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  /* border: 1px solid #aaa; */
+  /* border-radius: 4px; */
+}
+.react-autosuggest__container {
+  position: relative;
+}
+.react-autosuggest__input--focused {
+  outline: none;
+}
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 30px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 999;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 0;
+}
+.suggestion-list-details:hover {
+  border: solid 2px #2188cb !important;
+  background-color: #e1efff !important;
+}
+.search-icon {
+  left: 30px;
+  z-index: 1;
+}
+.close-search-icon {
+  right: 30px;
+}
+.suggestion-list {
+  padding: 3px;
+  font-size: 14px;
+}
+.suggestion-list:first-child {
+  padding: 0;
+}
+.default-search-icon {
+  margin-left: 30px;
+}
+.navbar-default-width {
+  width: 100%;
+}
+.reschedule-icon {
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+.app-time-reschedule {
+  left: calc(50% - 53px);
+  position: relative;
+  bottom: 15px;
+}
+.app-time {
+  left: calc(68% - 53px);
+  position: relative;
+  bottom: 15px;
+}
+.completed-app-status {
+  left: calc(68% + 30px);
+  position: relative;
+  bottom: 15px;
+}
+.ready-for-consult-app-status {
+  left: calc(50% - 1px);
+  position: relative;
+  bottom: 15px;
+}
+.ready-for-consult-with-reschedule {
+  left: calc(50% - 35px);
+  position: relative;
+  bottom: 15px;
+}
+.completed-with-reschedule {
+  left: calc(68% - 3px);
+  position: relative;
+  bottom: 15px;
+}
+.set-call-time-link {
+  margin-left: 5px !important;
+  font-weight: 600;
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+}
+.call-time-date {
+  font-size: 11px !important;
+  color: #054fd8 !important;
+  font-weight: 600 !important;
+}
+.call-time-mode-buttons {
+  font-size: 10px;
+  font-weight: 600;
+}
+.call-time-mode-btn1 {
+  border-top-left-radius: 22px !important;
+  border-bottom-left-radius: 22px !important;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  color: grey;
+}
+.call-time-mode-btn1.MuiToggleButton-root.Mui-selected {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #fff !important;
+}
+.call-time-mode-btn2.MuiToggleButton-root.Mui-selected {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #fff !important;
+}
+.call-time-mode-btn2 {
+  border-top-right-radius: 22px !important;
+  border-bottom-right-radius: 22px !important;
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  color: grey;
+}
+.call-time-breadcrumb {
+  height: 10px;
+}
+.call-time-selected-btn {
+  color: #868688 !important;
+}
+.appointment-list-card {
+  width: 100%;
+  display: inline-flex !important;
+  height: 30px;
+}
+.patient-image img {
+  object-fit: cover !important;
+}
+.dialog-consult-btn-group {
+  padding-right: 25px !important;
+}
+.ready-for-consult-dialog.MuiButton-containedSecondary:hover {
+  background-color: #c51162 !important;
+}
+.side-nav-fixed-footer {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  left: 40px;
+}
+textarea[testid="Type a message..."] {
+  position: relative;
+  top: 10px;
+  width: 94% !important;
+}
+.sendicon {
+  position: relative;
+  top: 2px;
+}
+.preview-modal-inline {
+  display: inline-flex;
+}
+.side-nav-menu-font {
+  font-weight: 500 !important;
+}
+.chat-reset-zIndex {
+  z-index: 30 !important;
+}
+.app-bar-zIndex {
+  z-index: 35 !important;
+}
+.side-menu-avatar {
+  height: 150px !important;
+  width: 150px !important;
+  border: 1px solid black;
+  font-size: 5rem !important;
+}
+.case-sheet-btn-group {
+  display: inline-flex;
+  margin: auto;
+  width: 55%;
+  padding: 10px;
+}
+.cs-refresh-btn {
+  margin-left: 5px !important;
+  height: 48px;
+  width: 176px;
+  margin-bottom: 20px !important;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin: 60px auto;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 65%;
+  z-index: 9999;
+  background-color: #fffcfc !important;
+}
+.chat-margin-bottom45 {
+  margin-bottom: 45px;
+}
+.chat-margin-bottom110 {
+  margin-bottom: 110px;
+}
+.video-call-end-dialog,
+.side-menu-drawer,
+.change-password-dialog {
+  z-index: 100000 !important;
+}
+[aria-labelledby="pop-dialog-title"] {
+  max-width: calc(100% - 250px) !important;
+  height: calc(100vh - 119px);
+}
+.pdf-popover-content {
+  width: 100%;
+  margin: auto;
+  height: 415px;
+}
+.pdf-popover-iframe {
+  width: calc(100% - 2px) !important;
+  height: calc(100vh - 172px);
+  background: url("/loader.gif") center center no-repeat;
+}
+.pdf-popup-content {
+  padding: 0px !important;
+}
+#file-dialog-title {
+  padding: 10px;
+}
+#file-dialog-title h6 {
+  font-size: 14px;
+}
+#file-dialog-title button {
+  padding: 0px;
+}
+.pdf-dialog-neil {
+  margin-left: calc(100vh - 10.6%);
+}
+.pdf-dialog-neil .MuiBackdrop-root {
+  width: calc(100vh + 50%);
+  margin-left: calc(100vh - 11.6%);
+}
+.pdf-popup-content {
+  padding: 0px;
+}
+@media screen and (min-width: 1422px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 15.6%);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 18.6%);
+  }
+}
+@media screen and (min-width: 1700px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 20%);
+  }
+}
+@media screen and (min-width: 1900px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 23%);
+  }
+}
+@media screen and (min-width: 2500px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 28.5%);
+  }
+}
+@media screen and (min-width: 2560px) {
+  .pdf-dialog-neil {
+    margin-left: calc(100vh - 32.6%);
+  }
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 45.6%);
+  }
+}
+@media screen and (min-width: 3700px) {
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 34%);
+  }
+}
+@media screen and (min-width: 3700px) {
+  .pdf-dialog-neil {
+    margin-left: calc(100vh - 22.6%);
+  }
+  .pdf-dialog-neil .MuiBackdrop-root {
+    width: calc(100vh + 50%);
+    margin-left: calc(100vh - 36.8%);
+  }
+}
+.app-active-card {
+  border-radius: 4px !important;
+  border: solid 2px #2188cb !important;
+  background-color: #e1efff !important;
+}
+.pdf-popup-image {
+  object-fit: scale-down;
+  width: calc(100% - 250px) !important;
+  height: calc(100vh - 168px);
+}
+.assistant-table-row.Mui-selected {
+  background-color: #94d2d2 !important;
+}
+.default-assistant-dialog-btn {
+  background-color: #f1f1f1;
+}
+.assistant-table-paper {
+  overflow-y: auto !important;
+  height: calc(50vh + 60px) !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+#patient-dialog-title {
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+#patient-dialog-title .MuiTypography-h6 {
+  font-size: 17px !important;
+}
+[aria-labelledby="pending-app-dialog"] {
+  max-width: calc(100% - 250px) !important;
+}
+.docName,
+.customerName,
+.customer-support-docName {
+  max-width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.qualifyName {
+  max-width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.date-field-support.feeSec.feeSec {
+  margin-left: 4%;
+  position: relative;
+  bottom: 8px;
+}
+.speciality-field-support.feeSec.feeSec {
+  margin-left: 2%;
+  position: relative;
+  bottom: 3px;
+}
+.speciality-select-field {
+  padding: 0px 5px;
+  width: 140px;
+  text-align: center;
+}
+.sort-by-field-support.sortRight.sortRight {
+  margin-top: unset;
+  position: relative;
+  bottom: 2px;
+}
+.customer-profile-pic {
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #b5b5b5;
+  position: relative;
+  bottom: 15px;
+  margin-right: 10px;
+}
+.refresh-app-list {
+  color: #fff !important;
+  text-decoration: none;
+}
+.customer-support-docName {
+  width: 110px;
+}
+.doc-name-2 {
+  width: 230px;
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .docName,
+  .customerName {
+    width: 95px;
+  }
+  .doctorcard .docDetails span {
+    font-size: 9px;
+  }
+}
+.customerName.customerName {
+  width: 180px;
+}
+.system-message-container {
+  display: flex;
+  flex-direction: row;
+}
+.waist-circumference-field {
+  width: 46%;
+  margin-right: 70px;
+  margin-top: -7px;
+  margin-left: 17px;
+}
+.since-duration-p {
+  min-width: 98px;
+  text-align: left;
+}
+.since-duration-div {
+  display: flex;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.since-duration-field {
+  width: 15%;
+  margin-top: 8px !important;
+  text-align: center;
+  margin-right: 30px !important;
+  margin-left: 18px !important;
+}
+.symptoms-field {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 10px;
+  display: flex;
+}
+.symptoms-autocomplete {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+}
+.chief-complaint-detail-div {
+  display: flex;
+  margin-top: -20px;
+}
+.chief-complain-detail-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 14px;
+  margin-left: 8px;
+}
+.detail-field {
+  margin-top: 8px !important;
+  width: 90%;
+}
+.medical-history-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 145px;
+}
+.medication-history-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 125px;
+}
+.surgical-history-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 145px;
+}
+.drug-allergies-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 145px;
+}
+.diet-allergies-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 90px;
+}
+.personal-history-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 35px;
+}
+.family-medical-history-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 107px;
+}
+.pregnancy-detail-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 134px;
+}
+.call-time-pop-over {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.calltime-date {
+  width: 210px;
+}
+.calltime-timefield {
+  padding-right: 10px !important;
+  width: 145px;
+}
+.environmental-occupation-p {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 10px;
+}
+.junior-notes-label {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 59px;
+}
+.junior-notes-field {
+  margin: 8px 390px 8px 8px !important;
+  width: 100%;
+}
+.diagnostic-test-result-label {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 45px;
+}
+.diagnostic-test-result-field,
+.clinical-observation-field,
+.personal-notes-field {
+  margin: 8px 390px 8px 8px !important;
+  width: 100%;
+}
+.clinical-observation-label {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 10px;
+}
+.personal-notes-label {
+  min-width: 100px;
+  text-align: left;
+  margin-right: 70px;
+}
+.diet-allergies-field,
+.personal-history-field,
+.environmental-occupation-field,
+.family-medical-history-field,
+.pregnancy-detail-field {
+  margin: 8px 330px 8px 8px !important;
+  width: 100%;
+}
+.reason-field {
+  text-align: left;
+  margin-right: 215px;
+}
+.date-picker-span div {
+  background-color: #fff;
+  border-radius: 4px;
+  min-width: unset !important;
+}
+.calender-popover {
+  padding: 2px 2px 2px 2px !important;
+  border-radius: 20px !important;
+  height: 40px;
+  font-size: 14px;
+  position: relative;
+  left: 10px;
+}
+.blog-calender-popover {
+  padding: 2px 2px 2px 2px !important;
+  border-radius: 20px !important;
+  height: 40px;
+  font-size: 14px;
+  position: relative;
+  bottom: 5px;
+  background-color: #fff !important;
+}
+.appointment-date-time {
+  float: right;
+  color: #152a75 !important;
+  position: absolute;
+  font-size: 11px !important;
+  font-weight: bold;
+  top: 35px;
+  right: 8px;
+  width: 50px;
+}
+.customer-support-chip {
+  position: relative;
+  right: 5px;
+}
+.decrease-z-index {
+  z-index: unset !important;
+}
+.date-range-search {
+  float: unset;
+}
+.add-new-support-btn {
+  border-radius: 30px !important;
+}
+.add-blog-btn {
+  float: right;
+  border-radius: 30px !important;
+  bottom: 5px;
+}
+.appbar-support {
+  box-shadow: unset !important;
+  height: 55px !important;
+}
+.support-toolbar {
+  padding-left: 5px !important;
+}
+.presentation-date {
+  font-size: 0.75rem !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.search-icon-support {
+  position: relative;
+  left: 10px;
+}
+.patient-list-card.patientlist.patientlist {
+  width: 34%;
+  overflow-y: auto;
+  height: calc(100vh - 155px);
+}
+.patient-details-main,
+.detailHeader {
+  width: 135%;
+}
+.book-appointment {
+  position: relative;
+  bottom: 9px;
+  left: 5px;
+}
+.label-breadcrumb {
+  width: 130px;
+}
+.support-center-tabs {
+  width: 50%;
+}
+.support-center-tabs .MuiTabs-indicator {
+  transform: translateY(-45px);
+}
+.patient-timeline {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+.patient-timeline {
+  align-items: flex-start;
+  margin-left: 5px;
+}
+.timeline-main {
+  left: 15px;
+  width: 100%;
+  position: relative;
+}
+.profession,
+.doctor-remark,
+.doctor-fees {
+  position: relative;
+  top: 40px;
+  font-weight: 500 !important;
+}
+.profession {
+  font-size: 0.85rem !important;
+}
+.doctor-fees.doctor-fees {
+  top: 80px;
+}
+.profession:nth-child(n + 2) {
+  padding-top: 45px;
+}
+.timeline-paper {
+  position: relative;
+  bottom: 40px;
+  height: calc(100vh - 170px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.timeline-avatar {
+  right: 14px;
+}
+.customer-name-inline {
+  display: inline-flex;
+}
+.customer-name-inline > p {
+  font-weight: 500;
+}
+.customer-name-timeline {
+  padding-right: 5px;
+}
+.current-app-time {
+  font-size: 0.85rem !important;
+  width: 65px;
+  color: #787f7f;
+}
+.timeline-doc-name {
+  font-size: 12px;
+  white-space: nowrap;
+  display: inline-flex;
+}
+.doc-name-timeline {
+  font-size: 0.85rem !important;
+  width: 145px;
+}
+.consultation-fee {
+  padding: 0px !important;
+}
+.consultation-fee:nth-child(n + 2) {
+  margin-top: 45px;
+}
+.current-active-tab.Mui-selected {
+  background-color: #fffcfc;
+  box-shadow: 4px 1px 1px #e2e2e2;
+}
+.settings-active-tab.Mui-selected {
+  box-shadow: 4px 1px 1px #e2e2e2;
+  background-image: linear-gradient(to bottom, #8c2f7b, #972e70);
+  color: #fff;
+}
+.hospital-unit-active-tab.Mui-selected {
+  box-shadow: 0px 3px 20px #00000029;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  color: #452d7b;
+}
+.hospital-unit-body .MuiTab-wrapper {
+  text-transform: none !important;
+  font-size: 0.9rem;
+}
+.doctor-list-scroll {
+  height: calc(100vh - 160px) !important;
+}
+.timeslots-main {
+  height: calc(100vh - 180px) !important;
+}
+.save-slot-btn.action.action {
+  bottom: 25px !important;
+}
+.timeslot-view {
+  height: calc(100vh - 120px) !important;
+}
+.calendar-right-view {
+  height: calc(100vh - 135px) !important;
+}
+.blog-date-range {
+  color: #000;
+}
+.add-hospitalunit-btn {
+  background-color: #452d7b !important;
+  color: #fff !important;
+  position: relative;
+  bottom: 5px;
+}
+.side-navbar-scroll {
+  height: calc(100vh - 160px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.accType .MuiFilledInput-input {
+  padding-top: 15px;
+}
+.label-image-cover {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  display: none !important;
+}
+.label-img-div {
+  /* width: 100% !important; */
+  padding-right: 0px !important;
+  display: flex !important;
+}
+.label-upload-img {
+  max-width: 90% !important;
+  height: 150px !important;
+  object-fit: contain !important;
+}
+.medicine-search div div {
+  padding-left: 40px !important;
+  border-radius: 40px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.medicine-search
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+  .MuiAutocomplete-endAdornment {
+  top: 5px;
+}
+.search-bar-icon {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.test-btn-curve {
+  border-radius: 30px !important;
+}
+.test-table-height {
+  height: calc(100vh - 210px);
+}
+.admin-test-dropdown {
+  width: 115px;
+  height: 48.6px !important;
+  margin-left: 5px !important;
+}
+.validation-message {
+  font-size: 12px;
+  color: red;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/* Media query to for screen width between 400pm to 1024px */
+@media screen and (max-width: 1024px) and (min-width: 400px) and (orientation: landscape) {
+  .test-icons {
+    padding-left: 5px !important;
+    padding-right: 8px !important;
+  }
+  .waist-circumference-field {
+    margin-left: 45px;
+  }
+  .since-duration-div {
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+  .how-often-p {
+    margin-top: 0px !important;
+  }
+  .chief-complaint-often {
+    width: 100% !important;
+  }
+  .chief-complaint-severity {
+    margin-top: 0px !important;
+    margin-left: 12px !important;
+  }
+  .severity-text-field {
+    margin-top: 10px !important;
+  }
+  .detail-field {
+    width: 100% !important;
+  }
+  .medical-history-p,
+  .medication-history-p,
+  .surgical-history-p,
+  .drug-allergies-p,
+  .diet-allergies-p,
+  .personal-history-p,
+  .environmental-occupation-p {
+    margin-right: 25px;
+  }
+  .family-medical-history-p,
+  .pregnancy-detail-p {
+    margin-right: 28px;
+  }
+  .junior-notes-label,
+  .diagnostic-test-result-label,
+  .personal-notes-label {
+    margin-right: 29px;
+  }
+  .junior-notes-field,
+  .diagnostic-test-result-field,
+  .personal-notes-field {
+    margin: 8px 350px 8px 8px !important;
+  }
+  .clinical-observation-field {
+    margin: 8px 330px 8px 8px !important;
+  }
+  .diet-allergies-field,
+  .personal-history-field,
+  .environmental-occupation-field,
+  .family-medical-history-field,
+  .pregnancy-detail-field {
+    margin-right: 355px !important;
+  }
+  .reason-field {
+    margin-right: 20px;
+  }
+}
+
+.img-preview-div {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px !important;
+  justify-content: center;
+}
+
+.img-spec {
+  height: 120px;
+  margin-left: 5px;
+}
+
+.rmv {
+  cursor: pointer;
+  color: #fff;
+  display: inline-block !important;
+  margin: -5px -10px;
+}
+
+.del-icon {
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #ff0000;
+  border-radius: 20px;
+}
+.action-btn-no.MuiButton-containedSecondary:hover {
+  background-color: #fe2773 !important;
+}

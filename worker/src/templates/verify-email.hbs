@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<body>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+    <tr>
+      <td class="container">
+        <div class="content">
+          {{> header}}
+          <table role="presentation" class="main">
+            <tr>
+              <td class="wrapper">
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>
+                      <h1>Hi {{userFirstName}} {{userLastName}},</h1>
+                      <p>Thank you for signing up to Simon. Please click the button below to verify your email.</p>
+
+                      <!-- Button -->
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                        <tbody>
+                          <tr>
+                            <td align="left">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <a href="{{verificationUrl}}" target="_blank">Verify Email</a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+                      <p>
+                        Thanks <br/>
+                        The Team @Simon
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Footer -->
+          <div class="footer">
+            {{> footer}}
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

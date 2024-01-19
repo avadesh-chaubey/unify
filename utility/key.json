@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gamma-unify-care",
+  "private_key_id": "ec8c430cc074f8d64b06ccb91d469ba20906f0c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCeciOMyYfmN3Fp\nY5c4jXTK4VBykvyOKN8W/EzPXeXTA3BoOpdTJuF9TYd4d+dIS1qGasHeQ4E1Ixtf\nxMUzW+BSONNJT1b4HXhSquS+WCmWRmvKL4EiwYzGcSHqYmieXx6tjTfmTbj9oAi5\nA5/0+59HhrzzFyoJo3Ym6DDwsMFfCpv+oFVvzTCmDvtQz9XCbLnDY06OyM8IAakP\nNoxdHBnvYTw/QACzzRG7JBCUax3K8ykGAhAnktpBWhIBvr7TnUp+PylSh+o2QRAa\n7UDjy+Ai0KFjHfDBGXSpkBaAF0JoQaKDWPlroFDZgEDEStvgNXx/9QG3MOu8FKg2\nzLTR69zxAgMBAAECggEAAQKhjSXiUNKY7ab5yX2maV5BKu/aviXO0VjTvQ1AWEV4\n96MrAJfaf3fpdZhPIFgBqGKBILONvPrfs28/4iVTc3bDCyA/Qdb/Q8is63VIs5l4\nmboOkNwK05+YS6QrvlnFKm5gdT6Y374f3B0krZVWpUg7x3GF/jh9ef9IQ5qe6wYV\n2cWCOY50tEvGI7FEUvCQD9Xpx2t9FWxFqM61gUudAcEbM6dD+U/lY7T2NmbEmxs+\nvS3lDDfJucrw7+lTY4aMBXnQKzoaLzyy/f9fjP9lzEZU9zZKyFdoeX1efSEG+ryM\nerIohLiUJNxoy0X2pK69R0ZSdbMVVpuMqHeQ2yBuuQKBgQDLLNESVOWyv/upVmfA\nDcNUWdFSssA/SD/pzWTTqWbwx+96v2+r2cF/CSGYbcmCTNkFoxSe3vlhzdOVYMwz\n+5wiDOz3l6aTTHcOIb3ffNRk1JmRKcqgOir9kIhhysZosYwN+knYnZx50UYUttiS\njYr25XiT9evfXG9OR3yMIVKG2QKBgQDHpC3C80eDkHmDxjzigG2qFqbRxG/JUDHO\nhiF6NjNURZ+Ti+7ieS1foaLzENGKaoNMP7JDCcDKHEcEG9jbpeKmtKhosDkTURZe\nW+ZfQrNMo/q50Sy4+WARAWL//EsxneF69izJHtJgcyyF19ZZKWLK0j/xEqVImZuK\nKzaJhQCn2QKBgQCH6TLyUFhXepWecW51yr8fbfXYnDp+Gpamj/8il++EojpQoj7R\ndpk5oaIXlVl3EHEclDr3C7FG+6jOBDKVk3qeTIc4GPoVDtGVYnzhQ1/RE2am9I3X\nIRIhDM4unLac0igeMY+0l7pUwulecfHuF0EeZ+KBF8DxaaQLeUaXdrL+AQKBgQCw\nMDaqrGVauPBk2Vj2VH1z9JW43vIA6qNqLnnxD1BxeRiB8Kcce/ENSusyNI+Y5rOF\nYVmDTGI2fIo4GBNklZvXn+xYp91XLOLe16ASRh1S8AzgXLhpbrvXhi/G1vPNkBZk\nnEmeHXNw53RNktR6z8l+UdtYeCoiTl40rDpvV0/i0QKBgQCgwv8dpr5DKRyCVJOC\naqHkoeTKvJPFcQHOXq10XaKXUaeyH0qwjJwARBOd9Sc13Q7s/RvGLU7U4T5TqIl2\n1bunD0gN8W1G5+WDsMLUhRLfv8HZs9q5XU+lbtljb9Z8wgiVpx8QK0+tCbb79zDt\n0Uzub4xPOHEjUpOjy1ZWDB13zQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "platform-storage@gamma-unify-care.iam.gserviceaccount.com",
+  "client_id": "100190627805730062969",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/platform-storage%40gamma-unify-care.iam.gserviceaccount.com"
+}

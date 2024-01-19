@@ -1,0 +1,111 @@
+.notification-mgmt-group {
+  /* display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center; */
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.send-notification-btn {
+  margin: 20px 20px 20px 0px;
+  color: #fff;
+  width: 155px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.notification-date-time {
+  display: inline-block !important;
+  margin-top: 70px !important;
+}
+.notification-banner {
+  margin-top: 0px !important;
+  max-width: 90%;
+  background-color: #000;
+  margin-left: 20px;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+}
+.notify-demo {
+  margin-top: -324px;
+}
+.caption-div {
+  background-color: #fff;
+  width: 100%;
+  width: 89%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-left: 22px;
+  margin-top: -16px;
+}
+.title-caption {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: #000000a1;
+  font-weight: 600;
+}
+.description-caption {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #505050a1;
+}
+.notification-banner-prev {
+  width: 100%;
+  min-height: 170px;
+  max-height: 170px;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+}
+.notify-send-btn {
+  margin: 20px 20px 20px 0px !important;
+  color: #fff !important;
+  width: 155px;
+  border-radius: 20px !important;
+  padding: 10px 10px !important;
+  background-image: linear-gradient(to top, #152a75, #152a75) !important;
+}
+.disabled-notify-btn {
+  margin: 20px 20px 20px 0px !important;
+  color: #000 !important;
+  width: 155px;
+  border-radius: 20px !important;
+  padding: 10px 10px !important;
+}
+.preview-caption-btn {
+  width: 155px;
+  margin: 5px 68px 5px 68px !important;
+}
+.checkbox-root.MuiFormControlLabel-root {
+  margin: 5px 0px 0px 0px;
+}
+.notification-checkbox-icons {
+  height: 50px !important;
+  width: 50px !important;
+  color: #7f368c;
+}
+.notfication-table-main {
+  margin-top: 50px;
+}
+.notification-img-heading {
+  font-size: 14px !important;
+  text-align: center !important;
+  color: grey !important;
+  padding: 50px !important;
+}
+.publish-on-field.MuiFormLabel-root {
+  font-weight: 600;
+}
+.notification-img-subheader {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.banner-calendar-icon {
+  height: 40px;
+  width: 37px;
+  position: relative;
+  top: 10px;
+}

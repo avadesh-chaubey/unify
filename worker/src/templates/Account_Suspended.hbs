@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin: 0;
+        font-size: 12px;
+        
+    }
+    .container {
+    max-width: 600px;
+    height: 45px;
+    background: url('https://storage.googleapis.com/diahome-com-bucket-1/Image/Rectangle.png');
+
+    }
+    .container__image {
+    width: 150px;
+    float: left;
+    color: #f1f1f1;
+    margin-left: 15px;
+    margin-top: 5px; 
+  }
+  .container__text {
+    text-align: right;
+    color: #f1f1f1;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="container__image" src="https://storage.googleapis.com/diahome-com-bucket-1/Image/logo_name.png"/>
+        <div class="container__text">
+          <p style="font-size: 8px;margin-top: 11px">Call us at<span>:</span>7540001234</p>
+          <p style="font-size: 8px;">Download the Diahome App</p>
+       </div>
+    </div>
+    <br>
+    <div>
+        <p style="font-weight: bold;padding-left: 20px;">Dear {{doctorName}},</p>
+        <br>
+    </div>
+    <div style="padding-left: 20px;">
+        <p>Your account has been suspended by Diahome Admin.</p>
+        <p><b>If you think this is an error or would like your account to stay active, please write</b> </p>
+        <p><b>to us at <a href = "mailto:care@diahome.com" style="text-decoration: none;color: black;">care@diahome.com</a>.</b></p>
+    </div>
+    <br>
+    <div style="font-weight: bold;padding-left: 20px;">
+        <p>Regards,</p>
+        <p>Team Diahome</p>
+        <br>
+    </div>
+    <div style="font-weight: lighter;color: gray;font-size: 8px;padding-left: 20px;">
+        <p>You are receiving this email because you are registered on the Diahome app.This email is meant to</p>
+        <p>communicate about your appointment/care and is not meant for promotional purposes.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+export const orderExpiredGroupName = 'appointment-order-expire-service';
+export const paymentCompletedGroupName = 'payment-completed-service';
+export const databasBackupGroupName = 'appointment-database-backup-service';
+export const databasUploadGroupName = 'appointment-database-upload-service';
+export const updateTimeTableGroupName = 'appointment-update-time-table-service';
+export const partnerEmployeeCreatedGroupName = 'appointment-employee-created-service';
+export const partnerEmployeeStatusChangedGroupName = 'appointment-employee-status-changed-service';
+export const addConsultantAppointmentSlotsGroupName = 'appointment-add-consultant-slots-service';
+export const appointmentRescheduleExpiredGroupName = 'appointment-reschedule-expire-service';
+export const consultantAppointmentSlotGroupName = 'appointment-consultant-appointment-slot-service';
+export const consultantInfoUpdatedGroupName = 'appointment-consultant-info-updated-service';
+export const pingGroupName = 'appointment-ping-service';
+export const orderUpdatedGroupName = 'appointment-order-updated-service';
+export const partnerInformationCreatedGroupName = 'appointment-partner-information-created-service';
+export const partnerInformationUpdatedGroupName = 'appointment-partner-information-updated-service'

@@ -1,0 +1,14 @@
+<svg id="Component_85_23" data-name="Component 85 – 23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18134" data-name="Rectangle 18134" width="32" height="32" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_206" data-name="Mask Group 206" clip-path="url(#clip-path)">
+    <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M15.433,3A7.927,7.927,0,0,0,7.5,10.933c0,5.949,7.933,14.732,7.933,14.732s7.933-8.783,7.933-14.732A7.927,7.927,0,0,0,15.433,3Z" transform="translate(0.402 2.521)" fill="none" stroke="#555" stroke-width="1.2"/>
+    <g id="Path_51268" data-name="Path 51268" transform="translate(12 10.5)" fill="#fff">
+      <path d="M 4 8.5 C 2.070090055465698 8.5 0.5 6.705609798431396 0.5 4.5 C 0.5 2.294389963150024 2.070090055465698 0.5 4 0.5 C 5.929910182952881 0.5 7.5 2.294389963150024 7.5 4.5 C 7.5 6.705609798431396 5.929910182952881 8.5 4 8.5 Z" stroke="none"/>
+      <path d="M 4 1 C 2.345789909362793 1 1 2.570089817047119 1 4.5 C 1 6.429909706115723 2.345789909362793 8 4 8 C 5.654210090637207 8 7 6.429909706115723 7 4.5 C 7 2.570089817047119 5.654210090637207 1 4 1 M 4 0 C 6.209139823913574 0 8 2.01471996307373 8 4.5 C 8 6.98528003692627 6.209139823913574 9 4 9 C 1.790860176086426 9 0 6.98528003692627 0 4.5 C 0 2.01471996307373 1.790860176086426 0 4 0 Z" stroke="none" fill="#00b2a9"/>
+    </g>
+  </g>
+</svg>

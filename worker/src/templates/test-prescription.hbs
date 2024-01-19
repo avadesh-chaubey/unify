@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .detials1,.detials2{
+        height: 20px;
+    }
+    .detials1 div{
+        width: 33%; 
+        float: left;
+    }
+    .detials1 p{
+        font-weight: bold;
+    }
+    .detials2 div{
+        width: 33%; 
+        float: left;
+    }
+    .detials2 p{
+        display: inline;
+        font-weight: bold;
+    }
+    td, th{
+        text-align: left;
+        font-size: 12px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    tr{
+        height: 60px;
+        /* font-weight: bold; */
+    }
+    /* tr {
+    border-bottom: 1pt solid black;
+    } */
+</style>
+</head>
+<body>
+<div>
+    <div style="width: 100%; height: 190px;">
+        <div style="width: 40%; float: left;">
+            <img src="https://storage.googleapis.com/diahome-com-bucket-1/Image/test-prescription-logo.png" alt="Logo image" style="height:40px; margin: 60px 10px;"/> 
+        </div>
+        <div style="width: 60%; float: right;margin-top: 20px;">
+            <div style="text-align: right; ">
+                <p style="font-size: 24px;">{{doctorName}}</p>
+                <p>{{doctordetails1}},</p>
+                <p><span style="font-weight: bold;">{{doctordetails2}}</span></p>
+                <p>{{hospitalName}}</p>
+                <p>{{hospitaladd1}}</p>
+                <p>{{hospitaladd2}}</p>
+            </div>
+        </div>
+    </div>
+    <div style="padding-left: 20px;">
+        <div style="width: 100%;margin-bottom: 10px;" class="detials1">
+            <div>
+                <p>MRD No : AR {{mdrNo}}</p>
+            </div>
+            <div>
+                <p>Date & Time: {{date}} at {{time}}</p>
+            </div>
+            <div>
+                <p>Consult Type: {{consultType}}</p>
+            </div>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;" class="detials1">
+            <div>
+                <p>Patient Name : {{patientName}</p>
+            </div>
+            <div>
+                <p>Age/ Gender: {{patientAge}}/ {{patientGender}}</p>
+            </div>
+            <div>
+                <p>Appointment ID: {{appointmentId}}</p>
+            </div>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold;"> Vitals <span>(</span>{{vitals}}<span>)</span></p>
+            
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;font-size: 10px;" class="detials2">
+            <div>
+                <p>Height </p><span>{{heigthInCms}}</span>
+            </div>
+            <div>
+                <p>Weight </p><span>{{weigthInKgs}}</span>
+            </div>
+            <div>
+                <p>BMI</p><span>{{bmi}}<sup>2</sup></span>
+            </div>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;font-size: 10px;" class="detials2">
+            <div>
+                <p>BP </p><span>{{bloodPressureDiastolic}}</span>
+            </div>
+            <div>
+                <p>Pulse </p><span>{{pulse}}</span>
+            </div>
+            <div>
+                <p>Waist Circumference </p><span>{{tempratureInFernite}}</span>
+            </div>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold;"><span style="font-style: italic;">Complaints:</span>{{chiefComplaints}}</p>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold;"><span style="font-style: italic;">Diagnosis:</span>{{diagnosis}}</p>
+        </div>
+        <table id ="mytable" style="width:100%; margin-bottom: 20px;">
+            <tr style="border-bottom: 1pt solid black;">
+                <th>S.No</th>
+                <th >Drug Type</th>
+                <th>Drug Name</th>
+                <th>Dose/Relation to Food</th>
+                <th>Days</th>
+                <th>Comments</th>
+            </tr>
+        </table>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold;"><span style="font-style: italic;">Advice:</span>{{adviceInstruction}}</p>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold; display: inline;"><span style="font-style: italic;">Tests Prescribed:</span></p><span style="font-size: 10px;">{{testPrescription}},</span>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="font-weight: bold; display: inline;"><span style="font-style: italic;">Next Visit::</span></p><span style="font-size: 10px;">{{nextVisit}}</span>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;margin-top: 30px;">
+            <p>Prescribed on {{prescriptiondate}}</p>
+            <p style="font-weight: bold;">{{doctorName}}</p>
+            <p>{{doctordetails1}},</p>
+            <p>{{doctordetails2}}</p>
+        </div>
+        <div style="width: 100%;margin-bottom: 10px;">
+            <p style="color: gray;">
+                <span style="font-weight: bold;">Disclaimer:</span> This prescription is issued on the basis of your inputs during teleconsultation. It is valid from the date of issue until the specific period/dosage of each medicine as advised.
+            </p>
+        </div>
+    </div>
+    <div style="width: 100%; height: 15px;border-bottom: 2px solid black;margin-top: 35px;"></div>
+    <div style="width: 100%;">
+        <p style="font-size: 18px; text-align: center;">To Reduce The dose of Tablet/Insulin if low sugar symptoms occur</p>
+    </div>
+
+</div>
+
+</body>
+<script type="text/javascript">
+     var medicinelistdata='{{medicinelist}}';
+        for(var i = 0; i < medicinelistdata.length; i++) {
+            var table = document.getElementById('mytable');  
+            var rowCount = table.rows.length;    
+            var row = table.insertRow(rowCount);  
+
+            var sno = row.insertCell(0);  
+            sno.innerHTML = i+1;
+            var drugtype = row.insertCell(1);  
+            drugtype.innerHTML = medicinelistdata[i].medicineType;
+            var drugname = row.insertCell(2);  
+            drugname.innerHTML = medicinelistdata[i].nameOfTheDrug; 
+            var dose = row.insertCell(3);   
+            dose.innerHTML = medicinelistdata[i].intakeFrequency+ "<br />" +"[ "+medicinelistdata[i].food+" ]";
+            var days = row.insertCell(4);   
+            days.innerHTML = medicinelistdata[i].durationInDays;
+            var comments = row.insertCell(5);   
+            comments.innerHTML = medicinelistdata[i].otherNotes;
+
+    }
+ </script>
+</html>

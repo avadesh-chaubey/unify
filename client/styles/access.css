@@ -1,0 +1,26 @@
+.triple-dot-email {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 165px;
+  white-space: nowrap;
+}
+.triple-dot-email {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 165px;
+  white-space: nowrap;
+}
+.triple-dot-role {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 160px;
+  white-space: nowrap;
+}
+.date-font-color {
+  color: #555555;
+  font-size: 14px;
+  text-align: left;
+}
+.triple-text-dot.triple-dot-email.triple-dot-email{
+  width: 135px;
+}

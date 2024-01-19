@@ -1,0 +1,159 @@
+step 1:create a project and give a name 
+
+step 2:create a bucket for cloud storage
+	a)create bucket
+	b)bucket name 
+	c)location
+	d)in access control select fine grained
+	e)click create
+
+step 3:create VPC
+	-select subnet
+	-subnet range
+	-create
+
+step: create a cloudnat
+	-select vpc
+	-select region (same VPC region)
+	-router name
+	-create
+	
+
+step 3:create IAM user
+	-here we il create 2 service account
+	-one to store data on cloud storage
+	-in right side tab click IAM & Admin
+	-click service account
+	-create service account
+	-give name and service acc id both same name
+	-in grant service account access to project select role as "CloudAdmin"
+	-create
+
+	-create another service acc for Github deployement ,this service acc will connect github and GCP
+	-give name as deployment
+	-in grant service acc access for project select role "Owner"
+	-create
+	
+	-click the right side 3 dot in the service acc we created 
+	-select manage keys
+	-select add key and create new key
+	-it il generate new key in json format
+	-download that key
+	-lik same download for another service acc also
+	-till now we created 2 service acc and download there keys in JSON format
+
+step 4:create GKE cluster
+	-in kuberbetes engine create a new cluster (private cluster)
+	-select standard
+	-in cluster basics tab
+		-give cluster name
+		-location
+		-select release channel in control plane version
+		-under release channel select regular
+		-select version
+	-in node pools:
+	under Nodes:
+		-select E2 series
+		-e2 meduim cpu
+		-boot disk type:Standard persistant disk
+		-boot disk space 100GB
+	create a cluster
+
+step 5:create a Repo in Github
+	-log in to github
+	-in settings select secrets
+	-create Repo secret GKE_project and inside that give our GCP project ID
+	-create another repo secret GKE_SA_KEY and paste the JSON file content we downloaded for Github deployments
+	-this secrets will use to deploy microservices in GCP
+	-create that in guthub secret,DOCKER_USERNAME,DOCKER_PASSWORD
+	-add docker username and password so it il access our docker account
+	
+
+step 6:deploy Nginix and Certficate Manager on Google Cluster
+	-Nginix is loadbalancer
+	-Certificate MAnager is for the domain that we r using, so that we can able to create a HTTPS connection, it il verify the domain
+
+	Deploying Nginx:
+	-before that we need to connect to the GKE cluster in Gitbash
+	-click our GKE cluster and click connect and it il share one link so paste that in GitBash then our cluster will get connected
+	-in google (type nginx ingress) and click the first link: https://kubernetes.github.io/ingress-nginx/deploy/
+	-copy the nginx commands in that server: $kubectl create clusterrolebinding cluster-admin-binding \
+                                                 --clusterrole cluster-admin \
+                                                 --user $(gcloud config get-value account)
+						
+		kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.0.3/deploy/static/provider/cloud/deploy.yaml
+	
+	-after this command nginx will get deployed
+	
+	Deploying CertManager:
+	-in google type (certManager) click the first link: https://cert-manager.io/v1.1-docs/installation/kubernetes/
+	-copy the commands under Installing with regular Manifests
+		$ kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.1.1/cert-manager.yaml
+	-paste in gitbash
+	-now cert manager also done
+	-we can check in GKE workloads like is that got deployed or not
+
+step 7:Make a entry of sub domain in main domain
+	-go to load balancer in Network services tab
+	-note the IP of the loadbalancer
+	-go to domains.google to map a domain for this
+	-My domains->click unify.care services-->DNS--->manage custom records-->add a new record
+	-rainbow.unify.care A and paste the Loadbalancer ip
+	-so if sumbody type this rainbow.unify.care then request will go to our loadbalancer
+	
+step 8:Make a loadbalancer ip static
+	-click VPC network and in that clickm external IP
+	-select the Loadbalancer ip, it il be in Ephimeral, that means whenever we restart that ip will change
+	-so click that Ephimeral and change to Static and give a name to it lik rainbow-unify-care
+
+step 9:in VS studio clone our Repo
+	-in ingress/certificate.yaml enter the dns name we got (i.e)rainbow.unify.care
+	-in dev-diahome-ingress-srv also change the secret name as rainbow-unify-care-crt, hostname as rainbow.unify.care
+	-dev-diahome-ingress-srv this is the configuration file of loadbalancer
+	-if any request come for api/user it il routed to the auth service 
+
+	go to the terminal:
+		-go to our project
+		-cd ingress/
+		-now we need to install the issuer through Gitbash
+		type this command:
+			kubectl apply -f issuer.yaml
+			kubectl apply -f dev-rainbow-certificate.yaml
+		to check:
+			kubectl get certificates
+			it il show lik trs ready or not
+		installing configuration file of loadbalancer:
+			kubectl apply -f dev-diahome-ingress-srv.yaml
+
+step 10:deploy kubernetes secrets
+	-kubectl create secret generic jwt-secret --from-literal=JWT_KEY=jwtsecret@diahome4k8s
+  
+         kubectl create secret generic raz-webhook-secret --from-literal=RAZORPAY_WEBHOOK_SECRET=jwtsecret@diahome4k8s
+
+	 kubectl create secret generic raz-api-key --from-literal=RAZORPAY_API_KEY=rzp_test_xMql4J71OEZ0W8
+
+	 kubectl create secret generic raz-api-secret --from-literal=RAZORPAY_API_SECRET=UfzjagfTIsYbhL4r9NwDLSQB
+
+step 11:create MongoDb atlas cluster
+	-in Database option click build a database->dedicated one->GCP-->mumbai-->create a cluster
+
+	create data base for each service:
+	-browse collections->add the data base fora ll the services by giving service name and liveliness(appointment,auth,cms,orders,notification,partner,patient,utility)
+	
+	create database user for each service:
+	-in database access tab create a database user for all service
+	-add new user->password->password authentication->service name->appointment->auto generate password->grant specific previliges->read/write->database name->add user
+	-like this create a user for every service
+
+	create Mongo url in deployment file in each service:
+	-go to database and click on connect->connect you application->copy the command
+	-go to VS code and paste the link in every services deply.yaml file
+	-username is user we created,password we need to pick frm ther, firstdatabase name is service name
+	-like this do for all services
+
+copy the downloaded storage.JSON file paste it in key.json in every services
+
+then we need to push it in GitHub desktop and deployments will get start
+
+admin@diahome.com
+diahome2021

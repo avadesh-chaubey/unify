@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="84.968" viewBox="0 0 67 84.968">
+  <g id="Group_13649" data-name="Group 13649" transform="translate(-1656.723 -1315.532)">
+    <g id="Icon_feather-upload" data-name="Icon feather-upload" transform="translate(1664.223 1312.532)">
+      <path id="Path_46268" data-name="Path 46268" d="M45.968,22.5v9.215a4.608,4.608,0,0,1-4.608,4.608H9.108A4.608,4.608,0,0,1,4.5,31.715V22.5" transform="translate(0 9.645)" fill="none" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_46269" data-name="Path 46269" d="M33.538,16.019,22.019,4.5,10.5,16.019" transform="translate(3.215)" fill="none" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_46270" data-name="Path 46270" d="M18,4.5V32.145" transform="translate(7.234)" fill="none" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <text id="Upload" transform="translate(1656.723 1395.5)" fill="#555" font-size="20" font-family="AvenirLTStd-Roman, Avenir LT Std" letter-spacing="0.009em"><tspan x="0" y="0">Upload</tspan></text>
+  </g>
+</svg>

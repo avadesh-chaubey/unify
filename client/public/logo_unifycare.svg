@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="437" viewBox="0 0 430 437">
+    <defs>
+        <linearGradient id="0fjoefmr1b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#95CF20"/>
+            <stop offset="100%" stop-color="#5CA20E"/>
+        </linearGradient>
+        <filter id="fa771795oa" width="163.4%" height="162%" x="-29.3%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="21"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#fa771795oa)" transform="translate(-272 -188) translate(279 265) translate(56)">
+                    <path fill="#FFF" d="M141.5 297c34.566 0 78.052-17.407 104.27-42.843 16.687-16.19 33.33-42.49 36.896-61.335 1.392-7.358-1.63-18.895-7.863-24.85-2.14-2.043-13.734-7.523-23.55-3.459-14.662 6.07-28.81 22.645-35.472 29.842-5.744 6.206-22.46 21.656-41.682 28.316-19.87 6.884-42.643 2.882-51.66 0-9.017-2.883-37.369-14.287-51.231-47.623-3.733-8.976-6.467-25.586-7.822-43.022-1.288-16.563-1.132-33.912-6.783-44.688-7.195-13.722-30.96-9.02-35.708-6.35C8.372 88.03 0 108.48 0 148.906 0 229.375 62.226 297 141.5 297z"/>
+                    <circle cx="145" cy="156" r="39" fill="#FFF"/>
+                    <path stroke="url(#0fjoefmr1b)" stroke-linecap="round" stroke-width="28" d="M290 138C290 61.785 229.044 0 153.851 0 113.867 0 77.908 17.47 53 45.291"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

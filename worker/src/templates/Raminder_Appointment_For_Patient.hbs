@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        margin: 0;
+        font-size: 12px;
+        
+    }
+    h6{
+        margin: 0;
+        font-size: 12px;
+
+
+    }
+    .details{
+        background-color:#e4e4e4;
+        display: inline-flex;
+        width: 570px;
+        height: 20px;
+        padding: 5px;
+    }
+    .container {
+    max-width: 600px;
+    height: 45px;
+    background: url('https://storage.googleapis.com/diahome-com-bucket-1/Image/Rectangle.png');
+    }
+    .container__image {
+    width: 150px;
+    float: left;
+    color: #f1f1f1;
+    margin-left: 15px;
+    margin-top: 5px; 
+  }
+  .container__text {
+    text-align: right;
+    color: #f1f1f1;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="container__image" src="https://storage.googleapis.com/diahome-com-bucket-1/Image/logo_name.png"/>
+        <div class="container__text">
+          <p style="font-size: 8px;margin-top: 11px">Call us at<span>:</span>7540001234</p>
+          <p style="font-size: 8px;">Download the Diahome App</p>
+       </div>
+    </div>
+        <br>
+    <div style="padding-left: 20px;">
+        <p style="font-weight: bold;">Hi {{patientFirstName}} {{patientLastName}},</p>
+        <br>
+        <p>This is a reminder for your upcoming appointment.</p>
+        <br>
+    </div>
+    <div style="padding-left: 20px;">
+        <h6 class="details"><span style="width: 200px; height: 20px;"> {{docotrType}}'s Name - </span><span style="font-weight: bold;">{{doctorName}}({{doctorQualification}})</span></h6> 
+    </div>
+    <div style="padding-left: 20px;">
+        <h6 class="details"><span style="width: 200px; height: 20px;"> Date & Time - </span><span style="font-weight: bold;">{{date}} at {{time}}</span></h6>
+    </div>
+    <br>
+    <p style="padding-left: 20px;">Need to modify your appointment? Please write us on <a href = "mailto:care@diahome.com">care@diahome.com</a></p>
+    <br>
+        <div style="padding-left: 20px;">
+
+        <p>Regards,</p>
+        <p>Team Diahome</p>
+        <br>
+    </div>
+    <div style="font-weight: lighter;color: gray;font-size: 8px;padding-left: 20px;">
+        <p>You are receiving this email because you are registered on the Diahome app.This email is meant to</p>
+        <p>communicate about your appointment/care and is not meant for promotional purposes.</p>
+    </div>
+
+</body>
+</html>

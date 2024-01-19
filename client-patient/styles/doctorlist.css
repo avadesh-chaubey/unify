@@ -1,0 +1,288 @@
+.doctorlistCard.MuiCard-root {
+  box-shadow: none;
+  background-color: #f8f6f6;
+  margin-top: 10px;
+  width: 58vw;
+}
+.doctorlistCardActive.MuiCard-root {
+  box-shadow: none;
+  background-color: #f8f6f6;
+  margin-top: 10px;
+  border: 1px solid #502e92;
+  width: 58vw;
+}
+.doctorlistCard247.MuiCard-root {
+  box-shadow: none;
+  background-color: #f8f6f6;
+  margin-top: 10px;
+  width: 90vw;
+}
+.doctorlistCardActive247.MuiCard-root {
+  box-shadow: none;
+  background-color: #f8f6f6;
+  margin-top: 10px;
+  border: 1px solid #502e92;
+  width: 90vw;
+}
+.videocall {
+  /* width: 65%; */
+  position: relative;
+  height: calc(100vh - 160px);
+}
+.videocall .container {
+  /* margin: 10px;
+    padding: 10px; */
+  text-align: center;
+}
+.videocall .container input {
+  display: block;
+  text-align: center;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+.videocall .iconBar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+.videocall .addDoctor {
+  text-align: center;
+  background: white;
+  min-width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+  cursor: pointer;
+  border: 1px solid grey;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  z-index: 99999;
+}
+.videocall .addDoctor span {
+  display: block;
+  padding: 3px 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.videocall .timer{
+  position: absolute;
+  color: #fff;
+  bottom: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: #9d9d9d;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.videocall .iconBarOuter{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #c7c7c7;
+  height: 80px;
+}
+.videocall .iconBar img {
+  margin: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.videocall .MuiAvatar-circle  {
+  font-size: 54px;
+  position: relative;
+  bottom: 5px;
+  height: 150px;
+  width: 150px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#local-stream {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+#remote-stream {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* margin: 10px; */
+  z-index: 99;
+}
+#remote-stream .stream {
+  height: 100%;
+}
+#remote-stream video {
+  position: relative !important;
+  object-fit: contain !important;
+}
+#remote-stream2,
+.remote2badge {
+  position: absolute;
+  bottom: 70px;
+  right: 120px;
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+#remote-stream2.hide{
+  display: none;
+}
+.videocall .remote2badge {
+  z-index: 9999;
+}
+.videocall .remote2badge .namebadge {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 95px;
+}
+#remote-stream2 .stream2 {
+  height: 100%;
+}
+#remote-stream2 video {
+  position: relative !important;
+  /* object-fit: none !important; */
+}
+.videocall .namebadge {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  height: 20px;
+  min-width: 40px;
+  background: gray;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.videocall .namebadge.patientName {
+  top: 15px;
+}
+/* .videocall .stream {
+    width: 480px;
+    height: 320px;
+    margin: 10px;
+    float: left;
+} */
+.videoDialog .MuiDialog-paperWidthSm {
+  max-width: 100%;
+  background-color: #000000;
+}
+.videoDialog .videocall {
+  display: block;
+  height: 89vh;
+}
+.videoDialog,
+.videoDialog .MuiBackdrop-root {
+  width: 430px;
+}
+.videoDialog.fullScreen,
+.videoDialog.fullScreen .MuiBackdrop-root {
+  width: auto;
+}
+.videoDialog .MuiDialogContent-root {
+  min-width: auto !important;
+}
+#me {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.incomingCallDia .MuiDialog-paperWidthSm {
+  max-width: 300px;
+  height: 310px;
+  text-align: center;
+}
+.incomingCallDia .MuiDialogContent-root {
+  min-width: 300px !important;
+  min-height: 300px !important;
+  height: 300px;
+}
+.incomingCallDia .incomingTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+.incomingCallDia .incomingImage {
+  position: relative;
+  margin-left: 40%;
+}
+.incomingCallDia .incomingImage img {
+  height: 60px;
+  border-radius: 50%;
+}
+.incomingCallDia .incomingImage .pImage img {
+  height: 70px !important ;
+  /* object-fit: contain; */
+}
+.incomingCallDia .incomingDetails {
+  color: #484545;
+  padding: 10px;
+}
+.incomingCallDia .incomingDetails .detailsName {
+  font-size: 18px;
+  font-weight: bold;
+}
+.incomingCallDia .incomingDetails .details {
+  font-size: 14px;
+}
+.incomingCallDia .action .MuiButtonBase-root {
+  color: #fff !important;
+  /* border: 1px solid #152a75; */
+  box-shadow: none;
+  padding: 5px 30px;
+  height: 40px;
+  margin: 10px;
+}
+.incomingCallDia .action {
+  margin-top: 50px;
+}
+.incomingCallDia .action .reject {
+  background: #d8243c;
+  /* color: #fff !important;
+    box-shadow: none;
+    padding: 5px 30px;
+    height: 40px;
+    margin: 10px; */
+}
+.incomingCallDia .action .accept {
+  background: #007e7c;
+  /* color: #fff !important;
+    box-shadow: none;
+    padding: 5px 30px;
+    height: 40px;
+    margin: 10px; */
+}
+#me {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+#me .video {
+  position: relative !important;
+}
+#remote-container {
+  display: flex;
+}
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}

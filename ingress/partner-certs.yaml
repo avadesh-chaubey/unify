@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: partner-unifycare-tls
+spec:
+  secretName: partner-unifycare-crt
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: partner.unify.care
+  dnsNames:
+    - partner.unify.care
+    

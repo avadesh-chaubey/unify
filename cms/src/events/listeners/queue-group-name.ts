@@ -1,0 +1,1 @@
+export const pingGroupName = 'appointment-ping-service';

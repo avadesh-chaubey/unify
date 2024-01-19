@@ -1,0 +1,101 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      # - ./k8s/*
+      - ./k8s/notification-depl.yaml
+      - ./k8s/notification-mongo-depl.yaml
+      # - ./k8s/orders-depl.yaml
+      # - ./k8s/orders-mongo-depl.yaml
+      # - ./k8s/ingress-srv.yaml
+      # - ./k8s/client-depl.yaml
+      # - ./k8s/utility-depl.yaml
+      # - ./k8s/utility-mongo-depl.yaml
+      # - ./k8s/auth-depl.yaml
+      # - ./k8s/auth-mongo-depl.yaml
+      # - ./k8s/appointment-depl.yaml
+      # - ./k8s/appointment-mongo-depl.yaml
+      # - ./k8s/worker-depl.yaml
+      # - ./k8s/partner-depl.yaml
+      # - ./k8s/partner-mongo-depl.yaml
+      # - ./k8s/patient-depl.yaml
+      # - ./k8s/patient-mongo-depl.yaml
+      - ./k8s/nats-depl.yaml
+      - ./k8s/redis-depl.yaml
+build:
+  local:
+    push: false
+  artifacts:
+    # - image: adhiman24/auth
+    #   context: auth
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/appointment
+    #   context: appointment
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/partner
+    #   context: partner
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/patient
+    #   context: patient
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/orders
+    #   context: orders
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/utility
+    #   context: utility
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    # - image: adhiman24/worker
+    #   context: worker
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.ts'
+    #         dest: .
+    - image: adhiman24/notification
+      context: notification
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
+    # - image: adhiman24/client
+    #   context: client
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #       - src: 'src/**/*.js'
+    #         dest: .

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17032" data-name="Rectangle 17032" width="45" height="45" transform="translate(42 131)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_17377" data-name="Rectangle 17377" width="45" height="45" transform="translate(41 130)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_104" data-name="Mask Group 104" transform="translate(-42 -131)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_173" data-name="Mask Group 173" transform="translate(1 1)" clip-path="url(#clip-path-2)">
+      <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(44 132.5)">
+        <path id="Path_46287" data-name="Path 46287" d="M32.98,32.618V29.245A6.745,6.745,0,0,0,26.235,22.5H12.745A6.745,6.745,0,0,0,6,29.245v3.373" transform="translate(0 2.235)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_46288" data-name="Path 46288" d="M25.49,11.245A6.745,6.745,0,1,1,18.745,4.5,6.745,6.745,0,0,1,25.49,11.245Z" transform="translate(0.745)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

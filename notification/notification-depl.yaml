@@ -1,0 +1,97 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notification-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notification
+  template:
+    metadata:
+      labels:
+        app: notification
+    spec:
+      containers:
+        - name: notification
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          # livenessProbe:
+          #   httpGet:
+          #     path: /api/health/liveness
+          #     port: 3000
+          #     scheme: 'HTTP'
+          #   initialDelaySeconds: 120
+          #   periodSeconds: 30
+          # readinessProbe:
+          #   httpGet:
+          #     path: /api/health/readiness
+          #     port: 3000
+          #     scheme: 'HTTP'
+          #   initialDelaySeconds: 45
+          #   periodSeconds: 30
+          env:
+            - name: DEPLOYMENT_URL
+              value: 'https://unify.care'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'unifycare-dev-platform'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@unify.care'
+            - name: PUBLIC_VAPID_KEY
+              value: 'BHXVUulMnlXdeszi3YyrfRy3cr3p2oFq131AIH1uaNhLz7_CdqrQSF7Ku9Il6Ugl3fCg4jXWiYw0GGeFFg3dQy4'
+            - name: PRIVATE_VAPID_KEY
+              value: 'cpVruIjkRRzpmy7ujIrrDyqiAqq8S087iC5xdb-WcxM'
+            - name: FIREBASE_DATABASE_URL
+              value: 'https://gamma-unify-care.firebaseio.com/'
+            - name: AGORA_APP_ID
+              value: 'd289bd31e6c7430eba4a66ca5f68a79d'
+            - name: AGORA_APP_CERTIFICATE
+              value: '56832e98d6d447a2b822754c2dd38644'
+            - name: GCM_API_KEY
+              value: 'AAAAX2n5KgM:APA91bF1hkSy2vLCr_dNOlzHtzpfnV9c6z_PolvS3IygnO_9yQrp7DR4gj7CQ6zpBJqQeeGckAA4y1VXwJng-iylT49Mc48D_Cw0OMCfD-vES5LV6C3ECmAaG_a9eJOHkZ5FhwtRO8lV'
+            - name: CUSTOMER_IOS_APP_ID
+              value: com.UnifyTechnologies.Patient
+            - name: CONSULTANT_IOS_APP_ID
+              value: com.UnifyTechnologies.Doctor
+            # - name: CUSTOMER_ANDROID_APP_ID
+            #   value: care.unify
+            # - name: CONSULTANT_ANDROID_APP_ID
+            #   value: care.unify.consultant
+            # - name: CONSULTANT_WEB_APP_ID
+            #   value: care.unify.web
+            - name: DATABACKUP_TAR_FILENAME
+              value: Notification
+            - name: FILE_LOG_NAME
+              value: 'notificationLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare-dev-platform
+            - name: MONGO_URI
+              # value: 'mongodb://notification-mongo-srv:27017/notification'
+              value: 'mongodb+srv://notification:xVVqQHngCuAYikCF@cluster0.3uj35.mongodb.net/notification?retryWrites=true&w=majority'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: notification-srv
+spec:
+  selector:
+    app: notification
+  ports:
+    - name: notification
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

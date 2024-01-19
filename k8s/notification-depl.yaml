@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notification-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notification
+  template:
+    metadata:
+      labels:
+        app: notification
+    spec:
+      containers:
+        - name: notification
+          image: adhiman24/notification
+          livenessProbe:
+            httpGet:
+              path: /api/health/liveness
+              port: 3000
+              scheme: 'HTTP'
+            initialDelaySeconds: 15
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /api/health/readiness
+              port: 3000
+              scheme: 'HTTP'
+            initialDelaySeconds: 15
+            periodSeconds: 30
+          env:
+            - name: SYSTEM_SMS_SENDER_ID
+              value: DIAHOM
+            - name: DEPLOYMENT_URL
+              value: 'https://dev.diahome.com'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'Diahome'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: PUBLIC_VAPID_KEY
+              value: 'BI7wt1jFR9GElf3yN02Vb-ikEJtHL-icrLazJhNAstEbea65oRqNPE781B8bU9v7GitJdyTF5EAI3tjZk-ulpFs'
+            - name: PRIVATE_VAPID_KEY
+              value: '05keBajfF01K8yBNGub0uR0jqecLlgWb8rnUfIKB7pY'
+            - name: FIREBASE_DATABASE_URL
+              value: "https://dev-diahome-com.firebaseio.com"
+            - name: AGORA_APP_ID
+              value: "d289bd31e6c7430eba4a66ca5f68a79d"
+            - name: AGORA_APP_CERTIFICATE
+              value: "56832e98d6d447a2b822754c2dd38644"
+            - name: GCM_API_KEY
+              value: 'AAAAp-w4BoU:APA91bGMw8d5J8qeuhlWt4r-1EpGNv7zP1SiSXfuuW3MFyrHsQZrud6QjAx_YJfC0tgKp3yTPjaDLgfm_MJazNwJj0MiGXBoymnAxZfBR1PTMwRhjzoGWl8iEhMEvt2K7DCE1AZIcLt2'
+            - name: DATABACKUP_TAR_FILENAME
+              value: employee
+            - name: FILE_LOG_NAME
+              value: 'notificationLogger'
+            - name: FILE_LOG_LEVEL
+              value: 'info'
+            - name: CONSOLE_LOG_LEVEL
+              value: 'error'
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare
+            - name: MONGO_URI
+              value: 'mongodb://notification-mongo-srv:27017/notification'
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: notification-srv
+spec:
+  selector:
+    app: notification
+  ports:
+    - name: notification
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

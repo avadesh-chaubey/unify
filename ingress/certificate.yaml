@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: unifycare-dev-platform-tls
+spec:
+  secretName: unifycare-dev-platform-crt
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: unify.care
+  dnsNames:
+    - unify.care
+    

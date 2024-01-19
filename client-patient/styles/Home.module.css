@@ -1,0 +1,21 @@
+.mainDiv{
+  background-image: linear-gradient(rgb(127, 54, 140), rgb(219, 32, 50));
+  height: 100vh;
+}
+
+.loginBtn{
+  margin: 20px 20px 20px 0px;
+  color: rgb(255, 255, 255);
+  width: 105px;
+  position: absolute;
+  right: 0px;
+}
+.imgDiv{
+  text-align: center;
+}
+
+@media only screen and (max-width: 676) {
+  .imgDiv {
+    text-align: left !important;
+  }
+}

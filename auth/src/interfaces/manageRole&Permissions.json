@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+	"viewChecked": false,
+    "editChecked": false,
+    "sections": [
+      {
+        "id": 2,
+        "name": "Hospital Unit",
+		"viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 3,
+            "name": "Filter",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 4,
+            "name": "Edit",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 5,
+            "name": "Unit Status",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Access",
+	"viewChecked": false,
+    "editChecked": false,
+    "sections": [
+      {
+        "id": 52,
+        "name": "Access Permission",
+		"viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 53,
+            "name": "Assign Role",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Manage Role & Permmission",
+		"viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 55,
+            "name": "Enable / Disable Role",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 56,
+            "name": "Access Control Responsibilities",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "Employee Access List",
+		"viewChecked": false,
+        "editChecked": false,
+        "accessTypes": [
+          {
+            "id": 58,
+            "name": "Filter",
+            "viewChecked": false,
+            "editChecked": false
+          },
+          {
+            "id": 59,
+            "name": "User Status",
+            "viewChecked": false,
+            "editChecked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Employee Onboarding",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 102,
+        "name": "Add New Doctor",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 103,
+        "name": "Add New Employee",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 104,
+        "name": "Add New Role",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 105,
+        "name": "Add New Banner",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 106,
+        "name": "Add New Unit",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 107,
+        "name": "Add New Article",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 108,
+        "name": "Add New Notification",
+        "viewChecked": false,
+        "editChecked": false
+      },
+	  {
+        "id": 109,
+        "name": "Add Settings",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Profile Management",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 152,
+        "name": "Profile",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "CMS",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 202,
+        "name": "Filter",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 203,
+        "name": "Download",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 204,
+        "name": "Print",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 205,
+        "name": "Preview",
+        "viewChecked": false,
+        "editChecked": false
+      },
+	  {
+        "id": 206,
+        "name": "CSV",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 207,
+        "name": "PDF",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 208,
+        "name": "Summary",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Notification Management",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 252,
+        "name": "Filter",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 253,
+        "name": "Download",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 254,
+        "name": "Print",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 255,
+        "name": "Preview",
+        "viewChecked": false,
+        "editChecked": false
+      },
+	  {
+        "id": 256,
+        "name": "CSV",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 257,
+        "name": "PDF",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 258,
+        "name": "Summary",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Banner Management",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 302,
+        "name": "Filter",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 303,
+        "name": "Download",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 304,
+        "name": "Print",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 305,
+        "name": "Preview",
+        "viewChecked": false,
+        "editChecked": false
+      },
+	  {
+        "id": 306,
+        "name": "CSV",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 307,
+        "name": "PDF",
+        "viewChecked": false,
+        "editChecked": false
+      },{
+        "id": 308,
+        "name": "Summary",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Settings",
+	"viewChecked": false,
+    "editChecked": false,
+    "accessTypes": [
+      {
+        "id": 352,
+        "name": "General",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 353,
+        "name": "Hospital Information",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 354,
+        "name": "Pharmacy",
+        "viewChecked": false,
+        "editChecked": false
+      },
+      {
+        "id": 355,
+        "name": "Branches",
+        "viewChecked": false,
+        "editChecked": false
+      }
+    ]
+  }
+
+]

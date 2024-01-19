@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: patient-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: patient
+  template:
+    metadata:
+      labels:
+        app: patient
+    spec:
+      containers:
+        - name: patient
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          # livenessProbe:
+          #   httpGet:
+          #     path: /api/health/liveness
+          #     port: 3000
+          #     scheme: 'HTTP'
+          #   initialDelaySeconds: 350
+          #   periodSeconds: 30
+          # readinessProbe:
+          #   httpGet:
+          #     path: /api/health/readiness
+          #     port: 3000
+          #     scheme: 'HTTP'
+          #   initialDelaySeconds: 60
+          #   periodSeconds: 30
+          env:
+            - name: MASTER_ROSTER_EMAIL_ID
+              value: 'admin@diahome.com'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: noreply@unify.care
+            - name: SYSTEM_SMS_SENDER_ID
+              value: unifycare-dev-platform
+            # - name: MASTER_ROSTER_EMAIL_ID
+            #   value: 'admin@diahome.com'
+            - name: DEPLOYMENT_URL
+              value: "https://unify.care"
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: "unifycare-dev-platform"
+            # - name: SYSTEM_SENDER_EMAIL_ID
+            #   value: 'support@diahome.com'
+            - name: SYSTEM_RECEIVER_EMAIL_ID
+              value: "sdaman@unifytech.com, arunkumars@unifytech.com, rahuls@unifytech.com"
+            - name: GCS_BUCKET
+              value: "inifycare-dev-platform"
+            - name: GCLOUD_PROJECT
+              value: "gamma-unify-care"
+            - name: DATABACKUP_TAR_FILENAME
+              value: Patient.tar
+            - name: FILE_LOG_NAME
+              value: "patientLogger"
+            - name: FILE_LOG_LEVEL
+              value: "info"
+            - name: CONSOLE_LOG_LEVEL
+              value: "error"
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: "http://nats-srv:4222"
+            - name: NATS_CLUSTER_ID
+              value: unifycare-dev-platform
+            - name: MONGO_URI
+              value: "mongodb+srv://patient:TwybnV1IBotMKghE@cluster0.3uj35.mongodb.net/patient?retryWrites=true&w=majority"
+            - name: JWT_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: JWT_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: patient-srv
+spec:
+  selector:
+    app: patient
+  ports:
+    - name: patient
+      protocol: TCP
+      port: 3000
+      targetPort: 3000

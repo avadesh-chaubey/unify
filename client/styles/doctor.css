@@ -1,0 +1,923 @@
+.doctorPage {
+  width: 100%;
+}
+.doctorPage .leftSide {
+  float: left;
+  width: 30%;
+}
+.patientCaseSheet {
+  float: right;
+  width: 100%;
+  background-color: #eee;
+  text-align: center;
+  overflow-x: scroll;
+  height: calc(100vh - 190px);
+  overflow-x: hidden;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+}
+.patientCaseSheet .profileImage {
+  text-align: center;
+  padding: 2.5%;
+  /* width: 52%; */
+  background: white;
+  /* margin-top: 25px; */
+  border-radius: 10px;
+  box-shadow: 0 1px 9px 0 grey;
+}
+/* .patientCaseSheet .profileImage img {
+  // Commenting out to fix the height issue with profile pic
+  height: 80px;
+} */
+.patientCaseSheet .patientInfo {
+  padding-left: 40px;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px !important;
+}
+.patientCaseSheet .MuiFilledInput-input {
+  padding: 22px 12px 7px;
+}
+.patientCaseSheet .MuiFilledInput-multiline {
+  padding: 0px 12px 10px;
+}
+/* .patientCaseSheet .MuiCollapse-entered { */
+/* border-top: 1px solid gray; */
+/* border-top: 0 1px 9px 0 #00888a; */
+/* margin-top: 5px; */
+/* } */
+.patientCaseSheet .MuiAccordionSummary-root.Mui-expanded {
+  min-height: 50px;
+  /* background-color: #e6e6e6; */
+}
+.patientCaseSheet .MuiAccordionSummary-content.Mui-expanded {
+  margin: 15px 0;
+}
+.MuiAccordionSummary-content {
+  margin: 14px 0 !important;
+  margin-bottom: 5px !important;
+}
+.patientCaseSheet .MuiAccordion-root.Mui-expanded {
+  box-shadow: 0 1px 9px 0 #00888a;
+}
+.cs-test-reports {
+  width: 21%;
+  float: left;
+  margin: 8px;
+}
+.add-cs-reports {
+  width: 20%;
+  border: 1px dashed #828282a1;
+  padding: 44px 10px;
+  margin: 10px;
+  color: #152a75;
+  font-weight: bold;
+  max-height: 130px;
+  background: #f1f1f1;
+  cursor: pointer;
+}
+.patientCaseSheet .half-div {
+  width: 47%;
+  float: left;
+  margin: 8px;
+}
+.patientCaseSheet .full-div {
+  width: 100%;
+  float: left;
+  margin: 8px;
+}
+.vital .inputlabel {
+  float: left;
+  margin-left: 15px;
+  display: inline-block;
+  min-width: 205px;
+  text-align: left;
+  margin-top: 25px;
+}
+.vital .half-div {
+  width: 25%;
+  float: left;
+  margin: 8px;
+}
+.vital .dateDiv {
+  width: 40%;
+  float: left;
+  margin: 8px;
+}
+.vital .dateDiv .inputlabel {
+  min-width: 80px;
+}
+.patientCaseSheet .inputlabel {
+  float: left;
+  margin-left: 15px;
+}
+.patientCaseSheet .dataLabel {
+  display: block;
+  line-height: 2;
+}
+.patientCaseSheet .showData {
+  font-weight: bold;
+}
+.chiefComplaintsData {
+  text-align: left;
+  margin-left: 15px;
+  line-height: 2;
+}
+.chiefComplaintsData .title {
+  min-width: 115px;
+  display: inline-block;
+}
+.patientCaseSheet .upload-option {
+  height: unset;
+  min-height: 70px;
+  position: relative;
+  margin: 32px 8px 0px 8px;
+}
+.patientCaseSheet .table .costInput input {
+  text-align: center;
+}
+/* body {
+    overflow-y: hidden;
+} */
+#videoundefined {
+  position: relative !important;
+}
+
+.videocall .container {
+  /* margin: 10px;
+    padding: 10px; */
+  text-align: center;
+}
+.videocall .container input {
+  display: block;
+  text-align: center;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+.videocall .iconBar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+.videocall .addDoctor {
+  text-align: center;
+  background: white;
+  min-width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+  cursor: pointer;
+  border: 1px solid grey;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  z-index: 99999;
+}
+.videocall .addDoctor span {
+  display: block;
+  padding: 3px 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.videocall .iconBar img {
+  margin: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.videocall .MuiAvatar-circle {
+  font-size: 54px;
+  position: relative;
+  bottom: 5px;
+  height: 150px;
+  width: 150px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#local-stream {
+  position: absolute;
+  bottom: 70px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+#remote-stream {
+  position: absolute;
+  width: 100%;
+  height: 99vh;
+  /* margin: 10px; */
+  z-index: 99;
+}
+#remote-stream .stream {
+  height: 100%;
+}
+#remote-stream video {
+  position: relative !important;
+  object-fit: contain !important;
+}
+#remote-stream2,
+.remote2badge {
+  position: absolute;
+  bottom: 70px;
+  right: 120px;
+  width: 100px;
+  height: 100px;
+  z-index: 999;
+}
+#remote-stream2.hide {
+  display: none;
+}
+.videocall .remote2badge {
+  z-index: 9999;
+}
+.videocall .remote2badge .namebadge {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 95px;
+}
+#remote-stream2 .stream2 {
+  height: 100%;
+}
+#remote-stream2 video {
+  position: relative !important;
+  /* object-fit: none !important; */
+}
+.videocall .namebadge {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  height: 20px;
+  min-width: 40px;
+  background: gray;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.videocall .namebadge.patientName {
+  top: 15px;
+}
+/* .videocall .stream {
+    width: 480px;
+    height: 320px;
+    margin: 10px;
+    float: left;
+} */
+.videoDialog .MuiDialog-paperWidthSm {
+  max-width: 100%;
+  background-color: #000000;
+}
+.videoDialog .videocall {
+  display: block;
+  height: 89vh;
+}
+.videoDialog,
+.videoDialog .MuiBackdrop-root {
+  width: 430px;
+}
+.videoDialog.fullScreen,
+.videoDialog.fullScreen .MuiBackdrop-root {
+  width: auto;
+}
+.videoDialog .MuiDialogContent-root {
+  min-width: auto !important;
+}
+#me {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.incomingCallDia .MuiDialog-paperWidthSm {
+  max-width: 300px;
+  height: 310px;
+  text-align: center;
+}
+.incomingCallDia .MuiDialogContent-root {
+  min-width: 300px !important;
+  min-height: 300px !important;
+  height: 300px;
+}
+.incomingCallDia .incomingTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+.incomingCallDia .incomingImage {
+  position: relative;
+  margin-left: 40%;
+}
+.incomingCallDia .incomingImage img {
+  height: 60px;
+  border-radius: 50%;
+}
+.incomingCallDia .incomingImage .pImage img {
+  height: 70px !important ;
+  /* object-fit: contain; */
+}
+.incomingCallDia .incomingDetails {
+  color: #484545;
+  padding: 10px;
+}
+.incomingCallDia .incomingDetails .detailsName {
+  font-size: 18px;
+  font-weight: bold;
+}
+.incomingCallDia .incomingDetails .details {
+  font-size: 14px;
+}
+.incomingCallDia .action .MuiButtonBase-root {
+  color: #fff !important;
+  /* border: 1px solid #152a75; */
+  box-shadow: none;
+  padding: 5px 30px;
+  height: 40px;
+  margin: 10px;
+}
+.incomingCallDia .action {
+  margin-top: 50px;
+}
+.incomingCallDia .action .reject {
+  background: #d8243c;
+  /* color: #fff !important;
+    box-shadow: none;
+    padding: 5px 30px;
+    height: 40px;
+    margin: 10px; */
+}
+.incomingCallDia .action .accept {
+  background: #007e7c;
+  /* color: #fff !important;
+    box-shadow: none;
+    padding: 5px 30px;
+    height: 40px;
+    margin: 10px; */
+}
+#me {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+#me .video {
+  position: relative !important;
+}
+#remote-container {
+  display: flex;
+}
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}
+#remote-container video {
+  height: auto;
+  position: relative !important;
+}
+.cs-patientDocs {
+  display: flex;
+  overflow-y: hidden;
+  width: 100%;
+}
+.cs-doc-past {
+  width: 190px;
+  background: #eee;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  line-height: 16px;
+  border: 2px solid #e6e6e6;
+}
+.cs-doc {
+  margin-right: 10px;
+}
+.cs-doc-details {
+  line-height: 10px;
+  width: 180px;
+  max-width: 190px;
+}
+.cs-patient-doc-detail {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.cs-report {
+  margin-right: 10px;
+  padding: 24px 20px;
+  border: 1px solid #e2e2e2;
+  background: #eee;
+}
+.cs-report > p {
+  width: 120px;
+  max-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* for casesheet tests and medicines */
+.MuiAutocomplete-option,
+.MuiAutocomplete-option[data-focus="true"],
+.MuiAutocomplete-inputRoot[class*="MuiInput-root"] {
+  font-size: 14px !important;
+}
+.MuiTableCell-sizeSmall {
+  padding: 6px 13px 6px 16px !important;
+}
+.chief-complaint-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.chief-complaint-often {
+  display: flex;
+  margin-top: 10px;
+}
+.chief-complaint-often > p {
+  min-width: 108px;
+  text-align: left;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.how-often-p {
+  margin-top: 8px;
+}
+.chief-complaint-severity {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.chief-complaint-severity > p {
+  min-width: 115px;
+  text-align: left;
+}
+.severity-text-field {
+  margin-top: 10px;
+  width: 100%;
+  margin-right: 126px;
+}
+.during-video-call {
+  height: calc(100vh - 120px);
+}
+.arh-dialog {
+  height: 75px;
+}
+.autocomplete-chief-complaint {
+  display: inline;
+  width: 90%;
+}
+.chief-complain-closeicon {
+  display: inline;
+  width: 10%;
+}
+.calenderSec {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.calenderSec .calander {
+  float: left;
+  width: 40%;
+}
+.calenderSec .slotSec {
+  float: left;
+  width: 60%;
+  height: calc(100vh - 175px);
+  overflow-y: scroll;
+  padding: 0px 20px;
+}
+.rosterRadio .MuiFormControlLabel-root {
+  min-width: 125px;
+}
+.rosterRadio .MuiFormGroup-root {
+  display: inline-block;
+}
+.rosterRadio .MuiFormGroup-root:first-child {
+  width: 45%;
+}
+.rosterTab {
+  width: 72%;
+  float: left;
+}
+.rosterTab .MuiAppBar-colorPrimary {
+  color: #343434;
+  background-color: #f6fbf8;
+  /* border-top: 2px solid; */
+}
+.rosterTab .MuiTab-root {
+  min-width: 127px;
+}
+.rosterTab .Mui-selected {
+  background-color: #fff;
+  color: #452d7b;
+}
+.rosterTab .MuiTab-wrapper {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.rosterTab .MuiTabs-indicator {
+  top: 0 !important;
+  background-color: #382293 !important;
+}
+.rosterTab .MuiPaper-elevation4 {
+  box-shadow: none;
+}
+.docProfile {
+  color: #343434;
+}
+.docProfile .profileImage {
+  height: 110px;
+}
+.docProfile .docImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  float: left;
+  position: relative;
+}
+.centerItemMain.fee-section-main {
+  width: 100%;
+}
+.fee-section-center {
+  height: calc(70vh - 20px);
+}
+.fee-field {
+  margin: 5px !important;
+  width: 17%;
+}
+.slotPreferenceTime .title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: #5d5d5d;
+}
+.docProfile .docImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 60px;
+  border: 1px solid;
+  float: left;
+}
+.updateProfile {
+  position: absolute;
+  height: 35px;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.docProfile .docInfo {
+  float: left;
+  font-size: 14px;
+  /* font-weight: 600; */
+  color: #343434;
+  padding: 10px 10px;
+  position: relative;
+}
+.editIcon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #382293;
+}
+.docProfile .docInfo .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.docProfile .docInfo .specialization {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.docProfile .docInfo .qualification {
+  font-size: 17px;
+}
+.docProfile .docInfo .qualification:last-child > span {
+  display: none;
+}
+.docProfile .rating {
+  float: right;
+}
+.docProfile .rating svg {
+  color: #ff9900;
+}
+.docProfile .docDetails {
+  height: calc(100vh - 270px);
+  overflow-y: scroll;
+  width: 100%;
+  padding: 5px;
+}
+.fullDiv {
+  width: 100%;
+  margin: 10px 0;
+}
+.scrollOuter {
+  /* padding: 15px; */
+  width: 100%;
+  flex-grow: 1;
+  /* overflow: scroll; */
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.scrollInner {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.scrollInner .image {
+  min-height: 200px;
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  margin-right: 10px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  /* margin: 10px; */
+}
+.react-thumbnail-generator {
+  height: 120px;
+  width: 180px;
+  position: relative;
+  /* padding: 10px; */
+  /* border: 1px solid #c0c0c0; */
+  /* margin: 10px; */
+}
+
+.videoSec {
+  min-height: 200px;
+  width: 200px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  margin: 10px;
+}
+.scrollInner .image img {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+.react-thumbnail-generator img {
+  /* cursor: none; */
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+}
+.react-thumbnail-generator video {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+  position: absolute;
+  top: 0px;
+}
+.videoPlayer .MuiDialog-paperWidthSm,
+.uploadSec .MuiDialog-paperWidthSm {
+  max-width: 750px !important;
+  width: 750px;
+}
+.videoPlayer .MuiDialogContent-root {
+  width: 750px;
+  overflow: auto;
+}
+/* .react-thumbnail-generator{
+  height: 150px;
+  width: 200px;
+} */
+.videoLayer {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  /* border: 1px solid; */
+  /* border-radius: 79px; */
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.videoLayer svg {
+  font-size: 38px;
+  background: #7f7f7f80;
+  border-radius: 38px;
+}
+.videoLayer svg path {
+  color: #f6f6f680;
+}
+.accordianDiv .MuiOutlinedInput-input,
+.uploadSec .MuiOutlinedInput-input {
+  padding: 14px 11px;
+}
+.accordianDiv .MuiAccordionSummary-root.Mui-expanded {
+  min-height: 0px;
+}
+.accordianDiv .MuiAccordion-rounded {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  border: 2px solid #e1e1e1;
+  padding: 5px;
+}
+.accordianDiv .MuiCollapse-entered {
+  margin: 0 10px;
+  border-top: 0.5px solid #979797;
+}
+.uploadDiv,
+.uploadArticle {
+  width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 250px;
+  position: relative;
+  border: 1px solid #c0c0c0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.uploadDiv img,
+.uploadArticle img {
+  height: 100%;
+  padding: 80px 60px;
+}
+.uploadVideo img {
+  height: 100%;
+  padding: 80px 60px;
+}
+/* .uploadArticle img {
+  height: 100%;
+  padding: 80px 64px;
+} */
+.uploadVideo {
+  max-height: 250px;
+  width: 200px;
+  max-width: 200px;
+  position: relative;
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  margin: 10px;
+}
+.uploadDoc {
+  width: 575px;
+  height: 260px;
+  text-align: center;
+}
+.uploadDoc img {
+  height: 100%;
+  object-fit: scale-down;
+  border: 1px solid #e3e3e3;
+  width: 572px;
+  border-radius: 5px;
+}
+.doctorAwards {
+  padding: 8px 80px !important;
+}
+.app-slot-time {
+  display: flex;
+  margin-bottom: 2px;
+}
+.slot-time {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: 5px;
+}
+.patient-image.docImage {
+  margin-top: 0px;
+}
+
+.doctor-calender {
+  width: 100%;
+}
+.doctor-calender .calender-days {
+  display: flex;
+}
+.doctor-calender .calender-days .calender-day {
+  margin-left: -15px;
+  margin-top: 9px;
+  margin-right: 15px;
+  color: #3d63a9;
+  font-weight: bold;
+}
+.doctor-calender .calender-details {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.doctor-calender .calender-details .left-details {
+  width: 50%;
+  height: calc(100vh - 238px);
+  overflow: auto;
+}
+.doctor-calender .calender-details .right-details {
+  width: 45%;
+}
+.calender-details .right-details .right-heading {
+  color: #000;
+  font-weight: bold;
+}
+.app-time-slot-2 {
+  height: calc(60vh - 5px);
+  overflow-y: auto;
+}
+/* roaster management Roaster css */
+.docname {
+  /* padding-bottom: 10px; */
+  color: #545454;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.slot-days {
+  color: rgb(123, 123, 123);
+  width: 16%;
+  vertical-align: top;
+  margin-top: 15px;
+}
+.user-time-slot-div {
+  width: 75%;
+}
+.roaster-section {
+  width: 100% !important;
+}
+.centerItemMain {
+  position: relative;
+  float: left;
+  width: 47%;
+  margin-top: -15px;
+  height: 82vh;
+}
+.centerItemMain .action {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.roaster-center-item.roaster-center-item {
+  height: calc(70vh - 20px);
+}
+.fee-section-center.fee-section-center {
+  /* margin-left: -20px; */
+  height: calc(70vh + -70px);
+}
+.centerItemMain.fee-section-main{
+  height: calc(70vh + 28px);
+}
+.centerItem {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 10px 2%;
+  overflow-y: scroll;
+  height: 72vh;
+}
+.save-fees-row-btn.action.action {
+  transform: unset;
+  left: 35%;
+  bottom: 40px;
+}
+.roaster-plus-btn {
+  left: 10px;
+  top: 3px;
+}
+.minus-fee-btn,
+.plus-fee-btn {
+  top: 8px;
+  height: 40px;
+  width: 40px;
+  min-width: unset !important;
+}
+.plus-fee-btn span {
+  color: #452d7b;
+}
+.roaster-minus-btn {
+  top: 5px;
+  left: 10px;
+}
+.minus-fee-btn,
+.plus-fee-btn {
+  top: 8px;
+  height: 40px;
+  width: 40px;
+  min-width: unset !important;
+}
+.removeIcon {
+  float: left;
+  margin-top: 4px;
+  font-size: 17px;
+  border: 1px solid #d7d7d7;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-left: 7px;
+}
+.minus-fee-btn span {
+  color: #a81c07;
+}

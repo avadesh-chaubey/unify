@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worker
+  template:
+    metadata:
+      labels:
+        app: worker
+    spec:
+      containers:
+        - name: worker
+          image: adhiman24/worker
+          env:
+            - name: SYSTEM_SMS_SENDER_ID
+              value: DIAHOM
+            - name: DEPLOYMENT_URL
+              value: 'https://dev.diahome.com'
+            - name: SYSTEM_SENDER_FULL_NAME
+              value: 'Diahome'
+            - name: SYSTEM_SENDER_EMAIL_ID
+              value: 'support@diahome.com'
+            - name: LOCAL_BACKUP_DIRECTORY
+              value: './backup'
+            - name: SERVER_BACKUP_DIRECTORY
+              value: UNIFY_CARE_BACKUP
+            - name: DATABACKUP_TAR_FILENAME
+              value: employee
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: unifycare
+            - name: REDIS_HOST
+              value: redis-srv
+            - name: EMAIL_DELIVERY_KEY
+              value: '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'
+            - name: SMS_DELIVERY_KEY
+              value: 'https://2factor.in/API/V1/a1332213-2e54-11eb-83d4-0200cd936042/ADDON_SERVICES/SEND/TSMS'

@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: hx-unifycare-tls
+spec:
+  secretName: hx-unifycare-crt
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: hx.unify.care
+  dnsNames:
+    - hx.unify.care
+    

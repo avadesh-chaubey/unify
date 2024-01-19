@@ -1,0 +1,16 @@
+{
+  "type": "service_account",
+  "project_id": "rainbow-com",
+  "private_key_id": "30a06b28e79ff705fffa99935b2e91d2c2dae579",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTqmfSYeNZEmUw\ndH67ZUzMJBw/ien4VSavPcgdp8KqBDcPB7ohB0ZZCYcct0vJ7NiyUhqC3syHsu5m\nitEgmh/eue4Exm1EV4uXWsmUEhFdtCU8kcS8lJ1OCmVil28pIHzDA92ePfqeCc0h\n6QX0dfldspdzz8XhL4ZmiBNEnE6u9uhJ4Y0x0MdwscoSeI2qQzTGscikdlAAVGB7\npH4koZUz6C+PqzUBHgfA9r4OPQ2AfU/nW5YU8RRxGrL4OiZMP5Qus81F7KsomIoj\nma4FPxcvbE1+3Nj2xM5a0Us6Pc+qNx8hZxw827IITUJObUH7rRA9Ezdh4Qr+fKqj\nPXv8DI15AgMBAAECggEAGAh49dsN/prXWPddPWdc3y/5ciB1a7A1bn/gFTfrYzUL\n0F3S/TWPgAQULodEaHbHSwYGAxaLmBvRtFxuLtq5JCet1iZ2mSQskiCpkzGy/ZX7\nBWPSuAvSyZ3mEZn6seuBpv3tH67PYjrgKwnDlpR/nistRaXRhMZJ5yHruCZcS8LB\n0XC3xhOQQwqMg9sXS2rZNxgMUZu6AAurLopIlY6oLrO+FZ0I/aJOG6beHpC8U0M2\nfxr0GOm+KnaeYucuyHLMtVFS0Tv8flW1d5oCvBjQSjmVC9sw6AGYiNkoQVfAlISL\nz0jDKTtN/46TJ0gibOFxUYdI74C3dYqsi0pGhBIOtQKBgQDtgGow/6uX8GRpmouH\nhPAxwp5pe65uebcRBhFuHgZPr5vDR3TsOu/UAhdZiYQ8YwjFRriDff8PXYLMiq0h\nV8yTFvyU/WPv7UXO5o+SakBILjwjGCKHyGcR3uGWKxzA7DrumUgp1V7nixZgOPFn\nvv1Lfd07+vUW9F+Yj7/yeoUENQKBgQDkJtfGeSiFA68+CNXkO6EroWQGBlnA+K4K\nHy57TtF/1Zy3yLYJGxxhufiXjHnl2fbVUoBWA+D6p2vNBUygyVtbBIApfyn4NVJO\n5K01aZdayC/jwdgXordn47bnlpcJPt72Mu/ginEhDSc9ZNmM0B/azNSxLTkRiiXO\nVGFb+qjEtQKBgQC70yOoDnow1e9DSPJxwWOHpsdK2oJPYjix4N+l+164ZEPGAtvn\n+pAyVVkL+WI3s4Z7JXvEmb898pD/m+hhhyMFbFdiqKYBV98uSk5e12Jw8weiJXMh\neQ5yJpa3AO9jby8IBPb6BoFgkjGm9UGM75E3w5lT1xs/BRIZAA4oAFbzxQKBgQCs\n8Tyy9/hdC7P05CGuhfzf49C8OGgkvNzAU26ajd6Edln7fitur5xN//iOeC+WqihO\n/+DEUuBhYDN5D8FMSBX14m18Bya7PUANCY66ZDYU3JZgoPm6wN8h4x0sY5xNp9i+\n61Gl9YtXsG7EPQQjl0fuRUIco9kUkJGj25aJcHIp2QKBgFQWS9TkOou4+RssZo8d\njLQCViB3HZu92MWKZzQ3s1539C+J8o8OUdl12TzV67LhAvef0DV/KDEENK5LSa8F\n3MsVLny2hNaKD5lotSltlD/paVZ/C/rB5J9ARMoDZ3fzDnQgfFITf27H59V+wR/b\niTwaEEQtWro7uDig9Pian4iE\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloudstorage@rainbow-com.iam.gserviceaccount.com",
+  "client_id": "108198953636405966359",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloudstorage%40rainbow-com.iam.gserviceaccount.com"
+}
+
+
+
+

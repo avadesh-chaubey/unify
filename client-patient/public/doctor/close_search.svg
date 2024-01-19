@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>close_search</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Appointments---WebApp---Physician-Assistant-View-Copy-3" transform="translate(-2145.000000, -125.000000)">
+            <g id="close_search" transform="translate(2145.000000, 125.000000)">
+                <circle id="Oval" stroke="#979797" fill="#F0F0F0" cx="18" cy="18" r="17.5"></circle>
+                <polygon id="+" stroke="#000000" fill="#000000" opacity="0.496037074" transform="translate(17.882804, 17.430031) rotate(45.000000) translate(-17.882804, -17.430031) " points="17.313054 16.87489 17.313054 8.72308538 18.4525535 8.72308538 18.4525535 16.87489 26.3121788 16.87489 26.3121788 17.8975178 18.4525535 17.8975178 18.4525535 26.1369762 17.313054 26.1369762 17.313054 17.8975178 9.45342876 17.8975178 9.45342876 16.87489"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

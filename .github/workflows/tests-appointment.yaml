@@ -1,0 +1,13 @@
+name: tests-appointment
+
+on:
+  pull_request:
+    paths:
+      - 'appointment/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd appointment && npm install && npm run test:ci
